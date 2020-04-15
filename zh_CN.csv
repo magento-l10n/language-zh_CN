@@ -1059,10 +1059,21 @@ Header,页眉
 "Specify Banners","指定 Banner"
 "Banner Block Template","Banner 块模板"
 "Banner Inline Template","Banner 行内模板"
+"Dynamic Blocks",动态区块
+"Add Dynamic Block",增加动态区块
+"Save Dynamic Block",保存动态区块
+"Delete Dynamic Block",删除动态区块
+"Edit Dynamic Block",编辑动态区块
+"Specified Dynamic Blocks",指定的动态区块
+"Specify Dynamic Blocks",指定动态区块
+"Dynamic Block Template",动态区块模板
+"Dynamic Block Inline Template",动态区块内联模板
 "Status Label",状态标签
 "General Information",常规信息
+"Enable Dynamic Block",启用动态区块
 "Use Default Value",使用默认值
 "Add Selected",添加所选项目
+"Make sure that dynamic blocks rotator does not reference the dynamic block itself.",请确保动态区块内容未引用动态区块本身。
 "All Segments",所有线段
 "Customer Segment",客户细分市场
 "Allowed Credit Card Types",无法更新送货方式
@@ -1342,6 +1353,8 @@ Message:,消息：
 "Add Products to New Option",将产品添加到新的选项
 "Add Products to Option ""%1""","将产品添加到""%1""选项"
 "Special Price",特殊价格
+"""option_id"" and ""parent_id"" values should be specified","需要指定""option_id"" 和 ""parent_id"" 值"
+"""sku"" value should be specified",需要指定“sku”值
 "Unique constraint violation found",发现违反唯一约束
 Always,总是
 "After number of attempts to login","如果选择“创建用户” 和“忘记密码”形式的验证码将永远被启用"
@@ -3639,6 +3652,7 @@ available,可用
 "Edit Customer Address Attribute",编辑客户地址属性
 "You saved the customer address attribute.",你保存客户地址属性。
 "We can't save the customer address attribute right now.",我们现在无法保存客户地址属性的权利。
+"An attribute with this code already exists.",具有该代码的属性已存在。
 "Manage Customer Attributes",管理客户的属性
 "You deleted the customer attribute.",你删除客户属性。
 "The attribute no longer exists.",该属性不再存在。
@@ -3664,6 +3678,10 @@ available,可用
 "This is your default billing address.",这是您的默认帐单地址。
 "This is your default shipping address.",这是您的默认送货地址。
 "Customer Address",客户地址
+"Comma separated. Forbidden file extensions: %1.","逗号分隔。禁止文件扩展名： %1"
+"The attribute couldn't be saved due to an error. Verify your information and try again. If the error persists, please try again later.",由于一个错误，该属性无法保存。请验证您的信息并再试一次。如果错误仍然存在，请稍后再试。
+"Please correct the value for file extensions.",请更正文件扩展名的值。
+"The attribute code needs to be %1 characters or fewer. Re-enter the code and try again.","属性代码长度需要在 %1 个字符以内。请重新输入代码并重试。"
 "Please specify a finance information website.",请指定一个金融信息网站。
 "Please specify a valid finance information website.",请指定一个有效的财务信息网站。
 "A row with this email, website, and finance website combination already exists.",行与此电子邮件，网站和金融网站组合已存在。
@@ -4170,7 +4188,7 @@ hello,你好
 "Currently Used For",目前用于
 "Template Name",模板名称
 "Template Subject",模板主题
-"Insert Variable...",插入变量。。。
+"Insert Variable...",插入变量…
 "Template Content",模板内容
 "Template Styles",模板中的样式
 "You deleted the email template.",你删除了电子邮件模板。
@@ -4237,6 +4255,8 @@ hello,你好
 Emails,电子邮件
 "Allowed file types: jpg, jpeg, gif, png. To optimize logo for high-resolution displays, upload an image that is 3x normal size and then specify 1x dimensions in width/height fields below.","允许的文件类型: jpg，jpeg，gif，png。若要优化的高分辨率显示的标志上, 传 3 x 正常大小的图像，然后在下面的宽度/高度字段中指定 1 x 尺寸。"
 "Only necessary if image has been uploaded above. Enter number of pixels, without appending ""px"".","只有必要的如果上面已上传图像。不会将附加""px""输入像素的数。"
+"The design config needs an area and a store. Verify that both are set and try again.",设计配置需要一个区域和一个商店。请确认两者都已设置，然后重试。
+"To optimize logo for high-resolution displays, upload an image that is 3x normal size and then specify 1x dimensions in the width/height fields below.",如需提升图标在高分辨率显示屏上的效果，请上传3倍于正常大小的图像，然后在下面的宽度/高度字段中指定1倍的尺寸。
 "Change Encryption Key",更改加密密钥
 "Encryption Key",加密密钥
 "New Encryption Key",新的加密密钥
@@ -6354,6 +6374,7 @@ Price:,价格:
 "Notify me when this product is in stock",这种产品上市时通知我
 "Sign up for price alert",报名参加价格提醒
 "Sign up to be notified when this product is back in stock.",报名时这种产品是回来的股票要通知。
+"The product wasn't found. Verify the product and try again.",找不到产品。请确认产品信息并重试。
 Url,网址
 "Preview Image",预览图像
 "Get Video Information",获取视频信息
@@ -9407,6 +9428,7 @@ Machinable,可加工
 "You saved the custom variable.",你保存的自定义的变量。
 "Variable Code must be unique.",变量的代码必须是唯一的。
 "Validation has failed.",验证已失败。
+"Insert Variable...",插入变量。。。
 "Variable ID","可变的 ID"
 "No token found.",发现没有标记。
 "Deletion failure. Please try again.",删除失败。请再试一次。
@@ -9831,6 +9853,7 @@ Worldpay,苏格兰皇家银行
 "Payment was canceled",付款已取消
 "Please ",请
 "continue shopping",在线购物
+"Transaction has been canceled",交易已被取消
 "Quick Checkout",快速结账
 "Store alternative addresses",存储备用地址
 "For shipping to multiple family members and friends",为传送到多个家庭成员和朋友
