@@ -1,9 +1,23 @@
 All,全部
 None,无
 "Allowed Scopes",允许的范围
+"More permissions are needed to delete the ""%1"" item.","删除 ""%1"" 项需要更多权限。"
 "You need more permissions to apply some of the rule updates.",你需要更高的权限应用一些规则的更新。
+"More permissions are needed to view this item.",需要更多权限才能查看。
+"This entity needs to be assigned to a store view. Verify the entity assignment and try again.",需要将此实体分配给商店视图。验证实体分配，然后重试。
+"This item needs to be assigned to a store view.
+                Please select a website for this product in ""Product in Websites"".","此项目需要分配给商店视图。
+                请在 “网站中的产品” 中选择此产品的网站。"
+"Orders can only be completed in an active store. Verify the store and try again.",订单只能在正式运营的商店中完成。验证商店然后重试。
+"This item needs to be assigned to a store view. Assign item and try again.",此项目需要分配给商店视图。分配此项，然后重试。
 "More permissions are needed to save this item.",保存此设置需要更多权限。
+"More permissions are needed to delete this item.",删除此项需要更多权限。
+"At least one website or store group needs to be selected. Select and try again.",至少需要选择一个网站或商店群组。选择然后重试。
+"More permissions are needed to set All Scopes to a Role.",将所有作用范围设置给角色需要更多权限。
+"The ""%1"" website ID is incorrect. Verify the website ID and try again.","""%1"" 商店ID不正确。验证商店ID，然后重试。"
 "You need more permissions to access website ""%1"".","你需要更多的权限来访问网站""%1""。"
+"The ""%1"" store ID is incorrect. Verify the store ID and try again.","""%1"" 商店ID不正确。验证商店ID，然后重试。"
+"More permissions are needed to save this setting.",保存此设置需要更多权限。
 "Role Scopes",角色作用范围
 Custom,自定义
 "Read Details",查看详情
@@ -49,6 +63,7 @@ notice,通知
 Close,关闭
 "See All (","查看所有 ("
 " unread)",未读)
+"System Messages",系统消息
 "Show Toolbar",显示工具栏
 "Show List",显示列表
 "Use HTTPS to Get Feed","使用 HTTPS 来得到订阅源"
@@ -94,10 +109,18 @@ Configure,配置
 "You must buy at least %1 of these per purchase.",每次购买，您必须购买至少%1。
 "Specify the product's options.",指定的产品选项。
 "Alert me when this item is available.",当产品可买时，请通知我。
+"This customer couldn't be found. Verify the customer and try again.",找不到该客户。验证客户然后重试。
 "Shopping cart management is disabled for this customer.",此顾客禁用购物车管理。
+"This store couldn't be found. Verify the store and try again.",找不到这家商店。验证商店然后重试。
 Customers,客户
 "Shopping Cart",购物车
+"An error occurred. For details, see the error log.",发生了错误。有关详细信息，请参阅错误日志。
 "You do not have access to this.",你没有权限访问这个页面。
+"The ordered item needs to be loaded. Load the item and try again.",订购的商品需要加载。加载项目然后重试。
+"The quote item ID needs to be received. Set the ID and try again.","需要收到报价项目编号。设置 ID 然后重试。"
+"The quote item needs to be loaded. Load the item and try again.",报价商品需要加载。加载项目然后重试。
+"The wish list item ID needs to be received. Set the ID and try again.","需要收到心愿单商品编号。设置 ID 然后重试。"
+"The wish list item needs to be loaded. Load the item and try again.",需要加载愿望清单商品。加载项目然后重试。
 "An error has occurred. See error log for details.",出问题了，详细信息请查阅错误日志。
 "You cannot configure a product.",您不能配置这个产品。
 "You removed the items.",您删除的商品。
@@ -128,6 +151,7 @@ Customers,客户
 "Yes, for Specified Customer Groups",是的，针对指定的客户群体
 "Yes, for Everyone",是的，对所有人生效。
 No,否
+"The file is corrupt and can't be used.",该文件已损坏，无法使用。
 "Please upload the file in .csv format.","请上传 .csv 格式的文件。"
 "%1 item(s) need your attention.","%1 项目需要您的关注。"
 "Apply Coupon Code",适用的优惠券代码
@@ -216,10 +240,17 @@ Yes,是
 "Error while checking if topic is synchronous",检查是否主题是否同步时出错
 "Subscription status",订阅状态
 "Sorry, there has been an error processing your request. Please try again later.",对不起，已处理您的请求时出错。请稍后再试。
+"The time value is using an unsupported format. Enter a supported format and try again.",时间值使用的格式不受支持。输入支持的格式，然后重试。
 "Cron settings can't be saved","无法保存 Cron 设置"
 "There was an error save new configuration value.",有保存新的配置值时出错。
 "Please select an industry.",请选择一个工业。
 "--Please Select--","-- 请选择 --"
+"Command ""%1"" was not found.","找不到命令 ""%1""。"
+"The data is invalid. Enter the data as a string or data that can be converted into a string and try again.",数据无效。输入字符串数据或可转换为字符串的数据，然后重试。
+"The data is invalid. Enter the data as a string and try again.",数据无效。输入字符串数据，然后重试。
+"The data is invalid. Use a valid cipher method and try again.",数据无效。使用有效的密码方法然后重试。
+"Enter the encryption key and try again.",输入加密密钥，然后重试。
+"The ""%1"" source doesn't exist.","""%1"" 来源不存在。"
 "These arguments can't be empty ""%1""","这些参数不能为空 ""%1"""
 "Cannot find predefined integration user!",无法找到预定义的集成用户!
 "File is not ready yet.",文件尚未准备就绪。
@@ -238,11 +269,24 @@ API,应用开发接口（API）
 Configuration,设置
 "Business Intelligence",智慧商务
 "BI Essentials",BI至关重要
+"This service provides a dynamic suite of reports with rich insights about your business.
+                Your reports can be accessed securely on a personalized dashboard outside of the admin panel by clicking on the
+                ""Go to Advanced Reporting"" link. </br> For more information, see our <a target=""_blank"" href=""https://magento.com/legal/terms/cloud-terms"">
+                terms and conditions</a>.","此服务提供了一套动态报告，其中包含有关您的业务的丰富见解。
+                通过单击
+                “转到高级报告” 链接，可以在管理面板外的个性化控制面板上安全地访问您的报告。 </br> 欲了解更多信息，查看我们的 <a target=""_blank"" href=""https://magento.com/legal/terms/cloud-terms"">
+                条款和条件</a>。"
 "Advanced Reporting Service",高级报告服务
 "Time of day to send data",每天发送数据的时间
+"Industry Data",行业数据
 Industry,工业制品
 "In order to personalize your Advanced Reporting experience, please select your industry.","为了个性化您的高级报告经验, 请先选择您的行业。"
 "<strong>Get more insights from Magento Business Intelligence</strong>","<strong> 从 Magento 商业智能中获得更多的洞察力 </strong>"
+"Magento Business Intelligence provides you with a simple and clear path to
+                    becoming more data driven.</br> Learn more about <a target=""_blank""
+                    href=""https://dashboard.rjmetrics.com/v2/magento/signup/"">Magento BI Essentials and BI Pro</a> tiers.","Magento 商业智能为您提供了一个简单而明确的途径，让您
+                    变得更加数据驱动。</br> 了解更多关于 <a target=""_blank""
+                    href=""https://dashboard.rjmetrics.com/v2/magento/signup/"">Magento BI Essentials 和 BI Pro</a> 层的信息。"
 "Auto Parts",汽配
 "Baby/Children’s Apparel, Gear and Toys",婴儿/儿童服装，用品和玩具
 "Beauty and Cosmetics",美容化妆
@@ -261,11 +305,17 @@ Industry,工业制品
 "Pet Goods",宠物用品
 "Pharma and Medical Devices",药品和医疗器械
 "Technology B2B","技术 B2B"
+Other,其他
 Done,完成
 Retry,重试
 "'Action Details - #' .","' 操作详情-#'。"
 "%1 item(s) have been scheduled for update.""","%1 项目已定于更新。"""
 "Bulk Actions Log",批量操作日志
+"Bulk uuid %bulkUuid not exist","批量 uuid %bulkUuid 不存在"
+"Topic %1","主题 %1"
+"Something went wrong while processing the request.",处理请求时出错。
+"Error processing %key element of input data","处理输入数据的 %key 元素时出错"
+"Sorry, something went wrong during product prices update. Please see log for details.",对不起，在产品价格更新期间出现了问题。请参阅日志了解详细信息。
 "%1 item(s) are currently being updated.","目前正在更新的项目 （%1）。"
 "Task ""%1"": ","""%1""的任务︰ "
 "%1 item(s) have been scheduled for update.","%1 项目已定于更新。"
@@ -280,7 +330,9 @@ Dismiss,忽略
 ", %1 failed to update",", %1 更新失败"
 "Something went wrong.",发生一些错误。
 "Action Log",操作日志
+Report,报告
 "Bulk Actions",批量操作
+"Action Logs",操作日志
 "Days Saved in Log",日志保存天数
 "Description of Operation",操作说明
 Summary,概览
@@ -294,6 +346,7 @@ Error,错误
 "Dismiss All Completed Tasks",关闭所有已完成的任务
 "Action Details - #","操作详情 - #"
 "Number of Records Affected",受影响的记录数
+"The role wasn't found for the user. Verify the role and try again.",找不到该用户的角色。验证角色然后重试。
 "Something went wrong while compiling a list of allowed resources. You can find out more in the exceptions log.",编译允许资源列表时出错。您可以从异常日志查找更多可用信息。
 "You created the order.",你已经下单了
 "Order saving error: %1","订单保存错误: %1"
@@ -386,10 +439,16 @@ Environment,环境
 options,选项
 "Select all",选择全部
 "Deselect all",取消全选
+"We couldn't find any records.",我们找不到任何记录。
+Show,显示
+"per page",每页
 "%s of %s selected","%s %s 已选中"
+"Search by keyword",按关键字搜索
+"This is a required field.",这是必填字段。
 "B2B Features","B2B 特点"
 "Invalid Form Key. Please refresh the page.",无效的表单密钥。请刷新此页面。
 "You entered an invalid Secret Key. Please refresh the page.",输入的密钥无效。请刷新此页面。
+"Invalid security or form key. Please refresh the page.",安全性或表单密钥无效。请刷新页面。
 "Cache Storage Management",缓存存储管理
 "Flush Magento Cache","刷新 Magento 缓存"
 "The cache storage may contain additional data. Are you sure that you want to flush it?",缓存储存可能包含其他数据，你确定要刷新它？
@@ -492,6 +551,7 @@ Stores,商店
 "Create Store View",创建店铺视图
 Home,首页
 "Are you sure you want to do this?",您确认要这么做么？
+label,标签
 "Add New Image",添加新图片
 "Export block for grid %1 is not defined","网格 %1 导出的块页面未定义"
 "Reset Filter",重置筛选
@@ -504,16 +564,17 @@ To,至
 "[ deleted ]","[ 已删除 ]"
 "Select All",选择全部
 " [deleted]"," [删除]"
-"We couldn't find any records.",我们找不到任何记录。
 "Add New",新增
 "Invalid export type supplied for grid export block",网格块页面导出类型无效
 Export,导出
 "Please correct the column format and try again.",请更正列格式，再试一次。
+"An item needs to be selected. Select and try again.",需要选择一个项目。选择然后重试。
 Submit,提交
 "Unknown block type",未知模块类型
 "Please correct the tab configuration and try again. Tab Id should be not empty","请更正选项卡配置，然后重试。选项卡 Id 不应为空"
 "Please correct the tab configuration and try again.",请更正选项卡配置，然后重试。
 "You have logged out.",您已登出。
+"These cache type(s) don't exist: %1","这些缓存类型不存在： %1"
 "The image cache was cleaned.",图片缓存被清除了。
 "An error occurred while clearing the image cache.",清除图片缓存时出错。
 "The JavaScript/CSS cache has been cleaned.","JavaScript 和 CSS 缓存已清理。"
@@ -569,6 +630,7 @@ System,系统
 "Before modifying the store view code please make sure it is not used in index.php.","修改店铺视图代码前请确保它没有应用在 index.php 中。"
 "New ",新建
 "All Stores",所有店铺
+"Please enable your Store View before using this Web Site as Default",在使用此网站作为默认值之前，请启用您的商店视图
 "You saved the website.",你已保存网站。
 "The default store cannot be disabled",不能禁用默认店铺
 "You saved the store view.",您已保存的店铺视图。
@@ -576,16 +638,26 @@ System,系统
 "You saved the store.",你保存了店铺。
 "Something went wrong while saving. Please review the error log.",保存时出错，请查看错误日志。
 "Authentication storage is incorrect.",验证存储不正确。
+"The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.",帐户登录不正确或您的帐户暂时被禁用。请稍后再试。
+"An authentication error occurred. Verify and try again.",发生身份验证错误。验证然后重试。
+"The Admin session lifetime is invalid. Set the lifetime to 31536000 seconds (one year) or shorter and try again.","管理员会话生命周期无效。将生命周期设置为 31536000 秒（一年）或更短，然后重试。"
+"The Admin session lifetime is invalid. Set the lifetime to 60 seconds or longer and try again.","管理员会话生命周期无效。将生命周期设置为 60 秒或更长，然后重试。"
 "Last 24 Hours","最近 24 小时"
 "Last 7 Days","最近 7 天"
 "Current Month",当月
 Order,订单
 "Order #%1","订单 #%1"
+"URL key ""%1"" matches a reserved endpoint name (%2). Use another URL key.","URL 键 ""%1"" 与保留的终端节点名称 (%2) 匹配。使用另一个 URL 键。"
+"Save &amp; Continue","保存 &amp; 继续"
+"Save &amp; Close","保存 &amp; 关闭"
+"Save &amp; New","保存 &amp; 新建"
 "Sorry, you need permissions to view this content.",对不起，您需要权限来查看此内容的。
 "Next steps",下一步
 "If you think this is an error, try signing out and signing in again.",如果您认为这是一个错误，请尝试注销并再次登录。
 "Contact a system administrator or store owner to gain permissions.",请与系统管理员或店铺所有人联系以获取权限。
+"Return to ","返回至 "
 "previous page",上一页
+.,。
 "Welcome, please sign in",欢迎，请登录
 Username,用户名
 "user name",用户名
@@ -620,7 +692,9 @@ Minute,分钟
 "JavaScript may be disabled in your browser.","可能您的浏览器中禁用了 JavaScript。"
 "To use this website you must first enable JavaScript in your browser.","您的浏览器必须先启用 JavaScript，然后才能流畅浏览本网站。"
 "This is only a demo store. You can browse and place orders, but nothing will be processed.",这是只是一个演示的商店。您可以浏览并下订单，但什么都不会被处理。
+"Privacy Policy",隐私政策
 "Report an Issue",问题反馈
+Scope:,范围：
 "Stores Configuration",店铺配置
 "Please confirm scope switching. All data that hasn't been saved will be lost.",请确认范围开关。尚未保存的所有数据将都会丢失。
 "Additional Cache Management",额外的缓存管理
@@ -640,7 +714,6 @@ Thumbnail,缩略图
 "Additional Settings",附加设置
 "records found",找到的记录
 selected,已选择
-"per page",每页
 "Previous page",上一页
 "of %1",%1
 "Next page",下页
@@ -654,7 +727,13 @@ selected,已选择
 "The information in this tab has been changed.",此选项卡中的信息已更改。
 Loading...,正在加载...
 "User Agent Rules",用户代理规则
+"User agent exceptions override product and CMS pages rules.","用户代理例外会覆盖产品和 CMS 页面规则。"
+"Search strings are either normal strings or regular expressions (PCRE). They are matched in the same order as entered.","搜索字符串可以是普通字符串或正则表达式 (PCRE)。它们的匹配顺序与输入的顺序相同。"
+Examples,示例
+"Use Default Value",使用默认值
 "We could not detect a size.",我们未能检测到的大小。
+"Warning message",警告消息
+"This operation can take a long time",此操作可能需要很长时间
 "Allow everything",允许所有
 "Magento Admin","Magento 管理员"
 "Global Search",全局搜索
@@ -665,6 +744,7 @@ Content,内容
 Elements,元素
 Design,设计
 Schedule,计划任务
+"Content translation",内容翻译
 Settings,设置
 Attributes,属性管理
 "Other Settings",其他设置
@@ -673,6 +753,13 @@ Attributes,属性管理
 "Connect Manager",连接管理器
 "Package Extensions",扩展包
 Tools,工具
+"Clean Cache Actions",清理缓存操作
+"Cache Types Management",缓存类型管理
+"Toggle Cache Type",切换缓存类型
+"Refresh Cache Type",刷新缓存类型
+"Catalog Images Cache",目录图像缓存
+"Flush Js/Css","刷新 Js/Css"
+"Flush Static Files",刷新静态文件
 Currency,货币
 Communications,通讯
 Services,服务
@@ -687,8 +774,16 @@ Advanced,高级
 "Sales Representative",销售代表
 "Customer Support",客户支持
 Developer,开发人员
+"Enable Template Path Hints for Storefront",为店面启用模板路径提示
+"Enable Hints for Storefront with URL Parameter","使用 URL 参数为店面启用提示"
+"Use URL parameter to enable template path hints for Storefront","使用 URL 参数为店面启用模板路径提示"
+"Parameter Value",参数值
+"Add the following parameter to the URL to show template hints ?templatehints=[parameter_value]","将以下参数添加到 URL 以显示模板提示 ?templatehints=[parameter_value]"
+"Enable Template Path Hints for Admin",为管理员启用模板路径提示
+"Add Block Class Type to Hints",将块类型添加到提示
 "Template Settings",模板设置
 "Allow Symlinks",允许符号链接
+"<strong class=""colorRed"">Warning!</strong> Enabling this feature is not recommended on production environments because it represents a potential security risk.","<strong class=""colorRed"">警告！</strong> 建议不要在正式运营环境中启用此功能，因为它会带来潜在的安全风险。"
 "Minify Html","最小化 Html"
 "Minification is not applied in developer mode.",最小化不适用于开发人员模式。
 "Translate Inline",内联翻译
@@ -704,6 +799,7 @@ Developer,开发人员
 "Minify CSS Files","最小化 CSS 文件体积"
 "Image Processing Settings",图像处理设置
 "Image Adapter",图像适配器
+"When the adapter was changed, please flush Catalog Images Cache.",更改适配器时，请刷新目录图像缓存。
 "Static Files Settings",静态文件设置
 "Sign Static Files",静态文件签名
 "Country Options",国家选项
@@ -732,10 +828,18 @@ City,城市
 "Mail Sending Settings",邮件发送设置
 "Disable Email Communications",禁用电子邮件通信
 Host,主机
+"For Windows server only.","仅适用于 Windows 服务器。"
 "Port (25)","端口 (25)"
+"Please enter at least 0 and at most 65535 (For Windows server only).","请输入至少 0 和最多 65535（仅适用于 Windows 服务器）。"
 "Set Return-Path",设置返回路径
 "Return-Path Email",返回路径邮件
+"Images Upload Configuration",图片上传配置
 "Enable Frontend Resize",启用前端大小调整
+"Resize performed via javascript before file upload.","在文件上传之前，通过 javascript 进行调整大小。"
+"Maximum Width",最大宽度
+"Maximum allowed width for uploaded image.",上传图片允许的最大宽度。
+"Maximum Height",最大高度
+"Maximum allowed height for uploaded image.",上传的图片允许的最大高度。
 Admin,管理员
 "Admin User Emails",管理员用户邮件
 "Forgot Password Email Template",忘记密码的邮件模板
@@ -760,7 +864,9 @@ Security,安全
 Web,网页
 "Url Options","Url 选项"
 "Add Store Code to Urls","将存储代码添加到 Urls"
+"<strong class=""colorRed"">Warning!</strong> When using Store Code in URLs, in some cases system may not work properly if URLs without Store Codes are specified in the third-party services (e.g. PayPal etc.).","<strong class=""colorRed"">警告！</strong> 在 URL 中使用存储代码时，在某些情况下，如果在第三方服务（例如 PayPal 等）中指定了没有商店代码的 URL，系统可能无法正常工作。"
 "Auto-redirect to Base URL","自动重定向到基础 URL"
+"I.e. redirect from http://example.com/store/ to http://www.example.com/store/","I.e. 重新定向于 http://example.com/store/ 至 http://www.example.com/store/"
 "Search Engine Optimization",搜索引擎优化
 "Use Web Server Rewrites","使用 Web 服务器重写"
 "Base URLs","基础 URL"
@@ -1099,7 +1205,6 @@ Year,"年 "
 "The processor declined your transaction, please re-enter your payment information",处理器拒绝您的交易，请重新输入您的付款信息
 "Transaction declined by gateway: Check card details or try another card","交易被网关拒绝: 检查卡的详细资料，或尝试另一张卡"
 "Transaction declined: ","交易被拒绝: "
-.,。
 "The processor responded with an unknown error",处理器响应未知错误
 "Credit card type is not allowed for your country.",你的国家不允许的信用卡类型。
 "Credit card type is not allowed for this payment method.",此付款方式不允许此信用卡类型。
@@ -1206,7 +1311,6 @@ Fixed,百分之
 "Add Products to Option",将产品添加到选项
 "Delete Option",数量：
 "What are you looking for?",你在找什么?
-"Use Default Value",使用默认值
 "There is no defined renderer for ""%1"" option type.","还有""%1""选项类型没有定义渲染器。"
 "Could not save child: ""%1""","不能保存产物:""%1"""
 "Product with specified sku: ""%1"" does not contain option: ""%2""","产品与指定 sku:""%1""不包含选项:""%2"""
@@ -1312,7 +1416,6 @@ to,至
 "[STORE VIEW]",[店铺视图]
 "WYSIWYG Editor",所见即所得编辑器
 "Add Product",添加产品
-label,标签
 "Product Attributes",产品属性
 "Add New Attribute",该属性不存在
 "Save Attribute",保存属性
@@ -1674,7 +1777,6 @@ message,信息
 name,名称
 "Copy Data from",复制数据来源于
 "If there are no custom parent categories, please use the default parent category. You can reassign the category at any time in <a href=""%1"" target=""_blank"">Products &gt; Categories</a>.","如果没有自定义父类别，请使用默认的父类别。您可以在任何时候在<a href=""%1""target=""_blank""> 产品 &gt; 类别</a>重新分配类别。"
-"This operation can take a long time",此操作可能需要很长时间
 "Collapse All",全部折叠
 "Expand All",全部展开
 "Please confirm site switching. All data that hasn't been saved will be lost.",请确认站点切换。尚未保存的所有数据将都会丢失。
@@ -1769,14 +1871,12 @@ Prev,上一页
 "Items %1-%2 of %3","项目 %1%2 的 %3"
 "%1 Item","%1 项目"
 "%1 Items","%1 项目"
-Show,显示
 "Sort By",按排序
 "Set Ascending Direction",设置提升方向
 "Set Descending Direction",设置降序方向
 "View as",视图
 "More Information",更多信息
 "Maximum %1 characters","最多%1 个字符"
-"Warning message",警告消息
 "We don't recognize or support this file extension type.",我们不承认或支持该文件扩展类型。
 "Configure Product",配置产品
 OK,确定
@@ -2484,9 +2584,27 @@ Block,模块
 "CMS Pages",CMS网页
 "CMS Blocks","CMS 块"
 "Delete Customer",删除客户
+"Delete Company",删除公司
+Companies,公司
+"Add New Company",添加新公司
+(me),（我）
+"Company Name:",公司名称：
+"Company Legal Name:",公司法定名称：
+"Company Email:",公司电子邮件：
+"Street Address:",街道地址:
+City:,城市:
+Country:,国家:
+State/Province:,州/省:
+"ZIP/Postal Code:",邮编:
+"Phone Number:","电话号码： "
+"Job Title:",职位：
 "Email Address:",电子邮件地址︰
+Prefix:,前缀：
 "First Name:",名
+"Middle Name/Initial:",中间名/缩写：
 "Last Name:",姓氏：
+Suffix:,后缀：
+Gender:,性别：
 "A total of %1 record(s) were updated.","更新记录 %1"
 "A total of %1 record(s) were deleted.","共有 %1 条记录被删除。"
 "Add New Role",添加新角色
@@ -4644,7 +4762,6 @@ items,项目
 "All Users",全部用户
 "Admin Actions Log",管理员操作日志
 "Admin Actions Archive",管理行动档案
-Report,报告
 "actions' 'label","行动的 ' 标签"
 "%1 & applied","%1 与应用"
 "Tax Rates Import",税收率导入
@@ -4666,7 +4783,6 @@ IP-Address,"IP 地址"
 "Related Changes",有关的更改
 Logging,日志记录
 Archive,存档
-"Action Logs",操作日志
 "Admin Actions Log Archiving",管理员操作日志归档
 "Log Entry Lifetime, Days","日志条目寿命、 天"
 "Log Archiving Frequency",日志存档频率
@@ -8038,7 +8154,6 @@ Off,关闭
 "You have successfully saved your edits.",您已经成功地保存了编辑。
 "There are {placeholder} messages requires your attention.","有 {placeholder} 消息需要您注意。"
 "You haven't selected any items!","您没有选择任何项目 ！"
-"Search by keyword",按关键字搜索
 Keyword,关键字
 "Please enter more or equal than {0} symbols.","请输入多于或等于比 {0} 符号。"
 "Please enter less or equal than {0} symbols.","请输入多于或等于比 {0} 符号。"
