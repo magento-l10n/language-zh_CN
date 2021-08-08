@@ -870,23 +870,31 @@ Web,网页
 "Search Engine Optimization",搜索引擎优化
 "Use Web Server Rewrites","使用 Web 服务器重写"
 "Base URLs","基础 URL"
+"Any of the fields allow fully qualified URLs that end with '/' (slash) e.g. http://example.com/magento/","任何字段都允许以 '/' (slash) 结尾的完全合格的 URL，例如，http://example.com/magento/"
 "Base URL","基础 URL"
 "Specify URL or {{base_url}} placeholder.","指定 URL 或 {{base_url}} 的占位符。"
 "Base Link URL","基础链接 URL"
+"May start with {{unsecure_base_url}} placeholder.","可以以{{unsecure_base_url}} 占位符开头。"
 "Base URL for Static View Files","基础 URL 静态视图文件"
 "May be empty or start with {{unsecure_base_url}} placeholder.","可能为空或启动与 {{unsecure_base_url}} 占位符。"
 "Base URL for User Media Files","用户媒体文件的的基础 URL"
 "Base URLs (Secure)","基础 URL (安全)"
+"Any of the fields allow fully qualified URLs that end with '/' (slash) e.g. https://example.com/magento/","任何字段都允许以 '/' (slash) 结尾的完全合格的 URL，例如，https://example.com/magento/"
 "Secure Base URL","加密基础 URL"
 "Specify URL or {{base_url}}, or {{unsecure_base_url}} placeholder.","指定 URL 或 {{base_url}} 或 {{unsecure_base_url}} 的占位符。"
 "Secure Base Link URL","加密基础 URL"
+"May start with {{secure_base_url}} or {{unsecure_base_url}} placeholder.","可以以{{secure_base_url}} 或者{{unsecure_base_url}} 占位符开头。"
 "Secure Base URL for Static View Files","静态视图文件的加密基础 URL"
 "May be empty or start with {{secure_base_url}}, or {{unsecure_base_url}} placeholder.","可能为空或启动与 {{secure_base_url}} 或 {{unsecure_base_url}} 占位符。"
 "Secure Base URL for User Media Files","用户的媒体文件的加密基础 URL"
 "Use Secure URLs on Storefront","在店铺前台使用加密链接 URL"
+"Enter https protocol to use Secure URLs on Storefront.","输入 https 协议用于在店铺前端使用安全URL。"
 "Use Secure URLs in Admin","管理员使用加密链接 URL"
+"Enter https protocol to use Secure URLs in Admin.","输入 https 协议用于在店铺管理端使用安全URL。"
 "Enable HTTP Strict Transport Security (HSTS)","启用 HTTP 严格传输安全性 (HSTS)"
+"See <a href=""https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Strict_Transport_Security_Cheat_Sheet.html"" target=""_blank"">HTTP Strict Transport Security</a> page for details.","详情请参阅 <a href=""https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Strict_Transport_Security_Cheat_Sheet.html"" target=""_blank"">HTTP 严格传输安全HSTS</a> 页面。"
 "Upgrade Insecure Requests",升级不安全的请求
+"See <a href=""http://www.w3.org/TR/upgrade-insecure-requests/"" target=""_blank"">Upgrade Insecure Requests</a> page for details.","详情请参阅 <a href=""http://www.w3.org/TR/upgrade-insecure-requests/"" target=""_blank"">升级不安全请求</a> 页面。"
 "Offloader header","页眉 加载器"
 "Default Pages",默认页
 "Default Web URL","默认网址 URL"
@@ -954,6 +962,7 @@ Database,数据库
 "The backup file handler was unspecified.",未指定备份文件处理程序。
 "Something went wrong while writing to the backup file ""%1"".","在写入备份文件""%1""，出了错。"
 "We can't save the Cron expression.",我们不能保存货币表达式
+"Backup functionality is disabled",备份功能已禁用
 "You will lose any data created since the backup was made, including admin users, customers and orders.","您将丢失所有数据创建备份自从了以后，包括管理员用户、 客户和订单。"
 "Are you sure you want to continue?",你确定要继续吗?
 "This may take a few moments.",这可能需要几分钟。
@@ -976,7 +985,10 @@ Exclude,排除
 "Magento root directory","Magento 根目录"
 "Create Backup",创建备份
 Rollback,回滚
+"Backup Settings",备份设置
+"Enable Backup",启用备份
 "Enable Scheduled Backup",启用定时的备份
+"Scheduled Backup Type",预定备份类型
 Frequency,频率
 "Maintenance Mode",维护模式
 "Are you sure you want to delete the selected backup(s)?","确实要删除所选的 backup(s) 吗?"
@@ -989,6 +1001,7 @@ Download,下载
 "Delete Dynamic Block",删除动态区块
 "Save and Continue Edit",保存并继续编辑
 "New Dynamic Block",新建动态区块
+"Are you sure you want to do this?",您确认要这么做吗？
 "Default Content",默认内容
 "No Default Content",无默认内容
 "Dynamic Block Default Content for All Store Views",在所有商店视图下动态区块的默认内容
@@ -1024,8 +1037,12 @@ Position,位置
 "This dynamic block does not exist.",该动态区块不存在。
 "You saved the dynamic block.",你已保存该动态区块。
 "We cannot save the dynamic block.",我们无法保存该动态区块。
+"Invalid Request",无效请求
 "Please enter a name.",请输入一个名称。
+"Content includes restricted HTML elements. %1","内容包含受限的 HTML 元素。 %1"
+"Make sure that dynamic blocks rotator does not reference the dynamic block itself.",请确保动态区块轮播工具未引用自身。
 "-- None --","— — 无 — —"
+"Invalid content",无效的内容
 "Content Area",内容区域
 Footer,页脚
 Header,页眉
@@ -1045,7 +1062,17 @@ Header,页眉
 "One at the time, Series",一次，系列
 "One at the time, Shuffle",一次，洗牌
 "Specify Dynamic Blocks",指定动态区块
+"Dynamic Block Template",动态区块模板
 "Dynamic Block Inline Template",动态区块内联模板
+Name,名称
+"Status Label",状态标签
+"General Information",常规信息
+"Enable Dynamic Block",启用动态区块
+"Cart price rules allows you to setup promotions for items that are in the shopping cart.",购物车价格规则允许您为购物车中的商品设置促销。
+"Add Cart Price Rules",添加购物车价格规则
+"Related Catalog Price Rule",相关购物车价格规则
+"Catalog price rules allows you to setup promotions for an items in catalog.",目录价格规则允许您为目录中商品的设置促销。
+"Add Selected",添加选中的
 Visibility,可见性
 "All Segments",所有线段
 "Customer Segment",客户细分市场
@@ -1312,9 +1339,19 @@ Fixed,百分之
 "Delete Option",数量：
 "What are you looking for?",你在找什么?
 "There is no defined renderer for ""%1"" option type.","还有""%1""选项类型没有定义渲染器。"
+"This is implemented for bundle products only.",仅适用于捆绑产品。
+"The product with the ""%1"" SKU isn't a bundle product.","SKU为""%1""的产品不是捆绑产品。"
+"The bundle product can't contain another composite product.",捆绑产品不能包含另一个复合产品。
+"The product link needs an ID field entered. Enter and try again.","产品链接需要输入一个 ID 字段，请输入后重试。"
+"The product link with the ""%1"" ID field wasn't found. Verify the ID and try again.","找不到与 ID 字段为""%1"" 的产品链接。请核实 ID 后再试。"
 "Could not save child: ""%1""","不能保存产物:""%1"""
 "Product with specified sku: ""%1"" does not contain option: ""%2""","产品与指定 sku:""%1""不包含选项:""%2"""
 "Child with specified sku: ""%1"" already assigned to product: ""%2""","指定 sku 的产物:""%1""已经分配给产品:""%2"""
+"The bundle product doesn't exist. Review your request and try again.",捆绑产品不存在。请检查您的请求，然后重试。
+"The option that was requested doesn't exist. Verify the entity and try again.",请求的选项不存在。请核实实例后再试。
+"The option couldn't be saved.",无法保存此选项。
+"""%fieldName"" is required. Enter and try again.","""%fieldName"" 是必需的。请输入后再试。"
+"The option with ""%1"" ID can't be deleted.","无法删除ID为""%1""的选项。"
 "Price Range",价格范围
 "As Low as",低至
 Together,在一起
@@ -1323,6 +1360,7 @@ Separately,分开
 "The options you selected are not available.",您选择的选项不可用。
 "The required options you selected are not available.",选择所需的选项不可用。
 "Please select all required options.",请选择所需的所有选项。
+"Option type (%types) should have only one element.","选项类型 (%types) 应该只有一个元素。"
 "We can't add this item to your shopping cart right now.",我们这个项目不能添加到您的购物车现在。
 Percent,%
 "We can't save custom-defined options for bundles with dynamic pricing.",我们无法将定制定义的选项保存在动态定价的捆绑包中。
@@ -1374,8 +1412,10 @@ Message:,消息：
 "Qty Shipped",已发货数量
 "Add Products to New Option",将产品添加到新的选项
 "Add Products to Option ""%1""","将产品添加到""%1""选项"
+"Special Price",特价
 """option_id"" and ""parent_id"" values should be specified","需要指定""option_id"" 和 ""parent_id"" 值"
 """sku"" value should be specified",需要指定“sku”值
+"Unique constraint violation found",发现了唯一的约束冲突
 Always,总是
 "After number of attempts to login","如果选择“创建用户” 和“忘记密码”形式的验证码将永远被启用"
 "Provided form does not exist",提供的表单不存在
@@ -1440,6 +1480,7 @@ Website,网站
 Global,全球
 Scope,范围
 "Declare attribute value saving scope.",声明属性值保存范围。
+"The default date is invalid.",默认日期无效。
 "Storefront Properties",前台属性
 "Use in Search",在搜索中的使用
 "Visible in Advanced Search",可见在高级搜索中
@@ -1477,6 +1518,7 @@ Empty,"产品 %1"
 "For internal use",供内部使用
 "Based On",请确认网站切换。尚未保存的所有数据将丢失
 "Edit Attribute Set Name",编辑属性集的名称
+"Attribute Set Information",属性集信息
 "Add New Attribute Set",添加新的属性集
 "Add Attribute Set",添加属性集
 "Attribute Sets",属性集
@@ -1550,13 +1592,17 @@ Categories,分类
 "Category is not available for requested store.",无法为所要求的商店提供类别。
 "There was a category move error.",出现了一个类别移动错误。
 "You moved the category.",你保存的类别。
+"The ""%1"" attribute is required. Enter and try again.","必须填写""%1""属性。输入后重试。"
 "Something went wrong while saving the category.",保存该类别时出现错误。
 "You saved the category.",你保存的类别。
 "Please select products for attributes update.",请选择产品更新属性。
 "Please make sure to define SKU values for all processed products.","请务必定义所有加工产品的 SKU 值。"
+"Message is added to queue",消息已添加到队列
 "Something went wrong while updating the product(s) attributes.",在更新的产品属性时出现错误。
+"Update attributes for ' . . ' selected products",给所选择的产品更新属性
 "Something went wrong while processing the request.",在处理请求时出现了问题。
 "Unable to add attribute",无法添加属性
+"Attributes were missing and must be specified.",属性缺失，必须指定。
 "Manage Product Attributes",管理产品属性
 "We can't delete the attribute.",我们不能删除该属性。
 "You deleted the product attribute.",你删除的产品属性。
@@ -1564,10 +1610,13 @@ Categories,分类
 "This attribute no longer exists.",该属性不再存在。
 "This attribute cannot be edited.",不能编辑此属性。
 "Edit Product Attribute",编辑产品属性
+"The attribute couldn't be saved due to an error. Verify your information and try again. If the error persists, please try again later.",由于一个错误，该属性无法保存。请验证您的信息并再试一次。如果错误仍然存在，请稍后再试。
 "An attribute set named '%1' already exists.","属性集，名为""%1""已经存在。"
 "Something went wrong while saving the attribute.",在保存属性时出现了问题。
 "We can't update the attribute.",我们不能更新的属性。
 "You saved the product attribute.",你保存的产品属性。
+"The attribute couldn't be validated due to an error. Verify your information and try again. If the error persists, please try again later.",产生错误，无法验证该属性。请核实信息后再试。如果错误仍然存在，请稍后再试。
+"Code (%1) is a reserved key and cannot be used as attribute code.","代码 (%1) 是一个保留密钥，不能用作属性代码。"
 "An attribute with this code already exists.",这段代码的属性已经存在。
 "An attribute with the same code (%1) already exists.","已经存在具有相同的代码 (%1) 的属性。"
 "The value of Admin must be unique. (%1)",管理员的值必须唯一。(%1)
@@ -1578,11 +1627,14 @@ Categories,分类
 "A group with the same name already exists.",具有相同名称的组已存在。
 "Something went wrong while saving this group.",保存该组时出现问题。
 "A total of %1 record(s) have been deleted.","已经删除 %1的记录"
+"A total of %1 record(s) haven't been deleted. Please see server logs for more details.","总共 %1 项记录尚未被删除。详情请查看服务器日志。"
 "A total of %1 record(s) have been updated.","已经更新 %1的记录"
 "Something went wrong while updating the product(s) status.",更新产品状态时出现错误。
+"The product was unable to be saved. Please try again.",产品无法保存。请重试。
 "You saved the product.",你保存的产品。
 "SKU for product %1 has been changed to %2.","为产品 %1 SKU 已改为 %2。"
 "The image cannot be removed as it has been assigned to the other image role",图像不能删除，因为它已被分配给其他图像作用
+"The value of attribute(s) ""%1"" must be unique","""%1""属性的值必须是唯一的"
 "New Attribute Set",新的属性集
 "The attribute set has been removed.",已删除的属性集。
 "We can't delete this set right now.",我们现在不能删除这一套。
@@ -2559,7 +2611,6 @@ View,查看
 Block,模块
 "Select Block...",选择模块...
 "CMS Static Block Default Template","CMS 静态块默认模板"
-"General Information",常规信息
 "Enable Block",启用模块
 "Block Title",模块标题
 "Are you sure you want to delete selected items?",你确定你想删除选定的项目?
@@ -6630,7 +6681,6 @@ Capture,捕获
 "Save Status",保存状态
 "Order Status Information",订单状态信息
 "Status Code",状态代码
-"Status Label",状态标签
 "Store View Specific Labels",店铺视图指定的标签
 "Total Paid",付款总额
 "Are you sure you want to send an order email to customer?",你确定你想要向客户发送订单的电子邮件?
