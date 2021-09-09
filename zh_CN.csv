@@ -393,7 +393,7 @@ void,无效
 "Card Code Response",卡码响应
 "CAVV Response","信用卡验证码CAVV 响应"
 "Fraud Filters",欺诈行为过滤器
-"Place Order",对不起，暂无报价可供此订单现在。
+"Place Order",下单
 "Sorry, but something went wrong. Please contact the seller.",对不起，但出了点问题。请联系卖方。
 "Authorize.net Direct Post","Authorize.net 直接付款"
 Enabled,启动
@@ -1101,6 +1101,7 @@ PayPal,贝宝（PayPal）
 "PayPal Logo",贝宝徽标
 "Credit Card Information",信用卡信息
 "Save for later use.",保存供以后使用。
+"Place Order",对不起，暂无报价可供此订单现在。
 "This payment is not available",这笔付款不可用
 MM,月
 YY,年
@@ -1649,6 +1650,7 @@ Categories,分类
 "You removed product %1 from the comparison list.","您从比较列表中删除产品 %1。"
 "1 item","产品 %1"
 "%1 items","%1 项目"
+"The specified Catalog media URL format is not supported.","不支持指定的目录媒体 URL 格式。"
 "Are you sure you want to remove this item from your Compare Products list?",你确定你想要从你比较产品列表中删除此项目？
 "Are you sure you want to remove all items from your Compare Products list?",您确定要从比较产品列表中删除所有项目吗？
 "Invalid attribute %1","无效属性 %1"
@@ -1656,6 +1658,8 @@ Grid,%1及以上
 List,列表
 "Bad controller interface for showing product",坏的控制器接口，用于显示产品
 "Product is not loaded",产品未加载
+"Selected layout update is not available",所选布局更新不可用
+"Sorry, something went wrong during product attributes update. Please see log for details.",对不起，产品属性更新过程中出现了一些问题。请查看日志了解详情。
 "Make sure the To Date is later than or the same as the From Date.",确定日期晚于日期或与日期相同。
 "Sorry, but we can't find the new parent category you selected.",抱歉，但我们找不到您选择的新的父类别。
 "Sorry, but we can't find the new category you selected.",抱歉，但我们找不到您选择的新类别。
@@ -2982,6 +2986,7 @@ Alphanumeric,字母表
 "Address Book",通讯簿
 "Edit Address",更改账单地址
 "Add New Address",添加新地址
+"Customer not logged in",用户未登陆
 region,地区
 "Save Customer",保存客户
 "Reset Password",重置密码
@@ -2992,6 +2997,7 @@ region,地区
 Newsletter,最新资讯
 "Newsletter Information",最新资讯信息
 "Subscribed to Newsletter",订阅最新资讯
+"Subscribed on Store View",在商店视图上订阅
 "Last Date Subscribed",订阅期限
 "Last Date Unsubscribed",取消订阅期限
 "No Newsletter Found",未找到最新资讯
@@ -3024,6 +3030,8 @@ Locked,已锁定
 Unlock,解锁​​​​
 "Delete Image",全尺寸视图
 "View Full Size",查看全部尺寸
+Subscribed,已订阅
+"Last Updated At",上次更新
 "All countries",所有国家
 "Add New Customer Group",添加新客户组
 "Save Customer Group",保存客户组
@@ -3046,6 +3054,7 @@ Unlock,解锁​​​​
 "There was an error detecting Customer Group.",检测客户组时出错。
 "Validate VAT Number",验证增值税号码
 "Date of Birth",出生日期
+Today,今天
 "Bad request.",请求有误。
 "This confirmation key is invalid or has expired.",此确认密钥无效或已过期。
 "There was an error confirming the account",确认该帐户时出错
@@ -3063,6 +3072,8 @@ Unlock,解锁​​​​
 "If you are a registered VAT customer, please <a href=""%1"">click here</a> to enter your billing address for proper VAT calculation.","如果你是一个注册的增值税客户，请在这里输入“% 1”>，以进入你的账单地址，以进行适当的增值税计算。"
 "You saved the account information.",你保存的帐户信息。
 "Password confirmation doesn't match entered password.",确认密码与输入的密码不匹配。
+"The password doesn't match this account. Verify the password and try again.",密码不匹配此帐户。请验证密码，然后重试。
+"The email address is incorrect. Verify the email address and try again.",电子邮件地址不正确。请检查电子邮件地址，然后重试。
 "We're unable to send the password reset email.",我们无法发送重新设置密码的电子邮件。
 "Please enter your email.",请输入您的电子邮箱地址。
 "If there is an account associated with %1 you will receive an email with a link to reset your password.","如果与 %1 相关联的帐户，则您将收到电子邮件链接重置您的密码。"
@@ -3074,8 +3085,11 @@ Unlock,解锁​​​​
 "Something went wrong while saving the new password.",保存新密码时出了错。
 "You deleted the address.",你删除地址。
 "We can't delete the address right now.",我们现在不能删除该地址。
+"No files for upload.",没有要上传的文件。
+"Address not found.",地址未找到。
 "You saved the address.",你保存的地址。
 "We can't save the address.",我们不能保存地址。
+"There is no address id in setting default billing address.",在设置默认帐单地址时没有地址id。
 "You have revoked the customer's tokens.",你已吊销客户的令牌。
 "We can't find a customer to revoke.",我们找不到客户撤销。
 "Something went wrong while saving file.",保存选项时出现错误。
