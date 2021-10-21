@@ -696,7 +696,6 @@ Minute,分钟
 "Report an Issue",问题反馈
 Scope:,范围：
 "Stores Configuration",店铺配置
-"Please confirm scope switching. All data that hasn't been saved will be lost.",请确认范围开关。尚未保存的所有数据将都会丢失。
 "Additional Cache Management",额外的缓存管理
 "Flush Catalog Images Cache",刷新目录图片缓存
 "Pregenerated product images files",预先产生产品图片文件
@@ -732,6 +731,7 @@ Loading...,正在加载...
 Examples,示例
 "Use Default Value",使用默认值
 "We could not detect a size.",我们未能检测到的大小。
+"Please confirm scope switching. All data that hasn't been saved will be lost.",请确认范围开关。尚未保存的所有数据将都会丢失。
 "Warning message",警告消息
 "This operation can take a long time",此操作可能需要很长时间
 "Allow everything",允许所有
@@ -2201,10 +2201,8 @@ End,结束
 "Allow Qty Below 0 and Notify Customer","允许数量低于 0 并通知客户"
 "Unable to remove Stock with id ""%1""","无法删除编号id为 ""%1"" 的现货库存"
 "Unable to remove Stock Status for product %1","无法删除现货库存状态为 %1 的产品"
-"Not all of your products are available in the requested quantity.",不是所有的产品都在要求的数量。
-"The fewest you may purchase is %1.","您可以购买最少是 %1。"
 "Please correct the quantity for some products.",请更正一些产品的数量。
-"The most you may purchase is %1.","您最多可以购买的数量是 %1。"
+"The fewest you may purchase is %1.","您可以购买最少是 %1。"
 "We don't have as many ""%1"" as you requested, but we'll back order the remaining %2.","我们没有像很多""%1""作为你的要求，但是我们还回来订单剩余的 %2。"
 "We don't have ""%1"" in the requested quantity, so we'll back order the remaining %2.","我们没有""%1""在请求的数量，所以我们马上就回来订单剩余的 %2。"
 "You can buy %1 only in quantities of %2 at a time.","你可以一次买只在数量的 %2 %1。"
@@ -2361,7 +2359,6 @@ Path,路径
 "Catalog Products List",产品网格模板
 "List of Products",产品列表
 "Products Grid Template",产品网格模板
-"Invalid method: %1",支付失败邮件副本发送方式
 "My Cart (1 item)","我的购物车 (1 项)"
 "My Cart (%1 items)","我的购物车 (%1 项目)"
 "My Cart",我的购物车
@@ -2407,6 +2404,7 @@ Checkout,结帐
 "Sorry, guest checkout is not available.",对不起，客人结帐不是可用的。
 "You must confirm your account. Please check your email for the confirmation link or <a href=""%1"">click here</a> for a new link.","您必须确认您的帐户，请检查您电子邮件的确认链接或<a href=""%1"">点击此处</a>打开一个新的链接。"
 "Load customer quote error",加载客户报价单错误
+"Invalid method: %1",支付失败邮件副本发送方式
 Error!,错误!
 "DB exception","DB 异常"
 "Print receipt",打印收据
@@ -2884,13 +2882,13 @@ Select,选择
 "Create Product Configurations",创建产品配置
 "Buy %1 for %2 each and",为%2购买%1
 save,保存
+"Disable Product",禁用产品
+"Enable Product",可用产品
 "New Product Review",新产品审查
 "Here are the products you're about to create.",这里是你将要创建的产品。
 "You created these products for this configuration.",您为该配置创建了这些产品。
 "Disassociated Products",解除关联的产品
 "These products are not associated.",这些产品不是关联的。
-"Disable Product",禁用产品
-"Enable Product",可用产品
 "An attribute has been removed. This attribute will no longer appear in your configurations.",属性已被删除。此属性将不再显示在您的配置。
 "Select options for all attributes or remove unused attributes.",为所有属性选择选项或删除未使用的属性。
 "Choose this option to delete and replace extension data for all past configurations.",选择这个选项来删除和替换所有过去配置的扩展数据。
@@ -4663,7 +4661,6 @@ Reauthorize,批准
 "Integration '%1' has been sent for re-authorization.",集成'%1'已经被重新授权。
 "Integration '%1' has been sent for activation.",集成'%1'已经被发送到激活状态。
 "Something went wrong while deleting roles and permissions. You can find out more in the exceptions log.",在删除角色和权限时出现了问题。您可以在异常日志中找到更多。
-"This customer has no tokens.",该客户有没有标记。
 "One or more <a href=""%1"">integrations</a> have been reset because of a change to their xml configs.","一个或多个 <a href=""%1""> 集成</a> 到其 xml 配置改变已重置。"
 "Invalid Callback URL","无效的回调 URL"
 "Invalid Rejected Callback URL","无效的被拒绝的回调 URL"
@@ -5643,7 +5640,6 @@ Create...,创建...
 "Your credit card will be charged for",您的信用卡将被收费
 "Your billing agreement # is: ","你的账单协议号是: "
 "Please select a shipping method...",请选择送货方式...
-"Update Shipping Method",更新送货方式
 "Buy now with PayPal",使用Paypal支付
 "Edit Payment Information",编辑付款信息
 "Items in Your Shopping Cart",您的购物车中的商品
@@ -6969,7 +6965,6 @@ Complete,完成
 "Payment Review",付款的审查
 "Email has not been sent",尚未发送电子邮件
 "Authorized amount of %1","预授权的金额的 %1"
-" Transaction ID: ""%1""","交易记录 ID:""%1"""
 "Group was removed",删除组
 "Changing address information will not recalculate shipping, tax or other order amount.","更改地址信息将不重新计算航运、 税收或其他订单金额。"
 "No Payment Methods",没有付款方法
@@ -7562,7 +7557,6 @@ Track:,追踪
 "See our Shipping Policy",看到我们航运政策
 "Shipping Settings Section",运输方法部分
 "Shipping Policy Parameters Section",航运政策参数部分
-"Shipping Methods Section",运输方法部分
 "Shipping Settings",传送设置
 Origin,起源
 "Shipping Policy Parameters",航运政策参数
@@ -7690,11 +7684,11 @@ Includes,包括
 "Store with the same code",使用相同的代码存储
 "Website with the same code",使用相同代码的网站
 "Website code may only contain letters (a-z), numbers (0-9) or underscore (_), and the first character must be a letter.","网站代码可能只包含字母 (a-z)，数字 (0-9) 或下划线 (_)，第一个字符必须是字母。"
-"Name is required",名称是必需的
-"The store code may contain only letters (a-z), numbers (0-9) or underscore (_), and the first character must be a letter.","存储代码可能只包含字母(a - z)、数字(0 - 9)或下划线(_)，第一个字符必须是字母。"
 "Store is inactive",存储处于非活动状态
 "Invalid store parameter.",无效的存储参数。
 "Default store is inactive",默认存储处于非活动状态
+"The store code may contain only letters (a-z), numbers (0-9) or underscore (_), and the first character must be a letter.","存储代码可能只包含字母(a - z)、数字(0 - 9)或下划线(_)，第一个字符必须是字母。"
+"Name is required",名称是必需的
 "no such entity exception",没有这种实体异常
 "Your Language:",您的语言：
 "Your Language",你的语言
@@ -8129,6 +8123,7 @@ Themes,右栏2列
 "Insert File",插入文件
 welcome,欢迎
 "Design Configuration",系统配置
+"We cannot find a theme with id ""%1"".","我们找不到 id 为""%1""的主题。"
 "You deleted the theme.",你删除的主题。
 "We cannot delete the theme.",我们不能删除该主题。
 "File not found: ""%1"".","找不到文件:""%1""。"
@@ -8138,7 +8133,6 @@ welcome,欢迎
 "This theme is not editable.",这个主题不是可编辑的。
 "You saved the theme.",你保存主题。
 "We can't upload the CSS file right now.","我们现在不能上传的 CSS 文件。"
-"We cannot find a theme with id ""%1"".","我们找不到 id 为""%1""的主题。"
 "We can't upload the JS file right now.","我们现在不能上传 JS 文件。"
 "Sorry, something went wrong. That's all we know.",对不起，出了错。这是我们都知道。
 "Invalid type",无效的类型
@@ -8287,8 +8281,6 @@ Keyword,关键字
 "Please enter a valid URL Key (Ex: ""example-page"", ""example-page.html"" or ""anotherlevel/example-page"").","请输入一个有效的 URL 密钥 (Ex:""示例页面""、""示例-page.html""或""anotherlevel/示例-页"")。"
 "Please enter a valid zip code.",请输入一个有效的邮政编码。
 "Please select State/Province.",请选择省/市/自治区。
-"Please enter a value less than or equal to {0}.","请输入小于或等于 {0}。"
-"Please enter a value greater than or equal to {0}.","请输入一个值大于或等于 {0}。"
 "Please enter valid email addresses, separated by commas. For example, johndoe@domain.com, johnsmith@domain.com.",请输入有效的电子邮件地址，用逗号分隔。例如，johndoe@domain.com，johnsmith@domain.com。
 "Please enter issue number or start date for switch/solo card type.",请输入开关/个人卡类型的发出号码或开始日期。
 "Please enter positive number in this field.",请在此字段中输入正数。
@@ -9024,6 +9016,8 @@ Translate,翻译
 "Please enter at least {0} characters.","请输入至少 {0} 字符。"
 "Please enter a value between {0} and {1} characters long.","请输入一个值介于 {0} 至 {1} 字符长。"
 "Please enter a value between {0} and {1}.","请输入一个值 {0} 和 {1} 之间。"
+"Please enter a value less than or equal to {0}.","请输入小于或等于 {0}。"
+"Please enter a value greater than or equal to {0}.","请输入一个值大于或等于 {0}。"
 "Please enter a date between %min and %max.","请输入一个正确的天数 (1-%1)。"
 "Please enter a valid full date.",请输入一个有效的日期。
 "Please enter a valid month (1-12).","请输入有效的月份 (1-12)。"
