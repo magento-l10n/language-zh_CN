@@ -2921,7 +2921,7 @@ save,保存
 "To comply with the new e-Privacy directive, we need to ask for your consent to set the cookies.","为了遵守新的 e-隐私指令，我们需要问您同意设置的 cookie。"
 "<a href=""%1"">Learn more</a>.","<a href=""%1""> 了解更多</a>。"
 "Allow Cookies","允许使用 Cookie"
-"Default Cookie Settings","默认的 Cookie 设置"
+"Default Cookie Settings","默认 Cookie 设置"
 "Cookie Lifetime","Cookie 的有效期"
 "Cookie Path","Cookie 路径"
 "Cookie Domain","Cookie 域"
@@ -5105,6 +5105,7 @@ Error:,"错误： "
 "Subtotal (Incl. Tax)","小计 (含税)"
 "Subtotal (Excl. Tax)","小计 (不包括税)"
 "Shipping & Handling",运费和手续费
+"My Quotes",我的报价
 Qty:,数量：
 "Cannot save comment:\n%1",不能保存备注:%1
 Declined,已拒绝
@@ -5117,6 +5118,7 @@ Created:,已创建:
 "No shipping information available",没有可用的航运信息
 "Thank you,",谢谢
 "Cancel coupon",取消优惠券
+"Show My Quotes",显示我的报价
 "Go to Checkout",去结帐
 "Minimum Amount",最小金额
 "This message will be shown in the shopping cart when the subtotal (after discount) is lower than the minimum allowed amount.","低于的最小允许金额小计 (打折后) 时，将购物车中显示此消息。"
@@ -6241,7 +6243,7 @@ Rating,评分
 "Back to Product Reviews",回到产品评论
 "Please select one of each of the ratings above.",请选择上面的每个评级中的一个。
 "Allow Guests to Write Reviews",允许客人来写评论
-"Reward Points History",你可以奖励高达1%新评论（S）。
+"Reward Points History",积分历史记录
 "Expired reward",过期的奖励
 "No Data",没有数据
 "Currency Amount",数额
@@ -6460,7 +6462,7 @@ Split,切分
 "We can't create a return right now. Please try again later.",我们现在无法创建返回的权利。请稍后再试。
 "Return #%1","返回 #%1"
 "Cannot add message.",不能添加消息。
-"My Returns",我返回
+"My Returns",我的退换货
 "Tracking Information",跟踪信息
 "Page not found",找不到页面
 "Please check this order for errors.",请检查此命令的错误。
