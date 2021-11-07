@@ -104,7 +104,7 @@ Configure,配置
 "Add Products to Order",将产品添加到订单
 "<span><span id=""sku-attention-num"">%1</span> product(s) require attention.</span>","<span><span id=""sku-attention-num"">%1</span> 产品需要注意。</span>"
 "Remove All",删除所有
-"Only %1%2%3 left in stock","仓库中只余有 %1%2%3"
+"Only %1%2%3 left in stock","库存中只剩 %1%2%3件"
 "You can buy up to %1 of these per purchase.","每次购买，您最多可以购买 %1。"
 "You must buy at least %1 of these per purchase.",每次购买，您必须购买至少%1。
 "Specify the product's options.",指定的产品选项。
@@ -2209,7 +2209,7 @@ End,结束
 "You can buy this product only in quantities of %1 at a time.","你可以一次买这种产品只在 %1 的数量。"
 "Stock Status",现货库存状态
 "%1 is available to buy in increments of %2","%1 是 %2 的可购买的增量"
-"Only %1 left","只有 %1 左"
+"Only %1 left",只剩%1件
 "Product availability",产品的可用性
 "Inventory Section",库存类目
 "Stock Options",股票期权
@@ -2217,7 +2217,7 @@ End,结束
 "Set Items' Status to be In Stock When Order is Cancelled","当订单取消时，将物品的状态设置为库存状态。 "
 "Display Out of Stock Products",显示库存产品
 "Products will still be shown by direct product URLs.","产品仍将通过直接产品 Url 所示。"
-"Only X left Threshold","只留下阈值的 X"
+"Only X left Threshold","只剩 X 件的阈值"
 "Display Products Availability in Stock on Storefront",在店面上显示产品的可用性
 "Product Stock Options",产品股票期权
 "Please note that these settings apply to individual items in the cart, not to the entire cart.",请注意，这些设置适用于购物车中的单个物品，不适用整个购物车。
