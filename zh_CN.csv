@@ -12,6 +12,7 @@ None,无
 "This item needs to be assigned to a store view. Assign item and try again.",此项目需要分配给商店视图。分配此项，然后重试。
 "More permissions are needed to save this item.",保存此设置需要更多权限。
 "More permissions are needed to delete this item.",删除此项需要更多权限。
+"Not allowed to edit the category's design attributes",不允许编辑该类别的设计属性
 "At least one website or store group needs to be selected. Select and try again.",至少需要选择一个网站或商店群组。选择然后重试。
 "More permissions are needed to set All Scopes to a Role.",将所有作用范围设置给角色需要更多权限。
 "The ""%1"" website ID is incorrect. Verify the website ID and try again.","""%1"" 商店ID不正确。验证商店ID，然后重试。"
@@ -4595,7 +4596,7 @@ User,用户
 "Update on Save",更新保存
 "Reindex required",重新建立索引需要
 Ready,准备好了
-Processing,处理
+Processing,处理中
 "%1 index is locked by another reindex process. Skipping.",%1的索引被另一个重新索引过程锁定。正在跳过。
 "Index Management",索引管理
 "Please select indexers.",请选择索引器。
@@ -5878,13 +5879,56 @@ Duration:,持续时间︰
 "Edit Catalog Price Rules",编辑目录价格规则。
 "Edit Cart Price Rules",编辑购物车价格规则
 "Edit Automated Email Reminder Rules",编辑自动电子邮件提醒规则
-"Product that you are trying to add is not available.",您试图添加的产品不可用。
-"This is the wrong quote item id to update configuration.","这是要更新配置的错误报价项目 id。"
-"This shipping method is not available. To use this shipping method, please contact us.",这种运输方法不可用。若要使用此航运的方法，请联系我们。
-"The address model is not defined.",未定义地址模型。
+"Quick Order",快速订购
+"Page not found.",找不到页面。
+"There is no items to delete",没有要删除的项目
+"Cannot update item list.",无法更新项目列表。
+"Entered list is empty.",输入的列表是空的。
+"You entered item(s) with an empty SKU.",您输入了一个SKU为空的项目。
+"The uploaded CSV file does not contain a column labelled SKU. Make sure the first column is labelled SKU and that each line in the file contains a SKU value. Then upload the file again.","上传的 CSV 文件不包含标注为 SKU的一列。 请确保第一列被标签为 SKU ，文件中的每一行都包含 SKU 值。然后再次上传文件。"
+"An error occurred. For details, see the error log.",发生错误。详细信息请参阅错误日志。
+"You should correct the quantity for the product.",您应该更正产品的数量。
+"The SKU is out of stock.",SKU缺货。
+"We don't have the quantity you requested.",我们没有您请求的数量。
+"The file could not be uploaded because it is in the wrong format. Please select a CSV file to upload.","无法上传文件，因为它格式错误。请选择要上传的 CSV 文件。"
+"Add from File",从文件添加
+"File must be in .csv format and include ""SKU"" and ""QTY"" columns","文件必须为 .csv 格式，并包含 ""SKU"" 和 ""QTY"" 列"
+"Choose File",选择文件
+"Enter Multiple SKUs",输入多个SKUs
+"Use commas or paragraph to separate SKUs.",使用逗号或段落分隔SKU。
+"Add to List",添加到列表
+"Order by SKU",按SKU排序
+"Enter SKU or Product Name",输入SKU或产品名称
+" product(s) require(s) your attention."," 产品（s）需要您注意。"
+"Enable Quick Order",启用快速订购
+"Download Sample",下载示例
+"The address failed to save. Verify the address and try again.",地址保存失败。请验证地址并重试。
+"The product quantity should be greater than 0","商品数量应该大于 0"
+"Could not find a product with SKU ""%sku""","找不到 SKU ""%sku"" 的产品"
+"Wrong format of the entered option data",输入选项数据的格式错误
+"Required fields are not present: sku, quantity","所需字段不存在：sku, 数量"
+"Required fields are not present EnteredOption.uid, EnteredOption.value","必填字段不存在 EnteredOption.uid, EnteredOption.value"
+"The ""%1"" Cart doesn't contain products.","""%1"" 购物车不包含商品。"
+"Cart isn't assigned to correct store",购物车没有分配给正确的商店
+"'The coupon code couldn't be applied: ' .","'优惠券代码无法应用: '"
+"The coupon code couldn't be applied. Verify the coupon code and try again.",优惠券代码无法应用。请验证优惠券代码并重试。
+"The coupon code isn't valid. Verify the code and try again.",优惠券代码无效。请验证代码，然后重试。
+"The coupon code couldn't be deleted. Verify the coupon code and try again.",优惠券代码无法删除。请验证优惠券代码，然后重试。
+"You don't have the correct permissions to assign the customer to the cart.",您没有正确的权限分配客户到购物车。
+"The shipping address is missing. Set the address and try again.",运输地址缺失。请设置地址，然后重试。
+"The requested Payment Method is not available.",请求的付款方法不可用。
+"We found an invalid request for adding product to quote.",我们发现无效的添加产品以引号的请求。
+"Product that you are trying to add is not available.",您正在尝试添加的产品不可用。
+"This is the wrong quote item id to update configuration.","这是更新配置的错误报价项目 id。"
+"This shipping method is not available. To use this shipping method, please contact us.",此配送方式不可用。要使用此配送方式，请联系我们。
+"The address model is not defined.",地址模型未定义。
 "The address total model should be extended from
-                    \Magento\Quote\Model\Quote\Address\Total\AbstractTotal.","地址总模型应该从 \Magento\Quote\Model\Quote\Address\Total\AbstractTotal 扩展。"
-"Shipping & Handling (%1)","航运及处理 (%1)"
+                    \Magento\Quote\Model\Quote\Address\Total\AbstractTotal.","地址总模型应该从
+                    \Magento\Quote\Model\Quote\Address\Total\AbstractTotal."
+"Grand Total",总计
+"Shipping & Handling (%1)","配送和处理 (%1)"
+"Shipping & Handling",配送和处理
+Shipping,发货
 "We found an invalid item option format.",我们发现无效项目选项的格式。
 "Item qty declaration error",项目数量宣言错误
 "Some of the products below do not have all the required options.",一些下面的产品并没有所需的选项。
@@ -5893,16 +5937,69 @@ Duration:,持续时间︰
 "Some of the selected options are not currently available.",某些选定的选项当前不可用。
 "Selected option(s) or their combination is not currently available.",所选的选项或它们的组合不是当前可用的。
 "Some item options or their combination are not currently available.",一些项目选项或它们的组合不是当前可用的。
+"The %1 Cart doesn't contain the %2 item.","%1 购物车不包含 %2 项。"
+"The quote couldn't be saved.",无法保存报价。
+"""%fieldName"" is required. Enter and try again.","""%fieldName"" 是必需的。输入然后再试一次。"
+"The item couldn't be removed from the quote.",无法从报价中删除该项目。
 "The qty value is required to update quote item.",更新引用项需数量值。
 "Minimum order amount is %1","最小起订量是 %1"
 "Invalid customer id %1","无效的客户 id %1"
 "Invalid customer address id %1","无效的客户 id %1"
 "Invalid address id %1","无效地址 id %1"
+"The quote can't be created.",无法创建报价。
+"The customer can't be assigned to the cart. The cart belongs to a different store.",客户不能分配到购物车。购物车属于另一家商店。
+"The customer can't be assigned to the cart because the cart isn't anonymous.",客户不能被分配到购物车，因为购物车不是匿名的。
+"A server error stopped your order from being placed. Please try to place your order again.",服务器错误阻止您的订单被放置。请尝试再次下单。
 "Invalid state change requested",请求的状态更改无效
 "Only 1 shipping assignment can be set",只能设置1个发货任务。
 "This item price or quantity is not valid for checkout.",这个项目的价格或数量是无效的。
+"Something went wrong. Please try to place the order again.",出错了。请尝试再次下单。
+"The Cart includes virtual product(s) only, so a shipping address is not used.",购物车只包含虚拟产品(s)，所以没有使用送货地址。
+"The shipping method can't be set. %1","无法设置配送方式。 %1"
+"The shipping method can't be set for an empty cart. Add an item to cart and try again.",不能为空购物车设置配送方式。将项目添加到购物车，然后重试。
+"Failed address validation:\n%1","地址验证失败：\n%1"
+"Current customer does not have an active cart.",当前客户没有活动购物车。
+"Entity Id does not exist",实体ID不存在
 Carts,购物车
 "Manage carts",管理购物车
+"Enable Inventory Check On Cart Load",启用购物车负载时的库存检查
+"Some addresses can't be used due to the configurations for specific countries.",某些地址因为指定国家的配置而无法使用。
+"Please check the shipping address information.",请检查配送地址信息。
+"Please check the billing address information.",请检查账单地址信息。
+"Enter a valid payment method and try again.",输入一个有效的付款方法，然后重试。
+"Shopping cart error: %message",购物车错误：%message
+"Could not add the product with SKU %sku to the shopping cart: %message","无法将带有SKU %sku 的产品添加到购物车: %message"
+"Missing key ""sku"" in cart item data","购物车项目数据中缺少密钥""sku"""
+"Missing key ""qty"" in cart item data",购物车项目数据中缺少密钥“qty”
+"Could not find a cart with ID ""%masked_cart_id""","找不到ID为 %masked_cart_id的购物车"
+"Current user does not have an active cart.",当前用户没有活动购物车
+"The current user cannot perform operations on cart ""%masked_cart_id""","当前用户无法在购物车""%masked_cart_id""上执行操作"
+"Could not find a cart address with ID ""%cart_address_id""","找不到带有ID的购物车地址""%cart_address_id"""
+"The current user cannot use cart address with ID ""%cart_address_id""","当前用户不能使用带有ID的购物车地址 ""%cart_address_id"""
+"The billing address must contain either ""customer_address_id"" or ""address"".","账单地址必须包含""customer_address_id""或""address""。"
+"The billing address cannot contain ""customer_address_id"" and ""address"" at the same time.","账单地址不能同时包含 ""customer_address_id"" 和 ""地址""。"
+"Using the ""use_for_shipping"" option with multishipping is not possible.","使用 ""use_for_shiping"" 选项与多配送是不可能的。"
+"You cannot specify multiple shipping addresses.",您不能指定多个送货地址。
+"The shipping address must contain either ""customer_address_id"" or ""address"".","送货地址必须包含""customer_address_id""或""address""。"
+"The shipping address cannot contain ""customer_address_id"" and ""address"" at the same time.","送货地址不能同时包含 ""customer_address_id"" 和 ""地址""。"
+"You cannot specify multiple shipping methods.",您不能指定多个配送方式。
+"Required parameter ""cart_address_id"" is missing.",缺少所需参数“cart_address_id”。
+"Required parameter ""carrier_code"" is missing.","缺少必填的参数 ""carrier_code"" 。"
+"It is impossible to log user action",无法记录用户动作
+"An error occurred while logging process.",日志记录过程中发生错误。
+"Release Notification",发布通知
+"Sorry, we had a problem loading our “What’s new” content.",抱歉，加载我们的“新内容”时出现问题。
+"
+                        <p>We’ll try to show it again the next time you sign in to Magento Admin.</p>
+                        <p>To learn more about new features, see our latest Release Notes in
+                        <a href=""https://devdocs.magento.com/magento-release-information.html""
+                        target=""_blank"">DevDocs' Release Information</a>.
+                        </p>","
+                        <p>我们将在下次登录到 Magento 管理员时再次显示它。</p>
+                        <p>了解更多关于新功能的信息 查看我们最新发布的说明载于
+                        <a href=""https://devdocs.magento.com/magento-release-information.html""
+                        target=""_blank"">DevDocs发布信息</a>
+                        </p>"
 "This rule is assigned to %1 automated reminder rule(s). Deleting this rule will automatically unassign it.","此规则分配给%1 自动提醒规则，删除此规则将自动取消它。"
 "Automated Email Marketing Reminder Rules",自动电子邮件营销提醒规则
 "Are you sure you want to match this rule now?",你确定你想要现在匹配此规则?
@@ -5914,6 +6011,7 @@ Carts,购物车
 "Matched At",在匹配
 "Thread Active",线程活动
 Coupon,折扣券
+N/A,无
 "Coupon Use Limit",优惠券使用限制
 "Coupon Use Per Customer",每个客户的优惠券使用
 "Emails Sent",发送电子邮件
@@ -5960,6 +6058,7 @@ for,为
 subtotal,小计
 "grand total",总计
 "Shopping cart %1 amount %2 %3:","购物车 %1 金额 %2 %3:"
+"The quote total specified is unknown. Verify the total and try again.",指定的报价总额未知。请验证总数，然后重试。
 "Numeric Attribute",数字属性
 weight,重量
 "row weight",行重
@@ -5967,6 +6066,7 @@ quantity,数量
 "base price",基价
 "base cost",基本费用
 "Item %1 %2 %3:","项目 %1 %2 %3:"
+"The attribute specified is unknown. Verify the attribute and try again.",指定的属性未知。请验证属性，然后重试。
 "Items Subselection",项目部分选定
 "Coupon Code",优惠劵
 "Shopping cart %1 a coupon applied","购物车 %1 应用优惠券"
@@ -5991,6 +6091,8 @@ is,是
 "The item was added to wish list %1, store view %2.","该项目被添加到愿望清单 %1，存储视图 %2。"
 "If an item is %1 in the wish list and %2 of these conditions match:","如果一个项目是在愿望清单与这些条件匹配的 %2 %1:"
 "Condition type is unexpected",条件类型是意外
+"The valid number of minutes needs to be entered. Enter and try again.",需要输入有效的分钟数。请输入然后重试。
+"The Cron expression was unable to be saved.","Cron 表达式无法保存。"
 "<b>Important</b>: If you select ""Use Auto Generation"", this rule will no longer be used in any automated email reminder rules for abandoned carts","< b >重要的< / b >:如果你选择“使用自动生成”，这条规则将不再适用于任何自动电子邮件提醒规则"
 "Validate error 1",验证错误2
 "Validate error 2",验证错误2
@@ -6063,6 +6165,8 @@ Carrier/Method,载体的方法
 "Wish List vs. Regular Order","愿望清单 vs 常规顺序"
 "Times Deleted",删除的次数
 "Index type is not valid",索引类型无效
+Never,从不使用
+"Last updated: %1. To refresh last day's <a href=""%2"">statistics</a>, click <a href=""#2"" data-post=""%3"">here</a>.","最后更新： %1。要刷新昨天的 <a href=""%2"">统计</a>，请点击 <a href=""#2"" data-post=""%3"">这里</a>。"
 "New Accounts Report",新帐户报告
 "Customers by Number of Orders",客户订单号
 "Order Count Report",订单计数报告
@@ -6097,11 +6201,13 @@ Statistics,统计数据
 "You refreshed lifetime statistics.",你刷新生存时间统计。
 "Recent statistics have been updated.",最近的统计数据进行了更新。
 "We can't refresh recent statistics.",我们不能刷新最近的统计数据。
+"System configuration is not found for report event type ""%1""",未找到报表事件类型“%1”的系统配置
 "The product type filter specified is incorrect.",指定的产品类型筛选器是不正确的。
 "Order Taxes Report Grouped by Tax Rates",订单税报表按税率
 "Total Invoiced VS Paid Report","总开票 VS 支付报告"
 "Promotion Coupons Usage Report",促销优惠券使用报告
 "Most Viewed Products Report",浏览最多的产品报告
+"Disable Notice",禁用通知
 "Show By",通过显示
 "Select Date",选择日期
 "Customers that have Wish List: %1","有愿望清单的客户:% 1"
@@ -6124,6 +6230,21 @@ Refunds,退款
 "Year-To-Date Starts",年--日期开始
 "Current Month Starts",当前月份开始
 "Select day of the month.",选择一个月的一天。
+"General Options",一般选项
+"Enable Reports",启用报告
+"If disabled, all report events will be disabled",如果禁用，将禁用所有报表事件
+"Enable ""Product View"" Report","启用""产品视图""报告"
+"If enabled, will collect statistic of viewed product pages",如果启用，将收集已查看产品页面的统计
+"Enable ""Send Product Link To Friend"" Report","启用""发送产品链接到朋友""报告"
+"If enabled, will collect statistic of product links sent to friend",如果启用，将收集发送给朋友的产品链接统计
+"Enable ""Add Product To Compare List"" Report","启用""添加产品以比较列表""报告"
+"If enabled, will collect statistic of products added to Compare List",如果启用，将收集添加到比较列表中的产品的统计数据
+"Enable ""Product Added To Cart"" Report","启用""产品添加到购物车""报告"
+"If enabled, will collect statistic of products added to Cart",如果启用，将收集添加到购物车的商品统计
+"Enable ""Product Added To WishList"" Report","启用""产品添加到愿望清单""报告"
+"If enabled, will collect statistic of products added to WishList",如果启用，将收集添加到愿望单中的产品的统计数据
+"Enable ""Share WishList"" Report","启用""共享愿望清单""报告"
+"If enabled, will collect statistic of shared WishLists",如果启用，将收集共享愿望清单的统计数据
 "Stock Quantity",库存数量
 "Ordered Quantity",订购的数量
 "The report displays the top 5 most viewed products for each interval.","报告显示每个时间间隔的前 5 个最受欢迎的产品。"
@@ -6140,15 +6261,89 @@ Refunds,退款
 "Are you sure you want to refresh lifetime statistics right now? This operation may slow down your customers' shopping experience.",你确定你想要现在刷新生存时间统计?此操作可能会放慢您的客户的购物体验。
 "Refresh Statistics for the Last Day",最后一天刷新统计信息
 "Are you sure you want to refresh statistics for the last day?",你确定你想要的最后一天刷新统计信息?
+"My Requisition Lists",我的请购清单
+"We couldn't find the requested requisition list.",我们找不到请求的请购清单。
+"We can't update your requisition list right now.",我们现在无法更新您的请购清单。
+"We can't add the item to the Requisition List right now: %1.","我们现在不能将该项目添加到请购清单中: %1。"
+"We couldn't find the product you requested to add to your requisition list.",我们找不到您请求添加到您的请购清单中的产品。
+"You added %1 item(s) to your shopping cart.","您已将 %1 个物品添加到您的购物车。"
+"Invalid request, missing parameter list_id",无效请求，缺少参数列表id
+"Invalid request, please try again.",请求无效，请重试。
+"Product with requested SKU could not be found.","找不到请求的 SKU 产品。"
+"The product",产品
+"%1 could not be added to the ""%2"" requisition list.","无法将 %1 添加到 ""%2的请购清单。"
+"%1 could not be added to the requisition list.","无法将 %1 添加到请购清单。"
 "We can't configure the product right now.",我们现在不能配置该产品。
+"%1 item(s) were copied to %2","%1 个物品已复制到 %2"
+"%1 item(s) were added to the ""%2""","%1 项被添加到""%2"""
+"%1 item(s) were moved to %2","%1 个物品被移动到 %2"
+"The requisition list does not exist.",请购清单不存在。
+"All items in your Shopping Cart could not be added to the ""%1"" requisition list.","无法将购物车中的所有项目添加到""%1""的请购清单。"
+"One or more products in your Shopping Cart is invalid.",您购物车中的一个或多个商品无效。
+"Requisition Lists",请购清单
+"Requisition List",请购清单
 "Invalid item option format.",无效的项目选项的格式。
+"Could not save Requisition List",无法保存请购清单
+"Cannot delete Requisition List with id %1","无法删除id为 %1 的请购清单"
+"Requested product doesn't exist",请求的产品不存在
 "Cannot specify product.",不能指定产品。
+"%1 has been updated in your requisition list.","%1 已在您的请购清单中更新。"
+"Product %1 has been added to the requisition list %2.","产品 %1 已添加到请购清单 %2。"
+"Options were updated. Please review available configurations.",选项已更新。请检查可用的配置。
+"The requested qty is not available",请求的数量不可用
+"Could not save Requisition List. Maximum number of requisition lists was exceeded.",无法保存请购清单。已超出请购清单的最大数量。
+"Could not save requisition list. Invalid data provided",无法保存请购清单。提供的数据无效
 Exception,例外
+"Warning message.",警告信息。
+"No such requisition list could be found.",找不到这种请购清单。
+"Not found",找不到
 "Could not save",无法保存
+"Exception Message",异常消息
+"Add to Requisition List",添加到请购清单
+"Add Shopping Cart to Requisition List",添加购物车到请购清单
+"Update Requisition List",更新请购清单
+"Create Requisition List",创建请购清单
+"%1 has been added to the ""<a href=""%2"">%3</a>"" requisition list.","%1 已被添加到 ""<a href=""%2"">%3</a>""请购清单。"
+"All the items in your Shopping Cart have been added to the ""%1"" requisition list.","您购物车中的所有物品都已添加到""%1""的请购清单。"
+"Create New Requisition List",创建新的请购清单
+Rename,重命名：
+"Rename Requisition List",重命名请购清单
+"in requisition list",在请购清单
+"Update List",更新列表
+"Delete Requisition List",删除请购清单
+"You have no items in this requisition list.",您在此请购清单中没有项目。
 "Edit item",编辑项目
+"With Selected",选中的
+"Copy Selected",复制选中的
 Copy,复制
+"Move Selected",移动选中的
+"Remove Selected",移除选中项
+"Are you sure you would like to remove selected items from the requisition list?",您确定要从请购清单中删除选定的项目吗？
+"product(s) require your attention","产品(s) 需要您注意。"
+"Requisition List Name",请购清单名称
+"The shopping cart isn't empty",购物车不是空的
+"You have items in your shopping cart. Would you like to merge items in this order with items of this shopping cart or replace them?",您的购物车中有商品。您想要将此订单中的商品与此购物车中的商品合并或替换它们吗？
+"Select Cancel to stay on the current page.",选择取消保留在当前页面。
+Merge,合并
+"Add item to requisition list",添加项目到请购清单
+"The item ""%1"" is already in the ""%2"" requisition list.","项目 ""%1已在 ""%2"" 请购清单中。"
+"Quantities for identical items will be combined.",相同项目的数量将被合并。
+"Add item",添加项目
+"Add items to requisition list",添加项目到请购清单
+"Some items in your Shopping Cart are already in the %1 requisition list.","您购物车中的一些商品已经在 %1 请购清单中。"
+"Add items",添加项目
 Ok,OK
-"Save Review",保存评价
+"Cannot Perform the Requested Action",无法执行请求的操作
+"This action cannot be performed because the selected product(s) require attention. You must resolve these issues before you can continue.",此操作无法执行，因为所选产品需要注意。您必须解决这些问题才能继续。
+"Please Select Product",请选择产品
+"Please select at least one product to proceed.",请选择至少一个产品以继续。
+"Requisition List Section",请购清单部分
+"Enable Requisition List",启用请购清单
+"Number of Requisition Lists",请购清单数量
+"The number of requisition lists should be equal or more than 2.",请购清单的数目应等于或超过2个。
+"Name & Description",名称和描述
+"Latest Activity",最新活动
+"Save Review",保存评论
 "New Review",新的审查
 "Review Details",查看详细信息
 "Product Rating",产品评级
@@ -6191,11 +6386,13 @@ Author,作者
 "Reviews %1","点评 %1"
 "The review has been deleted.",审查已被删除。
 "Something went wrong  deleting this review.",删除这篇评论是错误的。
+"You don’t have permission to perform this operation. The selected review must be in Pending Status.",您无权执行此操作。所选评论必须处于等待状态。
 "Customer Reviews",客户评论
 "Edit Review",编辑审阅
 "We can't retrieve the product ID.","我们无法检索产品 id。"
 "Please select review(s).",请选择审核(s)。
 "Something went wrong while deleting these records.",删除这些记录时出现错误。
+"You don’t have permission to perform this operation. Selected reviews must be in Pending Status only.",您无权执行此操作。所选评论必须仅处于等待状态。
 "Something went wrong while updating these review(s).",在更新这些评论时出现了一些问题。
 "You saved the review.",你保存的审查。
 "Something went wrong while saving this review.",保存此审查时出了错。
@@ -6208,6 +6405,7 @@ Ratings,评级
 
 你提交了你的审核报告。 "
 "We can't post your review right now.",我们现在不能发表您的评论。
+"The storage key wasn't set. Add the storage key and try again.",未设置存储密钥。添加存储密钥然后重试。
 Approved,已批准
 "Not Approved",未获批准
 "Please enter a review summary.",请输入回顾性总结。
@@ -6242,6 +6440,7 @@ Rating,评分
 "Product Review (submitted on %1):","产品审查 (提交的关于 %1):"
 "Back to Product Reviews",回到产品评论
 "Please select one of each of the ratings above.",请选择上面的每个评级中的一个。
+Enabled,已启用
 "Allow Guests to Write Reviews",允许客人来写评论
 "Reward Points History",积分历史记录
 "Expired reward",过期的奖励
@@ -6249,6 +6448,7 @@ Rating,评分
 "Currency Amount",数额
 "Reward Points Threshold",积分
 "Reward Points Cap",奖励积分上限
+"Are you sure you want to delete these points?",您确定要删除这些点吗？
 "Delete Orphan Points",删除孤儿点
 "Update Reward Points Balance",更新奖励积分平衡
 "Update Points",更新点
@@ -6293,6 +6493,8 @@ Direction,方向
 "Earned promotion extra points from order #%1","赚取推广加分从订单 #%1"
 "%1 store reward points available (%2)","%1 存储奖励积分可用 (%2)"
 "%1 store reward points available","%1 存储奖励积分可用"
+"Sign in now and earn %1 for this order.","立即登录并以此订单赚取 %1。"
+"You can't use more store credit than the order amount.",您不能使用比订单金额更多的商店积分。
 "%1 was deducted because of refund.","%1 是因为退款中扣除。"
 "The action ID you enter must be a number.","您输入的操作 ID 必须为数字。"
 "You don't have enough reward points to pay for this purchase.",你没有足够支付这购买的奖励积分。
@@ -6300,8 +6502,12 @@ Direction,方向
 "Currency to Points",货币对点
 Each,每个
 First,第一
+"The ""Minimum Reward Points Balance"" is invalid. The balance needs to be a positive number or left empty. Verify and try again.","""最低奖励积分平衡""无效。余额必须是正数或留空。验证后重试。"
+"The ""Cap Reward Points Balance"" is invalid. The balance needs to be a positive number or left empty. Verify and try again.","""章奖励积分平衡""无效。余额必须是正数或留空。验证后重试。"
+"The ""Minimum Reward Points Balance"" is invalid. The balance needs to be less than or equal to the ""Cap Reward Points Balance"".","""最低奖励积分平衡""无效。余额必须小于或等于 ""Cap奖励积分平衡""。"
 "Customer earned promotion extra %1.","客户获得促进额外的 %1。"
 "The customer earned %1 for this order.","客户赢得这份订单 %1。"
+"Reward points should be a valid integer number.",奖励积分应该是一个有效的整数。
 "Reward Points Balance",奖励积分平衡
 "upper boundary",上边界
 "Refund Reward Points",退款奖励积分
@@ -6369,6 +6575,10 @@ Registration,注册
 "Check out now and earn %1 for this order.","现在退房和赚取 %1 此订单。"
 "Create an account on our site now and earn %1.","现在在我们的网站上创建帐户，赚取 %1。"
 "Subscribe to our newsletter now and earn %1.","现在订阅我们的时事通讯，赚取 %1。"
+"Send this invitation now and earn %1 when your invitee signs up on our site.","现在发送此邀请，并在您的受邀者在我们的网站上注册时赚取 %1。"
+"You can reward up to %1 invitee registration(s).","您可以奖励最多 %1 个邀请注册(s)。"
+"Earn %1 for purchases your invitees make.","购买受邀者赚取 %1。"
+"You can reward up to %1 invitee purchase(s).","您可以奖励最多 %1 个被邀请购买者。"
 "Submit a review now and earn %1 after the review is approved.","现在提交审查报告和审查批准后获得 %1。"
 "You can reward up to %1 new reviews(s).","你可以到 %1 新点评 (s) 奖励。"
 Return,返回
@@ -6400,6 +6610,7 @@ Split,切分
 "Return Item Attribute",返回产品属性
 "Edit Return Item Attribute ""%1""","编辑属性返回项目""%1"""
 "New Return Item Attribute",新返回项属性
+"Comma separated. Forbidden file extensions: %1.","逗号分隔。禁止文件扩展名： %1"
 "Submit Returns",提交申报表
 "Add Selected Product(s) to returns",添加所选产品返回到
 "Remaining Qty",剩余数量
@@ -6432,6 +6643,7 @@ Split,切分
 "You saved the RMA item attribute.","你保存 RMA 项目属性。"
 "Something went wrong while saving the RMA item attribute.","保存 RMA 项目属性时出了错。"
 "An attribute with the same code already exists.",已存在具有相同的代码属性。
+"Please correct the value for file extensions.",请更正文件扩展名的值。
 "The wrong RMA item was requested.","错误的 RMA 项目要求。"
 "We cannot display the item attributes.",我们不能显示项目属性。
 "There are no applicable items for return in this order.",没有适用的项目，按此顺序返回。
@@ -6467,6 +6679,8 @@ Split,切分
 "Page not found",找不到页面
 "Please check this order for errors.",请检查此命令的错误。
 "Contact Email Address",联系人电子邮件地址
+"Could not save the RMA comment.","无法保存 RMA 评论。"
+"Could not delete the RMA comment.","无法删除 RMA 评论。"
 "Only one RMA is available for printing","只有一个 RMA 是可用于打印"
 "Return # ","返回 #"
 "Return Date: ",返回日期:
@@ -6484,6 +6698,8 @@ Split,切分
 "You entered an invalid email address: ""%1"".","您输入一个无效的电子邮件地址:""%1""。"
 "You entered an invalid hostname: ""%1""","您输入了无效的主机名:""%1"""
 """%1"" is longer than allowed.","""%1""是超出允许的长度。"
+"The label cannot be created for '%1' because the product does not exist in the system.","无法为 '%1' 创建标签，因为该产品在系统中不存在。"
+"The service is unknown. Verify the service and try again.",服务未知。请验证服务，然后重试。
 "We can't save this RMA. No items were specified.","我们不能保存此 RMA。不指定的任何项目。"
 "Partially Authorized",部分授权
 "Return Received",收到的回报
@@ -6493,6 +6709,7 @@ Split,切分
 Denied,否认
 "Processed and Closed",处理和关闭
 "This is the wrong RMA item status.","这是错的 RMA 项目状态。"
+"We placed your Return request.",我们提出了您的退货请求。
 "We authorized your Return request.",我们授权您返回的请求。
 "We partially authorized your Return request.",我们部分授权您返回的请求。
 "We received your Return request.",我们收到您返回的请求。
@@ -6502,12 +6719,18 @@ Denied,否认
 "We closed your Return request.",我们关闭您返回的请求。
 "We processed and closed your Return request.",我们处理和关闭你返回的请求。
 "ID cannot be an empty","ID 不能为空"
+"The entity that was requested doesn't exist. Verify the entity and try again.",请求的实体不存在。请验证该实体，然后重试。
+"Could not save the RMA entity.","无法保存 RMA 实体。"
+"Could not delete the RMA entity.","无法删除 RMA 实体。"
 "Please enter a valid comment.",请输入有效的注释。
 "No such entity with %1 = %2, %3 = %4","没有实体 %1 = %2，%3 = %4"
+"The ""%1"" carrier is invalid. Verify and try again.","""%1"" 运营商无效。验证并重试。"
 "We need more information to create your shipping label(s). Please verify your store information and shipping settings.",我们需要更多的信息来创建您的运输标签。请验证您的存储信息和航运设置。
 "No detail for number ""%1""","没有详细的号码""%1"""
 "Shipment does not exists.",出货不存在。
 "We can't load track with retrieving identifier right now.",我们不能加载跟踪记录与现在检索标识符。
+"Could not save the RMA tracking.","无法保存 RMA 跟踪。"
+"Could not delete the RMA tracking.","无法删除 RMA 跟踪。"
 "No detail for number ""' . . '""","没有详细的数量""'......'"""
 "All Items",所有项目
 "Individual Items",个别项目
@@ -6573,9 +6796,12 @@ Answers,答案
 "%store_name : New Return #%increment_id","%store_name： 新返回 #%increment_id"
 "Your return request has been updated. Please see below.",已更新您返回的请求。请参见下文。
 "You can check the status of your return by <a href=""%account_url"">logging into your account</a> or <a href=""%form_url"">using your order number</a>.","您可以通过 <a href=""%account_url""> 登录到您的帐户</a> 或 <a href=""%form_url""> 使用您的订单号</a> 检查你回来的状态。"
+"If you have any questions, please feel free to contact us at <a href=""mailto:%support_email"">%support_email</a> or by phone at <a href=""tel:%store_phone"">%store_phone</a>","如果您有任何疑问，请随时通过 <a href=""mailto:%support_email"">%support_email</a> 或通过电话 <a href=""tel:%store_phone"">%store_phone</a> 联系我们"
 "Your Return #%increment_id - %status_label","你返回的 #%increment_id-%status_label"
+"%store_name: New Return #%increment_id","%store_name: 新返回 #%increment_id"
 "You can check the status of your return <a href=""%form_url"">using your order number</a>.","你可以检查，您 <a href=""%form_url""> 使用您的订单号</a> 的返回状态。"
 "If you have any questions about your return, please contact us at <a href=""mailto:%support_email"">%support_email</a>.","如果您对您的回报有任何疑问，请致电 <a href=""mailto:%support_email""> %support_email</a>。"
+"%store_name: Return #%increment_id update","%store_name: 返回 #%increment_id 更新"
 "We received your return request. You will be notified when your request is reviewed.",我们收到您返回的请求。审查您的请求时，您将收到通知。
 "Placed on %created_at","放在 %created_at"
 "Click Details for more required fields.",对于更多所需字段单击详细信息。
@@ -7048,7 +7274,7 @@ Complete,完成
 "Print All Refunds",打印所有退款
 "Refund #","退款 #"
 "Print Refund",打印退款
-"Print Order",打印顺序
+"Print Order",打印订单
 "Print All Invoices",打印所有发票
 "Invoice #",发票号码
 "Print Invoice",打印发票
