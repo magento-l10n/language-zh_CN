@@ -6582,7 +6582,7 @@ Registration,注册
 "Submit a review now and earn %1 after the review is approved.","现在提交审查报告和审查批准后获得 %1。"
 "You can reward up to %1 new reviews(s).","你可以到 %1 新点评 (s) 奖励。"
 Return,返回
-Returns,放在%created_at
+Returns,放在
 "Create Returns",创建返回
 "Select Items",选择项目
 "New Return Request",新返回的请求
