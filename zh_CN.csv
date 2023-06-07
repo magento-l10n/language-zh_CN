@@ -1,26 +1,22 @@
 All,全部
 None,无
 "Allowed Scopes",允许的范围
-"More permissions are needed to delete the ""%1"" item.","删除 ""%1"" 项需要更多权限。"
 "You need more permissions to apply some of the rule updates.",你需要更高的权限应用一些规则的更新。
-"More permissions are needed to view this item.",需要更多权限才能查看。
+"You need more permissions to access website ""%1"".","你需要更多的权限来访问网站""%1""。"
+"Role Scopes",角色作用范围
+Custom,自定义
+"More permissions are needed to delete the ""%1"" item.","删除 ""%1"" 项需要更多权限。"
 "This entity needs to be assigned to a store view. Verify the entity assignment and try again.",需要将此实体分配给商店视图。验证实体分配，然后重试。
-"This item needs to be assigned to a store view.
-                Please select a website for this product in ""Product in Websites"".","此项目需要分配给商店视图。
-                请在 “网站中的产品” 中选择此产品的网站。"
 "Orders can only be completed in an active store. Verify the store and try again.",订单只能在正式运营的商店中完成。验证商店然后重试。
 "This item needs to be assigned to a store view. Assign item and try again.",此项目需要分配给商店视图。分配此项，然后重试。
 "More permissions are needed to save this item.",保存此设置需要更多权限。
 "More permissions are needed to delete this item.",删除此项需要更多权限。
-"Not allowed to edit the category's design attributes",不允许编辑该类别的设计属性
+"More permissions are needed to view this item.",需要更多权限才能查看。
 "At least one website or store group needs to be selected. Select and try again.",至少需要选择一个网站或商店群组。选择然后重试。
 "More permissions are needed to set All Scopes to a Role.",将所有作用范围设置给角色需要更多权限。
 "The ""%1"" website ID is incorrect. Verify the website ID and try again.","""%1"" 商店ID不正确。验证商店ID，然后重试。"
-"You need more permissions to access website ""%1"".","你需要更多的权限来访问网站""%1""。"
 "The ""%1"" store ID is incorrect. Verify the store ID and try again.","""%1"" 商店ID不正确。验证商店ID，然后重试。"
 "More permissions are needed to save this setting.",保存此设置需要更多权限。
-"Role Scopes",角色作用范围
-Custom,自定义
 "Read Details",查看详情
 "Mark as Read",标记为已读
 "Are you sure?",您确定吗？
@@ -38,7 +34,6 @@ Notifications,通知消息
 "Total of %1 record(s) have been removed.","共有 %1 条记录已被删除。"
 "We couldn't remove the messages because of an error.",由于发生错误，我们不能删除的消息。
 "The message has been removed.",该消息已被删除。
-"You have viewed and resolved all recent system notices. Please refresh the web page to clear the notice alert.",您已经查看并解决了所有最近的系统通知。请刷新网页以清除通知警报。
 "1 Hour","1 小时"
 "2 Hours","2 个小时"
 "6 Hours","6 个小时"
@@ -64,7 +59,6 @@ notice,通知
 Close,关闭
 "See All (","查看所有 ("
 " unread)",未读)
-"System Messages",系统消息
 "Show Toolbar",显示工具栏
 "Show List",显示列表
 "Use HTTPS to Get Feed","使用 HTTPS 来得到订阅源"
@@ -74,6 +68,7 @@ Severity,严重程度
 "Date Added",日期已添加
 Message,信息
 Actions,动作
+"You have viewed and resolved all recent system notices. Please refresh the web page to clear the notice alert.",您已经查看并解决了所有最近的系统通知。请刷新网页以清除通知警报。
 "Manage Shopping Cart",管理购物车
 "Create Order",创建订单
 Back,返回
@@ -110,18 +105,10 @@ Configure,配置
 "You must buy at least %1 of these per purchase.",每次购买，您必须购买至少%1。
 "Specify the product's options.",指定的产品选项。
 "Alert me when this item is available.",当产品可买时，请通知我。
-"This customer couldn't be found. Verify the customer and try again.",找不到该客户。验证客户然后重试。
 "Shopping cart management is disabled for this customer.",此顾客禁用购物车管理。
-"This store couldn't be found. Verify the store and try again.",找不到这家商店。验证商店然后重试。
 Customers,客户
 "Shopping Cart",购物车
-"An error occurred. For details, see the error log.",发生了错误。有关详细信息，请参阅错误日志。
 "You do not have access to this.",你没有权限访问这个页面。
-"The ordered item needs to be loaded. Load the item and try again.",订购的商品需要加载。加载项目然后重试。
-"The quote item ID needs to be received. Set the ID and try again.","需要收到报价项目编号。设置 ID 然后重试。"
-"The quote item needs to be loaded. Load the item and try again.",报价商品需要加载。加载项目然后重试。
-"The wish list item ID needs to be received. Set the ID and try again.","需要收到心愿单商品编号。设置 ID 然后重试。"
-"The wish list item needs to be loaded. Load the item and try again.",需要加载愿望清单商品。加载项目然后重试。
 "An error has occurred. See error log for details.",出问题了，详细信息请查阅错误日志。
 "You cannot configure a product.",您不能配置这个产品。
 "You removed the items.",您删除的商品。
@@ -152,7 +139,6 @@ Customers,客户
 "Yes, for Specified Customer Groups",是的，针对指定的客户群体
 "Yes, for Everyone",是的，对所有人生效。
 No,否
-"The file is corrupt and can't be used.",该文件已损坏，无法使用。
 "Please upload the file in .csv format.","请上传 .csv 格式的文件。"
 "%1 item(s) need your attention.","%1 项目需要您的关注。"
 "Apply Coupon Code",适用的优惠券代码
@@ -207,6 +193,15 @@ File,文件
 "The text of the link to the My Account &gt; Order by SKU page","我的账户页面 &gt; 按 SKU 排序的链接文本"
 "Load a list of SKUs","加载 SKU 的列表"
 "Order by SKU Template","按 SKU 排序的模板"
+"This customer couldn't be found. Verify the customer and try again.",找不到该客户。验证客户然后重试。
+"This store couldn't be found. Verify the store and try again.",找不到这家商店。验证商店然后重试。
+"An error occurred. For details, see the error log.",发生了错误。有关详细信息，请参阅错误日志。
+"The ordered item needs to be loaded. Load the item and try again.",订购的商品需要加载。加载项目然后重试。
+"The quote item ID needs to be received. Set the ID and try again.","需要收到报价项目编号。设置 ID 然后重试。"
+"The quote item needs to be loaded. Load the item and try again.",报价商品需要加载。加载项目然后重试。
+"The wish list item ID needs to be received. Set the ID and try again.","需要收到心愿单商品编号。设置 ID 然后重试。"
+"The wish list item needs to be loaded. Load the item and try again.",需要加载愿望清单商品。加载项目然后重试。
+"The file is corrupt and can't be used.",该文件已损坏，无法使用。
 "Please correct the data sent.",请更正发送的数据。
 "Entity type model '%1' is not found","实体型模式必须是一个实例 \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType"
 "Entity type model must be an instance of \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType","实体模类型型必须是实例 \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType"
@@ -241,23 +236,14 @@ Yes,是
 "Error while checking if topic is synchronous",检查是否主题是否同步时出错
 "Subscription status",订阅状态
 "Sorry, there has been an error processing your request. Please try again later.",对不起，已处理您的请求时出错。请稍后再试。
-"The time value is using an unsupported format. Enter a supported format and try again.",时间值使用的格式不受支持。输入支持的格式，然后重试。
 "Cron settings can't be saved","无法保存 Cron 设置"
 "There was an error save new configuration value.",有保存新的配置值时出错。
-"Please select an industry.",请选择一个工业。
 "--Please Select--","-- 请选择 --"
-"Command ""%1"" was not found.","找不到命令 ""%1""。"
-"The data is invalid. Enter the data as a string or data that can be converted into a string and try again.",数据无效。输入字符串数据或可转换为字符串的数据，然后重试。
-"The data is invalid. Enter the data as a string and try again.",数据无效。输入字符串数据，然后重试。
-"The data is invalid. Use a valid cipher method and try again.",数据无效。使用有效的密码方法然后重试。
-"Enter the encryption key and try again.",输入加密密钥，然后重试。
-"The ""%1"" source doesn't exist.","""%1"" 来源不存在。"
 "These arguments can't be empty ""%1""","这些参数不能为空 ""%1"""
 "Cannot find predefined integration user!",无法找到预定义的集成用户!
 "File is not ready yet.",文件尚未准备就绪。
 "Your Base URL has been changed and your reports are being updated. Advanced Reporting will be available once this change has been processed. Please try again later.","您的Base URL 已更改, 并且您的报告正在被更新。高级报告将在此变更处理完成后可用。请稍后再试。"
 "Failed to synchronize data to the Magento Business Intelligence service. ","无法将数据同步到 Magento 智慧商务（Magento Business Intelligence）服务。 "
-"Retry Synchronization",重试同步
 TestMessage,测试消息
 "Apps and Games",应用程序和游戏
 "Athletic/Sporting Goods",体育/体育用品
@@ -270,16 +256,8 @@ API,应用开发接口（API）
 Configuration,设置
 "Business Intelligence",智慧商务
 "BI Essentials",BI至关重要
-"This service provides a dynamic suite of reports with rich insights about your business.
-                Your reports can be accessed securely on a personalized dashboard outside of the admin panel by clicking on the
-                ""Go to Advanced Reporting"" link. </br> For more information, see our <a target=""_blank"" href=""https://magento.com/legal/terms/cloud-terms"">
-                terms and conditions</a>.","此服务提供了一套动态报告，其中包含有关您的业务的丰富见解。
-                通过单击
-                “转到高级报告” 链接，可以在管理面板外的个性化控制面板上安全地访问您的报告。 </br> 欲了解更多信息，查看我们的 <a target=""_blank"" href=""https://magento.com/legal/terms/cloud-terms"">
-                条款和条件</a>。"
 "Advanced Reporting Service",高级报告服务
 "Time of day to send data",每天发送数据的时间
-"Industry Data",行业数据
 Industry,工业制品
 "In order to personalize your Advanced Reporting experience, please select your industry.","为了个性化您的高级报告经验, 请先选择您的行业。"
 "<strong>Get more insights from Magento Business Intelligence</strong>","<strong> 从 Magento 商业智能中获得更多的洞察力 </strong>"
@@ -307,6 +285,14 @@ Industry,工业制品
 "Pharma and Medical Devices",药品和医疗器械
 "Technology B2B","技术 B2B"
 Other,其他
+"The time value is using an unsupported format. Enter a supported format and try again.",时间值使用的格式不受支持。输入支持的格式，然后重试。
+"Please select an industry.",请选择一个工业。
+"The data is invalid. Enter the data as a string or data that can be converted into a string and try again.",数据无效。输入字符串数据或可转换为字符串的数据，然后重试。
+"The data is invalid. Enter the data as a string and try again.",数据无效。输入字符串数据，然后重试。
+"The data is invalid. Use a valid cipher method and try again.",数据无效。使用有效的密码方法然后重试。
+"Enter the encryption key and try again.",输入加密密钥，然后重试。
+"The ""%1"" source doesn't exist.","""%1"" 来源不存在。"
+"Retry Synchronization",重试同步
 Done,完成
 Retry,重试
 "'Action Details - #' .","' 操作详情-#'。"
@@ -347,8 +333,8 @@ Error,错误
 "Dismiss All Completed Tasks",关闭所有已完成的任务
 "Action Details - #","操作详情 - #"
 "Number of Records Affected",受影响的记录数
-"The role wasn't found for the user. Verify the role and try again.",找不到该用户的角色。验证角色然后重试。
 "Something went wrong while compiling a list of allowed resources. You can find out more in the exceptions log.",编译允许资源列表时出错。您可以从异常日志查找更多可用信息。
+"The role wasn't found for the user. Verify the role and try again.",找不到该用户的角色。验证角色然后重试。
 "You created the order.",你已经下单了
 "Order saving error: %1","订单保存错误: %1"
 "Please choose a payment method.",请选择支付方式
@@ -440,16 +426,10 @@ Environment,环境
 options,选项
 "Select all",选择全部
 "Deselect all",取消全选
-"We couldn't find any records.",我们找不到任何记录。
-Show,显示
-"per page",每页
 "%s of %s selected","%s %s 已选中"
-"Search by keyword",按关键字搜索
-"This is a required field.",这是必填字段。
 "B2B Features","B2B 特点"
 "Invalid Form Key. Please refresh the page.",无效的表单密钥。请刷新此页面。
 "You entered an invalid Secret Key. Please refresh the page.",输入的密钥无效。请刷新此页面。
-"Invalid security or form key. Please refresh the page.",安全性或表单密钥无效。请刷新页面。
 "Cache Storage Management",缓存存储管理
 "Flush Magento Cache","刷新 Magento 缓存"
 "The cache storage may contain additional data. Are you sure that you want to flush it?",缓存储存可能包含其他数据，你确定要刷新它？
@@ -552,7 +532,6 @@ Stores,商店
 "Create Store View",创建店铺视图
 Home,首页
 "Are you sure you want to do this?",您确认要这么做么？
-label,标签
 "Add New Image",添加新图片
 "Export block for grid %1 is not defined","网格 %1 导出的块页面未定义"
 "Reset Filter",重置筛选
@@ -565,17 +544,16 @@ To,至
 "[ deleted ]","[ 已删除 ]"
 "Select All",选择全部
 " [deleted]"," [删除]"
+"We couldn't find any records.",我们找不到任何记录。
 "Add New",新增
 "Invalid export type supplied for grid export block",网格块页面导出类型无效
 Export,导出
 "Please correct the column format and try again.",请更正列格式，再试一次。
-"An item needs to be selected. Select and try again.",需要选择一个项目。选择然后重试。
 Submit,提交
 "Unknown block type",未知模块类型
 "Please correct the tab configuration and try again. Tab Id should be not empty","请更正选项卡配置，然后重试。选项卡 Id 不应为空"
 "Please correct the tab configuration and try again.",请更正选项卡配置，然后重试。
 "You have logged out.",您已登出。
-"These cache type(s) don't exist: %1","这些缓存类型不存在： %1"
 "The image cache was cleaned.",图片缓存被清除了。
 "An error occurred while clearing the image cache.",清除图片缓存时出错。
 "The JavaScript/CSS cache has been cleaned.","JavaScript 和 CSS 缓存已清理。"
@@ -631,27 +609,18 @@ System,系统
 "Before modifying the store view code please make sure it is not used in index.php.","修改店铺视图代码前请确保它没有应用在 index.php 中。"
 "New ",新建
 "All Stores",所有店铺
-"Please enable your Store View before using this Web Site as Default",在使用此网站作为默认值之前，请启用您的商店视图
 "You saved the website.",你已保存网站。
 "The default store cannot be disabled",不能禁用默认店铺
 "You saved the store view.",您已保存的店铺视图。
 "An inactive store view cannot be saved as default store view",处于非活动状态店铺视图不能保存为默认店铺视图
 "You saved the store.",你保存了店铺。
 "Something went wrong while saving. Please review the error log.",保存时出错，请查看错误日志。
-"Authentication storage is incorrect.",验证存储不正确。
-"The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.",帐户登录不正确或您的帐户暂时被禁用。请稍后再试。
-"An authentication error occurred. Verify and try again.",发生身份验证错误。验证然后重试。
-"The Admin session lifetime is invalid. Set the lifetime to 31536000 seconds (one year) or shorter and try again.","管理员会话生命周期无效。将生命周期设置为 31536000 秒（一年）或更短，然后重试。"
-"The Admin session lifetime is invalid. Set the lifetime to 60 seconds or longer and try again.","管理员会话生命周期无效。将生命周期设置为 60 秒或更长，然后重试。"
 "Last 24 Hours","最近 24 小时"
 "Last 7 Days","最近 7 天"
 "Current Month",当月
+"Authentication storage is incorrect.",验证存储不正确。
 Order,订单
 "Order #%1","订单 #%1"
-"URL key ""%1"" matches a reserved endpoint name (%2). Use another URL key.","URL 键 ""%1"" 与保留的终端节点名称 (%2) 匹配。使用另一个 URL 键。"
-"Save &amp; Continue","保存 &amp; 继续"
-"Save &amp; Close","保存 &amp; 关闭"
-"Save &amp; New","保存 &amp; 新建"
 "Sorry, you need permissions to view this content.",对不起，您需要权限来查看此内容的。
 "Next steps",下一步
 "If you think this is an error, try signing out and signing in again.",如果您认为这是一个错误，请尝试注销并再次登录。
@@ -665,9 +634,9 @@ Username,用户名
 Password,密码
 password,密码
 "Sign in",登录
+"Select Range:",选择范围：
 "No Data Found",找不到数据
 "Chart is disabled. To enable the chart, click <a href=""%1"">here</a>.","图表被禁用，若要启用图表，请单击 <a href=""%1""> 这里</a>。"
-"Select Range:",选择范围：
 "Last Orders",近期订单
 "Last Search Terms",近期搜索条件
 "Top Search Terms",热门搜索词
@@ -693,10 +662,9 @@ Minute,分钟
 "JavaScript may be disabled in your browser.","可能您的浏览器中禁用了 JavaScript。"
 "To use this website you must first enable JavaScript in your browser.","您的浏览器必须先启用 JavaScript，然后才能流畅浏览本网站。"
 "This is only a demo store. You can browse and place orders, but nothing will be processed.",这是只是一个演示的商店。您可以浏览并下订单，但什么都不会被处理。
-"Privacy Policy",隐私政策
 "Report an Issue",问题反馈
-Scope:,范围：
 "Stores Configuration",店铺配置
+"Please confirm scope switching. All data that hasn't been saved will be lost.",请确认范围开关。尚未保存的所有数据将都会丢失。
 "Additional Cache Management",额外的缓存管理
 "Flush Catalog Images Cache",刷新目录图片缓存
 "Pregenerated product images files",预先产生产品图片文件
@@ -714,6 +682,7 @@ Thumbnail,缩略图
 "Additional Settings",附加设置
 "records found",找到的记录
 selected,已选择
+"per page",每页
 "Previous page",上一页
 "of %1",%1
 "Next page",下页
@@ -726,13 +695,7 @@ selected,已选择
 "This tab contains invalid data. Please resolve this before saving.",此选项卡包含无效数据，请在保存前解决此问题。
 "The information in this tab has been changed.",此选项卡中的信息已更改。
 Loading...,正在加载...
-"User Agent Rules",用户代理规则
-"User agent exceptions override product and CMS pages rules.","用户代理例外会覆盖产品和 CMS 页面规则。"
-"Search strings are either normal strings or regular expressions (PCRE). They are matched in the same order as entered.","搜索字符串可以是普通字符串或正则表达式 (PCRE)。它们的匹配顺序与输入的顺序相同。"
-Examples,示例
-"Use Default Value",使用默认值
 "We could not detect a size.",我们未能检测到的大小。
-"Please confirm scope switching. All data that hasn't been saved will be lost.",请确认范围开关。尚未保存的所有数据将都会丢失。
 "Warning message",警告消息
 "This operation can take a long time",此操作可能需要很长时间
 "Allow everything",允许所有
@@ -775,16 +738,8 @@ Advanced,高级
 "Sales Representative",销售代表
 "Customer Support",客户支持
 Developer,开发人员
-"Enable Template Path Hints for Storefront",为店面启用模板路径提示
-"Enable Hints for Storefront with URL Parameter","使用 URL 参数为店面启用提示"
-"Use URL parameter to enable template path hints for Storefront","使用 URL 参数为店面启用模板路径提示"
-"Parameter Value",参数值
-"Add the following parameter to the URL to show template hints ?templatehints=[parameter_value]","将以下参数添加到 URL 以显示模板提示 ?templatehints=[parameter_value]"
-"Enable Template Path Hints for Admin",为管理员启用模板路径提示
-"Add Block Class Type to Hints",将块类型添加到提示
 "Template Settings",模板设置
 "Allow Symlinks",允许符号链接
-"<strong class=""colorRed"">Warning!</strong> Enabling this feature is not recommended on production environments because it represents a potential security risk.","<strong class=""colorRed"">警告！</strong> 建议不要在正式运营环境中启用此功能，因为它会带来潜在的安全风险。"
 "Minify Html","最小化 Html"
 "Minification is not applied in developer mode.",最小化不适用于开发人员模式。
 "Translate Inline",内联翻译
@@ -800,7 +755,6 @@ Developer,开发人员
 "Minify CSS Files","最小化 CSS 文件体积"
 "Image Processing Settings",图像处理设置
 "Image Adapter",图像适配器
-"When the adapter was changed, please flush Catalog Images Cache.",更改适配器时，请刷新目录图像缓存。
 "Static Files Settings",静态文件设置
 "Sign Static Files",静态文件签名
 "Country Options",国家选项
@@ -829,18 +783,9 @@ City,城市
 "Mail Sending Settings",邮件发送设置
 "Disable Email Communications",禁用电子邮件通信
 Host,主机
-"For Windows server only.","仅适用于 Windows 服务器。"
 "Port (25)","端口 (25)"
-"Please enter at least 0 and at most 65535 (For Windows server only).","请输入至少 0 和最多 65535（仅适用于 Windows 服务器）。"
 "Set Return-Path",设置返回路径
 "Return-Path Email",返回路径邮件
-"Images Upload Configuration",图片上传配置
-"Enable Frontend Resize",启用前端大小调整
-"Resize performed via javascript before file upload.","在文件上传之前，通过 javascript 进行调整大小。"
-"Maximum Width",最大宽度
-"Maximum allowed width for uploaded image.",上传图片允许的最大宽度。
-"Maximum Height",最大高度
-"Maximum allowed height for uploaded image.",上传的图片允许的最大高度。
 Admin,管理员
 "Admin User Emails",管理员用户邮件
 "Forgot Password Email Template",忘记密码的邮件模板
@@ -865,37 +810,27 @@ Security,安全
 Web,网页
 "Url Options","Url 选项"
 "Add Store Code to Urls","将存储代码添加到 Urls"
-"<strong class=""colorRed"">Warning!</strong> When using Store Code in URLs, in some cases system may not work properly if URLs without Store Codes are specified in the third-party services (e.g. PayPal etc.).","<strong class=""colorRed"">警告！</strong> 在 URL 中使用存储代码时，在某些情况下，如果在第三方服务（例如 PayPal 等）中指定了没有商店代码的 URL，系统可能无法正常工作。"
 "Auto-redirect to Base URL","自动重定向到基础 URL"
-"I.e. redirect from http://example.com/store/ to http://www.example.com/store/","I.e. 重新定向于 http://example.com/store/ 至 http://www.example.com/store/"
 "Search Engine Optimization",搜索引擎优化
 "Use Web Server Rewrites","使用 Web 服务器重写"
 "Base URLs","基础 URL"
-"Any of the fields allow fully qualified URLs that end with '/' (slash) e.g. http://example.com/magento/","任何字段都允许以 '/' (slash) 结尾的完全合格的 URL，例如，http://example.com/magento/"
 "Base URL","基础 URL"
 "Specify URL or {{base_url}} placeholder.","指定 URL 或 {{base_url}} 的占位符。"
 "Base Link URL","基础链接 URL"
-"May start with {{unsecure_base_url}} placeholder.","可以以{{unsecure_base_url}} 占位符开头。"
 "Base URL for Static View Files","基础 URL 静态视图文件"
 "May be empty or start with {{unsecure_base_url}} placeholder.","可能为空或启动与 {{unsecure_base_url}} 占位符。"
 "Base URL for User Media Files","用户媒体文件的的基础 URL"
 "Base URLs (Secure)","基础 URL (安全)"
-"Any of the fields allow fully qualified URLs that end with '/' (slash) e.g. https://example.com/magento/","任何字段都允许以 '/' (slash) 结尾的完全合格的 URL，例如，https://example.com/magento/"
 "Secure Base URL","加密基础 URL"
 "Specify URL or {{base_url}}, or {{unsecure_base_url}} placeholder.","指定 URL 或 {{base_url}} 或 {{unsecure_base_url}} 的占位符。"
 "Secure Base Link URL","加密基础 URL"
-"May start with {{secure_base_url}} or {{unsecure_base_url}} placeholder.","可以以{{secure_base_url}} 或者{{unsecure_base_url}} 占位符开头。"
 "Secure Base URL for Static View Files","静态视图文件的加密基础 URL"
 "May be empty or start with {{secure_base_url}}, or {{unsecure_base_url}} placeholder.","可能为空或启动与 {{secure_base_url}} 或 {{unsecure_base_url}} 占位符。"
 "Secure Base URL for User Media Files","用户的媒体文件的加密基础 URL"
 "Use Secure URLs on Storefront","在店铺前台使用加密链接 URL"
-"Enter https protocol to use Secure URLs on Storefront.","输入 https 协议用于在店铺前端使用安全URL。"
 "Use Secure URLs in Admin","管理员使用加密链接 URL"
-"Enter https protocol to use Secure URLs in Admin.","输入 https 协议用于在店铺管理端使用安全URL。"
 "Enable HTTP Strict Transport Security (HSTS)","启用 HTTP 严格传输安全性 (HSTS)"
-"See <a href=""https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Strict_Transport_Security_Cheat_Sheet.html"" target=""_blank"">HTTP Strict Transport Security</a> page for details.","详情请参阅 <a href=""https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Strict_Transport_Security_Cheat_Sheet.html"" target=""_blank"">HTTP 严格传输安全HSTS</a> 页面。"
 "Upgrade Insecure Requests",升级不安全的请求
-"See <a href=""http://www.w3.org/TR/upgrade-insecure-requests/"" target=""_blank"">Upgrade Insecure Requests</a> page for details.","详情请参阅 <a href=""http://www.w3.org/TR/upgrade-insecure-requests/"" target=""_blank"">升级不安全请求</a> 页面。"
 "Offloader header","页眉 加载器"
 "Default Pages",默认页
 "Default Web URL","默认网址 URL"
@@ -911,9 +846,9 @@ Tags,标签
 "<h1 class=""page-heading"">404 Error</h1><p>Page not found.</p>","<h1 class=""page-heading"">404 错误</h1><p>页找不到。</p>"
 "Community Edition",社区版
 "Default Theme",默认主题
-"If no value is specified, the system default is used. The system default may be modified by third-party extensions.",如果未指定任何值，则使用系统默认值。系统默认值可能会被第三方扩展程序修改。
 "Applied Theme",应用的主题
 "Design Rule",设计规则
+"User Agent Rules",用户代理规则
 Pagination,分页
 "How many links to display at once.",一次显示多少链接。
 "Pagination Frame",分页框架
@@ -924,6 +859,39 @@ Pagination,分页
 "Alternative text for the next pages link in the pagination menu. If empty, default arrow image is used.",分页菜单的上一个页面链接的替代显示文字。如果为空，将使用默认箭头图像。
 "Anchor Text for Next",下一步的锚文本
 "Theme Name",主题名称
+"Add Block Class Type to Hints",将块类型添加到提示
+"When the adapter was changed, please flush Catalog Images Cache.",更改适配器时，请刷新目录图像缓存。
+"For Windows server only.","仅适用于 Windows 服务器。"
+"Images Upload Configuration",图片上传配置
+"Maximum Width",最大宽度
+"Maximum allowed width for uploaded image.",上传图片允许的最大宽度。
+"Maximum Height",最大高度
+"Maximum allowed height for uploaded image.",上传的图片允许的最大高度。
+"I.e. redirect from http://example.com/store/ to http://www.example.com/store/","I.e. 重新定向于 http://example.com/store/ 至 http://www.example.com/store/"
+"Any of the fields allow fully qualified URLs that end with '/' (slash) e.g. http://example.com/magento/","任何字段都允许以 '/' (slash) 结尾的完全合格的 URL，例如，http://example.com/magento/"
+"May start with {{unsecure_base_url}} placeholder.","可以以{{unsecure_base_url}} 占位符开头。"
+"Any of the fields allow fully qualified URLs that end with '/' (slash) e.g. https://example.com/magento/","任何字段都允许以 '/' (slash) 结尾的完全合格的 URL，例如，https://example.com/magento/"
+"May start with {{secure_base_url}} or {{unsecure_base_url}} placeholder.","可以以{{secure_base_url}} 或者{{unsecure_base_url}} 占位符开头。"
+"Enter https protocol to use Secure URLs on Storefront.","输入 https 协议用于在店铺前端使用安全URL。"
+"Enter https protocol to use Secure URLs in Admin.","输入 https 协议用于在店铺管理端使用安全URL。"
+"See <a href=""http://www.w3.org/TR/upgrade-insecure-requests/"" target=""_blank"">Upgrade Insecure Requests</a> page for details.","详情请参阅 <a href=""http://www.w3.org/TR/upgrade-insecure-requests/"" target=""_blank"">升级不安全请求</a> 页面。"
+"If no value is specified, the system default is used. The system default may be modified by third-party extensions.",如果未指定任何值，则使用系统默认值。系统默认值可能会被第三方扩展程序修改。
+label,标签
+"Enable Frontend Resize",启用前端大小调整
+"Invalid security or form key. Please refresh the page.",安全性或表单密钥无效。请刷新页面。
+"An item needs to be selected. Select and try again.",需要选择一个项目。选择然后重试。
+"These cache type(s) don't exist: %1","这些缓存类型不存在： %1"
+"The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.",帐户登录不正确或您的帐户暂时被禁用。请稍后再试。
+"An authentication error occurred. Verify and try again.",发生身份验证错误。验证然后重试。
+"The Admin session lifetime is invalid. Set the lifetime to 31536000 seconds (one year) or shorter and try again.","管理员会话生命周期无效。将生命周期设置为 31536000 秒（一年）或更短，然后重试。"
+"The Admin session lifetime is invalid. Set the lifetime to 60 seconds or longer and try again.","管理员会话生命周期无效。将生命周期设置为 60 秒或更长，然后重试。"
+"Save &amp; Continue","保存 &amp; 继续"
+"Save &amp; Close","保存 &amp; 关闭"
+"Save &amp; New","保存 &amp; 新建"
+"Enable Hints for Storefront with URL Parameter","使用 URL 参数为店面启用提示"
+"Parameter Value",参数值
+"Enable Template Path Hints for Storefront",为店面启用模板路径提示
+"Enable Template Path Hints for Admin",为管理员启用模板路径提示
 "System Backup",系统备份
 "Database and Media Backup",数据库和备份媒体
 "Database Backup",数据库备份
@@ -963,7 +931,6 @@ Database,数据库
 "The backup file handler was unspecified.",未指定备份文件处理程序。
 "Something went wrong while writing to the backup file ""%1"".","在写入备份文件""%1""，出了错。"
 "We can't save the Cron expression.",我们不能保存货币表达式
-"Backup functionality is disabled",备份功能已禁用
 "You will lose any data created since the backup was made, including admin users, customers and orders.","您将丢失所有数据创建备份自从了以后，包括管理员用户、 客户和订单。"
 "Are you sure you want to continue?",你确定要继续吗?
 "This may take a few moments.",这可能需要几分钟。
@@ -986,82 +953,78 @@ Exclude,排除
 "Magento root directory","Magento 根目录"
 "Create Backup",创建备份
 Rollback,回滚
-"Backup Settings",备份设置
-"Enable Backup",启用备份
 "Enable Scheduled Backup",启用定时的备份
-"Scheduled Backup Type",预定备份类型
 Frequency,频率
 "Maintenance Mode",维护模式
 "Are you sure you want to delete the selected backup(s)?","确实要删除所选的 backup(s) 吗?"
 Size(bytes),"大小 (字节)"
 Type,类型
 Download,下载
-"Dynamic Blocks",动态区块
-"Add Dynamic Block",增加动态区块
-"Save Dynamic Block",保存动态区块
-"Delete Dynamic Block",删除动态区块
+"Backup functionality is disabled",备份功能已禁用
+"Backup Settings",备份设置
+"Enable Backup",启用备份
+"Scheduled Backup Type",预定备份类型
 "Save and Continue Edit",保存并继续编辑
-"New Dynamic Block",新建动态区块
-"Are you sure you want to do this?",您确认要这么做吗？
 "Default Content",默认内容
 "No Default Content",无默认内容
-"Dynamic Block Default Content for All Store Views",在所有商店视图下动态区块的默认内容
 "Store View Specific Content",存储查看具体内容
 "Use Default",使用默认
 "Related Promotions",相关促销活动
 Rule,规则名称
 "Start Date",起始日期
 "End Date",结束日期
-"Dynamic Block Properties",动态区块属性
-"Dynamic Block Name",动态区块名称
 Active,活动
 Inactive,未激活
 "Applies To",适用于
+"Specify Types",指定类型
+Visibility,可见性
+Position,位置
+"This rule no longer exists.",该规则已不存在。
+"You deleted %1 record(s).","你删除 %1 记录。"
+"Please enter a name.",请输入一个名称。
+"-- None --","— — 无 — —"
+"Content Area",内容区域
+Footer,页脚
+Header,页眉
+"Left Column",左栏
+"Right Column",右栏
+"Rotation Mode",旋转模式
+"Display all instead of rotating",显示所有，而不是旋转
+"One at the time, Random",一次，随机
+"One at the time, Series",一次，系列
+"One at the time, Shuffle",一次，洗牌
+"Dynamic Blocks",动态区块
+"Add Dynamic Block",增加动态区块
+"Save Dynamic Block",保存动态区块
+"Delete Dynamic Block",删除动态区块
+"New Dynamic Block",新建动态区块
+"Are you sure you want to do this?",您确认要这么做吗？
+"Dynamic Block Default Content for All Store Views",在所有商店视图下动态区块的默认内容
+"Dynamic Block Properties",动态区块属性
+"Dynamic Block Name",动态区块名称
 "Any Dynamic Block Type",任意动态区块类型
 "Specified Dynamic Block Types",指定的动态区块类型
-"Specify Types",指定类型
 "Dynamic Block Information",动态区块信息
 "Dynamic Block",动态区块
 "Dynamic Block Type",动态区块类型
 "Are you sure you want to delete these dynamic blocks?",您确定要删除这些动态区块吗?
 "Related Dynamic Blocks",相关的动态区块
-Position,位置
-"This rule no longer exists.",该规则已不存在。
 "You deleted the dynamic block.",您已删除动态区块。
 "Something went wrong while deleting dynamic block data. Please review the action log and try again.",删除动态区块数据出错。请检查操作日志后再试。
 "We cannot find a dynamic block to delete.",我们找不到要删除的动态区块。
 "This dynamic block no longer exists.",该动态区块已不存在。
 "Edit Dynamic Block",编辑动态区块
 "Please select a dynamic block(s).",请选择一个动态区块。
-"You deleted %1 record(s).","你删除 %1 记录。"
 "Something went wrong while mass-deleting dynamic blocks. Please review the action log and try again.",批量删除动态区块出错。请检查操作日志后再试。
 "This dynamic block does not exist.",该动态区块不存在。
 "You saved the dynamic block.",你已保存该动态区块。
 "We cannot save the dynamic block.",我们无法保存该动态区块。
-"Invalid Request",无效请求
-"Please enter a name.",请输入一个名称。
-"Content includes restricted HTML elements. %1","内容包含受限的 HTML 元素。 %1"
-"Make sure that dynamic blocks rotator does not reference the dynamic block itself.",请确保动态区块轮播工具未引用自身。
-"-- None --","— — 无 — —"
-"Invalid content",无效的内容
-"Content Area",内容区域
-Footer,页脚
-Header,页眉
-"Left Column",左栏
-"Right Column",右栏
 "Manage Dynamic Blocks",管理动态区块
 "Dynamic Blocks Rotator",动态区块轮播器
 "Displays Specified or Promotion Dynamic Blocks",显示指定或推广的动态区块
 "Dynamic Blocks to Display",要显示的动态区块
 "Specified Dynamic Blocks",指定的动态区块
-"Cart Price Rule Related",购物车价格规则相关
-"Catalog Price Rule Related",目录价格规则相关
 "Restrict by Dynamic Block Types",受动态区块类型限制
-"Rotation Mode",旋转模式
-"Display all instead of rotating",显示所有，而不是旋转
-"One at the time, Random",一次，随机
-"One at the time, Series",一次，系列
-"One at the time, Shuffle",一次，洗牌
 "Specify Dynamic Blocks",指定动态区块
 "Dynamic Block Template",动态区块模板
 "Dynamic Block Inline Template",动态区块内联模板
@@ -1069,12 +1032,15 @@ Name,名称
 "Status Label",状态标签
 "General Information",常规信息
 "Enable Dynamic Block",启用动态区块
+"Use Default Value",使用默认值
 "Cart price rules allows you to setup promotions for items that are in the shopping cart.",购物车价格规则允许您为购物车中的商品设置促销。
 "Add Cart Price Rules",添加购物车价格规则
 "Related Catalog Price Rule",相关购物车价格规则
 "Catalog price rules allows you to setup promotions for an items in catalog.",目录价格规则允许您为目录中商品的设置促销。
 "Add Selected",添加选中的
-Visibility,可见性
+"Make sure that dynamic blocks rotator does not reference the dynamic block itself.",请确保动态区块轮播工具未引用自身。
+"Cart Price Rule Related",购物车价格规则相关
+"Catalog Price Rule Related",目录价格规则相关
 "All Segments",所有线段
 "Customer Segment",客户细分市场
 "Allowed Credit Card Types",无法更新送货方式
@@ -1341,19 +1307,9 @@ Fixed,百分之
 "Delete Option",数量：
 "What are you looking for?",你在找什么?
 "There is no defined renderer for ""%1"" option type.","还有""%1""选项类型没有定义渲染器。"
-"This is implemented for bundle products only.",仅适用于捆绑产品。
-"The product with the ""%1"" SKU isn't a bundle product.","SKU为""%1""的产品不是捆绑产品。"
-"The bundle product can't contain another composite product.",捆绑产品不能包含另一个复合产品。
-"The product link needs an ID field entered. Enter and try again.","产品链接需要输入一个 ID 字段，请输入后重试。"
-"The product link with the ""%1"" ID field wasn't found. Verify the ID and try again.","找不到与 ID 字段为""%1"" 的产品链接。请核实 ID 后再试。"
 "Could not save child: ""%1""","不能保存产物:""%1"""
 "Product with specified sku: ""%1"" does not contain option: ""%2""","产品与指定 sku:""%1""不包含选项:""%2"""
 "Child with specified sku: ""%1"" already assigned to product: ""%2""","指定 sku 的产物:""%1""已经分配给产品:""%2"""
-"The bundle product doesn't exist. Review your request and try again.",捆绑产品不存在。请检查您的请求，然后重试。
-"The option that was requested doesn't exist. Verify the entity and try again.",请求的选项不存在。请核实实例后再试。
-"The option couldn't be saved.",无法保存此选项。
-"""%fieldName"" is required. Enter and try again.","""%fieldName"" 是必需的。请输入后再试。"
-"The option with ""%1"" ID can't be deleted.","无法删除ID为""%1""的选项。"
 "Price Range",价格范围
 "As Low as",低至
 Together,在一起
@@ -1362,7 +1318,6 @@ Separately,分开
 "The options you selected are not available.",您选择的选项不可用。
 "The required options you selected are not available.",选择所需的选项不可用。
 "Please select all required options.",请选择所需的所有选项。
-"Option type (%types) should have only one element.","选项类型 (%types) 应该只有一个元素。"
 "We can't add this item to your shopping cart right now.",我们这个项目不能添加到您的购物车现在。
 Percent,%
 "We can't save custom-defined options for bundles with dynamic pricing.",我们无法将定制定义的选项保存在动态定价的捆绑包中。
@@ -1391,8 +1346,8 @@ Invoiced,已出发票
 Shipped,已开发票数量
 Refunded,已退款
 Canceled,已取消
-"Regular Price",常规价格
 "As low as",低至
+"Regular Price",常规价格
 "Buy %1 with %2 discount each","买 %1 与 %2 折扣每个"
 "Go back to product details",返回到产品详细信息
 "Customize and Add to Cart",自定义并添加到购物车
@@ -1415,6 +1370,16 @@ Message:,消息：
 "Add Products to New Option",将产品添加到新的选项
 "Add Products to Option ""%1""","将产品添加到""%1""选项"
 "Special Price",特价
+"This is implemented for bundle products only.",仅适用于捆绑产品。
+"The product with the ""%1"" SKU isn't a bundle product.","SKU为""%1""的产品不是捆绑产品。"
+"The bundle product can't contain another composite product.",捆绑产品不能包含另一个复合产品。
+"The product link needs an ID field entered. Enter and try again.","产品链接需要输入一个 ID 字段，请输入后重试。"
+"The product link with the ""%1"" ID field wasn't found. Verify the ID and try again.","找不到与 ID 字段为""%1"" 的产品链接。请核实 ID 后再试。"
+"The bundle product doesn't exist. Review your request and try again.",捆绑产品不存在。请检查您的请求，然后重试。
+"The option that was requested doesn't exist. Verify the entity and try again.",请求的选项不存在。请核实实例后再试。
+"The option couldn't be saved.",无法保存此选项。
+"""%fieldName"" is required. Enter and try again.","""%fieldName"" 是必需的。请输入后再试。"
+"The option with ""%1"" ID can't be deleted.","无法删除ID为""%1""的选项。"
 """option_id"" and ""parent_id"" values should be specified","需要指定""option_id"" 和 ""parent_id"" 值"
 """sku"" value should be specified",需要指定“sku”值
 "Unique constraint violation found",发现了唯一的约束冲突
@@ -1445,14 +1410,11 @@ Forms,表单
 "Enable CAPTCHA on Storefront",启用在店面上的验证码
 "CAPTCHA for ""Create user"" and ""Forgot password"" forms is always enabled if chosen.","如果选择，则始终启用验证码为""创建用户""和""忘记密码""的形式。"
 Root,根
-"Are you sure you want to delete this category?",你确定要删除这个分类吗？
 "Use Config Settings",使用配置设置
 "Use All Available Attributes",使用所有可用的属性
 "Add Subcategory",添加子类别
 "Add Root Category",添加根类别
 Day,天
-from,从
-to,至
 [GLOBAL],[全局]
 [WEBSITE],[网站]
 "[STORE VIEW]",[店铺视图]
@@ -1482,7 +1444,6 @@ Website,网站
 Global,全球
 Scope,范围
 "Declare attribute value saving scope.",声明属性值保存范围。
-"The default date is invalid.",默认日期无效。
 "Storefront Properties",前台属性
 "Use in Search",在搜索中的使用
 "Visible in Advanced Search",可见在高级搜索中
@@ -1517,10 +1478,9 @@ Empty,"产品 %1"
 "Add Attribute","-- 请选择 --"
 "Add New Group",添加新组
 "Add Group",添加组
+"Edit Attribute Set Name",编辑属性集的名称
 "For internal use",供内部使用
 "Based On",请确认网站切换。尚未保存的所有数据将丢失
-"Edit Attribute Set Name",编辑属性集的名称
-"Attribute Set Information",属性集信息
 "Add New Attribute Set",添加新的属性集
 "Add Attribute Set",添加属性集
 "Attribute Sets",属性集
@@ -1594,17 +1554,12 @@ Categories,分类
 "Category is not available for requested store.",无法为所要求的商店提供类别。
 "There was a category move error.",出现了一个类别移动错误。
 "You moved the category.",你保存的类别。
-"The ""%1"" attribute is required. Enter and try again.","必须填写""%1""属性。输入后重试。"
-"Something went wrong while saving the category.",保存该类别时出现错误。
 "You saved the category.",你保存的类别。
+"Something went wrong while saving the category.",保存该类别时出现错误。
 "Please select products for attributes update.",请选择产品更新属性。
 "Please make sure to define SKU values for all processed products.","请务必定义所有加工产品的 SKU 值。"
-"Message is added to queue",消息已添加到队列
 "Something went wrong while updating the product(s) attributes.",在更新的产品属性时出现错误。
-"Update attributes for ' . . ' selected products",给所选择的产品更新属性
-"Something went wrong while processing the request.",在处理请求时出现了问题。
 "Unable to add attribute",无法添加属性
-"Attributes were missing and must be specified.",属性缺失，必须指定。
 "Manage Product Attributes",管理产品属性
 "We can't delete the attribute.",我们不能删除该属性。
 "You deleted the product attribute.",你删除的产品属性。
@@ -1612,16 +1567,13 @@ Categories,分类
 "This attribute no longer exists.",该属性不再存在。
 "This attribute cannot be edited.",不能编辑此属性。
 "Edit Product Attribute",编辑产品属性
-"The attribute couldn't be saved due to an error. Verify your information and try again. If the error persists, please try again later.",由于一个错误，该属性无法保存。请验证您的信息并再试一次。如果错误仍然存在，请稍后再试。
 "An attribute set named '%1' already exists.","属性集，名为""%1""已经存在。"
 "Something went wrong while saving the attribute.",在保存属性时出现了问题。
 "We can't update the attribute.",我们不能更新的属性。
 "You saved the product attribute.",你保存的产品属性。
-"The attribute couldn't be validated due to an error. Verify your information and try again. If the error persists, please try again later.",产生错误，无法验证该属性。请核实信息后再试。如果错误仍然存在，请稍后再试。
-"Code (%1) is a reserved key and cannot be used as attribute code.","代码 (%1) 是一个保留密钥，不能用作属性代码。"
 "An attribute with this code already exists.",这段代码的属性已经存在。
 "An attribute with the same code (%1) already exists.","已经存在具有相同的代码 (%1) 的属性。"
-"The value of Admin must be unique. (%1)",管理员的值必须唯一。(%1)
+"The value of Admin must be unique.",管理员的值必须是唯一的。
 "The value of Admin scope can't be empty.",管理范围的值不能为空。
 "You duplicated the product.",你复制的产品。
 "This product doesn't exist.",此产品不存在。
@@ -1629,14 +1581,11 @@ Categories,分类
 "A group with the same name already exists.",具有相同名称的组已存在。
 "Something went wrong while saving this group.",保存该组时出现问题。
 "A total of %1 record(s) have been deleted.","已经删除 %1的记录"
-"A total of %1 record(s) haven't been deleted. Please see server logs for more details.","总共 %1 项记录尚未被删除。详情请查看服务器日志。"
 "A total of %1 record(s) have been updated.","已经更新 %1的记录"
 "Something went wrong while updating the product(s) status.",更新产品状态时出现错误。
-"The product was unable to be saved. Please try again.",产品无法保存。请重试。
 "You saved the product.",你保存的产品。
 "SKU for product %1 has been changed to %2.","为产品 %1 SKU 已改为 %2。"
 "The image cannot be removed as it has been assigned to the other image role",图像不能删除，因为它已被分配给其他图像作用
-"The value of attribute(s) ""%1"" must be unique","""%1""属性的值必须是唯一的"
 "New Attribute Set",新的属性集
 "The attribute set has been removed.",已删除的属性集。
 "We can't delete this set right now.",我们现在不能删除这一套。
@@ -1651,7 +1600,6 @@ Categories,分类
 "You removed product %1 from the comparison list.","您从比较列表中删除产品 %1。"
 "1 item","产品 %1"
 "%1 items","%1 项目"
-"The specified Catalog media URL format is not supported.","不支持指定的目录媒体 URL 格式。"
 "Are you sure you want to remove this item from your Compare Products list?",你确定你想要从你比较产品列表中删除此项目？
 "Are you sure you want to remove all items from your Compare Products list?",您确定要从比较产品列表中删除所有项目吗？
 "Invalid attribute %1","无效属性 %1"
@@ -1659,8 +1607,6 @@ Grid,%1及以上
 List,列表
 "Bad controller interface for showing product",坏的控制器接口，用于显示产品
 "Product is not loaded",产品未加载
-"Selected layout update is not available",所选布局更新不可用
-"Sorry, something went wrong during product attributes update. Please see log for details.",对不起，产品属性更新过程中出现了一些问题。请查看日志了解详情。
 "Make sure the To Date is later than or the same as the From Date.",确定日期晚于日期或与日期相同。
 "Sorry, but we can't find the new parent category you selected.",抱歉，但我们找不到您选择的新的父类别。
 "Sorry, but we can't find the new category you selected.",抱歉，但我们找不到您选择的新类别。
@@ -1755,6 +1701,9 @@ px.,全部展开
 "Invalid attribute Cost = %cost. Row ID: SKU = %SKU, Store ID: %storeId.","无效的属性成本= %成本。行编号：SKU = %的SKU，商店编号：% storeid。"
 "Could not save Prices.",不能保存价格。
 "Could not delete Prices",不能删除价格
+"Requested store is not found. Row ID: SKU = %SKU, Store ID: %storeId, Price From: %priceFrom, Price To: %priceTo.","要求的产品不存在。行 ID: SKU = %SKU，存储 ID: %storeId，价格从： %priceFrom，价格为： %priceTo。"
+"Invalid attribute %label = %priceTo. Row ID: SKU = %SKU, Store ID: %storeId, Price From: %priceFrom, Price To: %priceTo.","无效的属性标签价格= % %。行编号：SKU = %的SKU，商店编号：% storeid，价格：价格：价格%，%的价格。 "
+"Invalid attribute Price = %price. Row ID: SKU = %SKU, Store ID: %storeId, Price From: %priceFrom, Price To: %priceTo.","无效属性价格= %价格。行编号：SKU = %的SKU，商店编号：% storeid，价格：价格：价格%，%的价格。"
 "Could not save Tier Prices",不能保存价格。
 "Could not replace Tier Prices",不能保存价格。
 "Could not delete Tier Prices",不能删除价格
@@ -1766,6 +1715,7 @@ px.,全部展开
 "We found a duplicate website, tier price, customer group and quantity: Customer Group = %customerGroup, Website ID = %websiteId, Quantity = %qty. Row ID: SKU = %SKU, Website ID: %websiteId, Customer Group: %customerGroup, Quantity: %qty.","我们发现重复的网站、 层价格、 客户组和数量： 客户组 = %customerGroup，网站 ID = %websiteid，数量 = %qty。行 ID: SKU = %SKU，网站 ID: %websiteid，客户群： %customerGroup，数量： %qty。"
 "No such entity with Customer Group = %customerGroup. Row ID: SKU = %SKU, Website ID: %websiteId, Customer Group: %customerGroup, Quantity: %qty.","没有这样的实体与客户群= %的客户群体。行编号：SKU = %的SKU，网站ID：% websiteid，客户群：%的客户群体，数量%数量。"
 "Product hasn't group price with such data: customerGroupId = '%1', website = %2, qty = %3","产品还没有与此类数据组价格: customerGroupId = '%1'，网站 = %2，数量 = %3"
+"Something went wrong while processing the request.",在处理请求时出现了问题。
 "%1 doesn't extends \Magento\Catalog\Model\Product\Type\AbstractType","%1 并不延伸 \Magento\Catalog\Model\Product\Type\AbstractType"
 "%1 doesn't extends \Magento\Catalog\Model\Product\Type\Price","%1 并不延伸 \Magento\Catalog\Model\Product\Type\Price"
 "Not Visible Individually",单独不可见
@@ -1791,12 +1741,7 @@ Dropdown,下拉
 "%1 doesn't extend \Magento\Framework\Filter\Template","%1 不延长 \Magento\Framework\Filter\Template"
 "Could not get extension attributes",不能扩展属性
 message,信息
-"Invalid attribute Price = %price. Row ID: SKU = %SKU, Store ID: %storeId, Price From: %priceFrom, Price To: %priceTo.","无效属性价格= %价格。行编号：SKU = %的SKU，商店编号：% storeid，价格：价格：价格%，%的价格。"
-"Requested store is not found. Row ID: SKU = %SKU, Store ID: %storeId, Price From: %priceFrom, Price To: %priceTo.","要求的产品不存在。行 ID: SKU = %SKU，存储 ID: %storeId，价格从： %priceFrom，价格为： %priceTo。"
-"Invalid attribute %label = %priceTo. Row ID: SKU = %SKU, Store ID: %storeId, Price From: %priceFrom, Price To: %priceTo.","无效的属性标签价格= % %。行编号：SKU = %的SKU，商店编号：% storeid，价格：价格：价格%，%的价格。 "
 "Lock wait timeout",锁等待超时
-"Product Name or SKU","产品名称或 SKU"
-"Start typing to find products",开始键入搜索产品
 "Advanced Pricing",高级定价
 "Customer Group Price",客户组
 "Customer Group",客户组
@@ -1840,12 +1785,11 @@ name,名称
 "Manage Titles (Size, Color, etc.)","管理标题 (大小、 颜色等)"
 "Manage Options (Values of Your Attribute)","管理选项 (您的属性值)"
 "Sort Option",排序选项
-"The value of Admin must be unique.",管理员的值必须是唯一的。
 Groups,群组
 "Double click on a group to rename it.",双击组重命名它。
 "Unassigned Attributes",未分配的属性
-"This group contains system attributes. Please move system attributes to another group and try again.",此组包含系统属性。请将系统属性移动到另一个组，然后重试。
 "A name is required.",名称是必需的。
+"This group contains system attributes. Please move system attributes to another group and try again.",此组包含系统属性。请将系统属性移动到另一个组，然后重试。
 "Please select a node.","
 
 请选择一个节点。 "
@@ -1906,7 +1850,6 @@ Role,职能
 "Buy %1 for: ","买的 %1:"
 "Buy %1 for %2 each and <strong class=""benefit"">save<span class=""percent tier-%3"">&nbsp;%4</span>%</strong>","买 %2 每个 %1 和 <strong class=""benefit""> save<span class=""percent tier-%3"">&nbsp;%4</span>%</strong>"
 "Buy %1 for %2 each","购买每个 %2 的 %1"
-"You added product %1 to the <a href=""%2"">comparison list</a>.","您已添加产品 %1 到<a href=""%2"">比较列表</a>。"
 "Shop By",清除全部
 "Shopping Options",购物的选项
 "Compare Products",比较产品
@@ -1928,24 +1871,21 @@ Prev,上一页
 "Items %1-%2 of %3","项目 %1%2 的 %3"
 "%1 Item","%1 项目"
 "%1 Items","%1 项目"
+Show,显示
 "Sort By",按排序
 "Set Ascending Direction",设置提升方向
 "Set Descending Direction",设置降序方向
 "View as",视图
 "More Information",更多信息
-"Maximum %1 characters","最多%1 个字符"
 "We don't recognize or support this file extension type.",我们不承认或支持该文件扩展类型。
 "Configure Product",配置产品
 OK,确定
-"This value does not follow the specified format (for example, 200X300).","此值不符合指定的格式 (例如，200 x 300)。"
 "Select type of option.",选择选项的类型。
 "Please add rows to option.",请将行添加到选项。
 "Choose existing category.",选择现有的类别。
 "Image Detail",图像细节
 Adding...,正在添加...
 Added,已经添加
-remaining,剩余
-"too many",太多
 "does not implement Storage Interface",不实现存储接口
 "unselect all",取消全选
 Inventory,库存
@@ -1990,8 +1930,6 @@ Comma-separated.,以逗号分隔。
 "Time Format",时间格式
 "Year Range",年的范围内
 "Please use a four-digit year format.",请使用四位数年份格式。
-"Use Static URLs for Media Content in WYSIWYG","在 WYSIWYG 中使用静态链接获取媒体内容"
-"Media content will be inserted into the editor as a static URL. Media content is not updated if the system configuration base URL changes.",媒体内容将作为静态URL插入编辑器。如果系统配置中的基础URL更改，媒体内容不会更新。
 "Top Level Category",最高层次的范畴
 "Product Info Column",产品信息栏
 "Block after Info Column",信息栏之后的块
@@ -2102,6 +2040,24 @@ Overview,概述
 "Add To Compare",加入比较
 "Learn more",了解更多
 "Recently Viewed",最近浏览过的
+"Are you sure you want to delete this category?",你确定要删除这个分类吗？
+from,从
+to,至
+"The attribute couldn't be saved due to an error. Verify your information and try again. If the error persists, please try again later.",由于一个错误，该属性无法保存。请验证您的信息并再试一次。如果错误仍然存在，请稍后再试。
+"The attribute couldn't be validated due to an error. Verify your information and try again. If the error persists, please try again later.",产生错误，无法验证该属性。请核实信息后再试。如果错误仍然存在，请稍后再试。
+"You added product %1 to the <a href=""%2"">comparison list</a>.","您已添加产品 %1 到<a href=""%2"">比较列表</a>。"
+"Maximum %1 characters","最多%1 个字符"
+remaining,剩余
+"too many",太多
+"This value does not follow the specified format (for example, 200X300).","此值不符合指定的格式 (例如，200 x 300)。"
+"The ""%1"" attribute is required. Enter and try again.","必须填写""%1""属性。输入后重试。"
+"Attributes were missing and must be specified.",属性缺失，必须指定。
+"The value of Admin must be unique. (%1)",管理员的值必须唯一。(%1)
+"The product was unable to be saved. Please try again.",产品无法保存。请重试。
+"Product Name or SKU","产品名称或 SKU"
+"Start typing to find products",开始键入搜索产品
+"Use Static URLs for Media Content in WYSIWYG","在 WYSIWYG 中使用静态链接获取媒体内容"
+"Media content will be inserted into the editor as a static URL. Media content is not updated if the system configuration base URL changes.",媒体内容将作为静态URL插入编辑器。如果系统配置中的基础URL更改，媒体内容不会更新。
 "Edit Event",编辑事件
 "Add Event",添加事件
 Events,事件
@@ -2129,13 +2085,13 @@ Closed,已关闭
 "This product is no longer on sale.",本产品是不再发售。
 "Some of these products can no longer be sold.",这些产品中有些可以不再出售。
 "Select Category",选择类别
+Days,天
 Hrs,小时
 Mins,分钟
 Sec,秒
 "Preview Sale",预览出售
 "Go To Sale",转到销售
 "View Sale",查看销售
-Days,天
 "Catalog Events",目录事件
 "Enable Catalog Events Functionality",启用目录事件功能
 "Enable Catalog Event Widget on Storefront",启用目录事件窗口小部件在前端
@@ -2202,8 +2158,8 @@ End,结束
 "Allow Qty Below 0 and Notify Customer","允许数量低于 0 并通知客户"
 "Unable to remove Stock with id ""%1""","无法删除编号id为 ""%1"" 的现货库存"
 "Unable to remove Stock Status for product %1","无法删除现货库存状态为 %1 的产品"
-"Please correct the quantity for some products.",请更正一些产品的数量。
 "The fewest you may purchase is %1.","您可以购买最少是 %1。"
+"Please correct the quantity for some products.",请更正一些产品的数量。
 "We don't have as many ""%1"" as you requested, but we'll back order the remaining %2.","我们没有像很多""%1""作为你的要求，但是我们还回来订单剩余的 %2。"
 "We don't have ""%1"" in the requested quantity, so we'll back order the remaining %2.","我们没有""%1""在请求的数量，所以我们马上就回来订单剩余的 %2。"
 "You can buy %1 only in quantities of %2 at a time.","你可以一次买只在数量的 %2 %1。"
@@ -2321,7 +2277,6 @@ Relevance,相关性
 "%1 and greater","%1 和更大"
 "up to %1","可到 %1"
 "Search Settings",搜索设置
-"Please enter a valid price range.",请输入有效的价格范围。
 "Advanced Search",高级搜索
 "<strong>%1 item</strong> were found using the following search criteria","<strong>%1 项目</strong> 被发现使用以下搜索条件"
 "<strong>%1 items</strong> were found using the following search criteria","<strong>%1 项目</strong> 被发现使用以下搜索条件"
@@ -2334,6 +2289,7 @@ Relevance,相关性
 "Minimal Query Length",最小查询长度
 "Maximum Query Length",最大查询长度
 "Rebuild Catalog product fulltext search index",重建目录产品全文搜索索引
+"Please enter a valid price range.",请输入有效的价格范围。
 "The requested price is not found.",找不到要求的价格。
 "Update %1 from %2 to %3.","更新 %1 从 %2 到 %3。"
 View/Edit,查看/编辑
@@ -2360,6 +2316,7 @@ Path,路径
 "Catalog Products List",产品网格模板
 "List of Products",产品列表
 "Products Grid Template",产品网格模板
+"Invalid method: %1",支付失败邮件副本发送方式
 "My Cart (1 item)","我的购物车 (1 项)"
 "My Cart (%1 items)","我的购物车 (%1 项目)"
 "My Cart",我的购物车
@@ -2374,7 +2331,6 @@ Path,路径
 "We can't remove the item.",我们不能删除该项目。
 "%1 was updated in your shopping cart.","%1 已更新您的购物车中。"
 "We can't update the item right now.",我们现在不能更新该项目。
-"Something went wrong while saving the page. Please refresh the page and try again.",保存页面时出错。请刷新页面，然后重试。
 "We can't update the shopping cart.",我们不能更新购物车。
 "One-page checkout is turned off.",单页结帐处于关闭状态。
 "Guest checkout is disabled.",禁用了来宾结帐。
@@ -2394,7 +2350,6 @@ Checkout,结帐
 "Display number of items in cart",在购物车中显示项目的数
 "Display item quantities",显示物料数量
 "Carrier with such method not found: %1, %2","承运人用这样的方法找不到: %1，%2"
-"The shipping method is missing. Select the shipping method and try again.",缺少配送方式。请选择配送方式，然后重试。
 " item",项目
 " items",项目
 "Totals calculation is not applicable to empty cart",总计计算是不适用于空购物车
@@ -2405,7 +2360,6 @@ Checkout,结帐
 "Sorry, guest checkout is not available.",对不起，客人结帐不是可用的。
 "You must confirm your account. Please check your email for the confirmation link or <a href=""%1"">click here</a> for a new link.","您必须确认您的帐户，请检查您电子邮件的确认链接或<a href=""%1"">点击此处</a>打开一个新的链接。"
 "Load customer quote error",加载客户报价单错误
-"Invalid method: %1",支付失败邮件副本发送方式
 Error!,错误!
 "DB exception","DB 异常"
 "Print receipt",打印收据
@@ -2421,7 +2375,6 @@ Error!,错误!
 "Click <a href=""%1"">here</a> to continue shopping.","单击 <a href=""%1""> 此处</a> 继续购物。"
 "Estimate Tax",估计税
 "Estimate Shipping and Tax",估计运费和税
-"You added %1 to your <a href=""%2"">shopping cart</a>.","您已将 %1 添加到您的 <a href=""%2"">购物车</a> 中。"
 "Order #","订单 #"
 "Proceed to Checkout",去结帐
 "Your order number is: %1.","您的订单编号是: %1。"
@@ -2448,9 +2401,6 @@ Update,更新
 "You can create an account after checkout.",您可以在结账后创建帐户。
 "You already have an account with us. Sign in or continue as guest.",您已经有账号了，可以登录或继续使用游客账号
 Login,登录
-"Items in Cart",购物车中
-"Item in Cart",购物里的商品
-"View and Edit Cart",查看和编辑购物车
 "See Details",查看具体信息
 "Options Details",选项详细信息
 "Cart Subtotal",购物车小计
@@ -2461,14 +2411,14 @@ Login,登录
 "Ship Here",船在这里
 "Ship To:",送货到:
 edit,编辑
-"Shipping Address",送货地址
-"New Address",从您的地址簿选择发货地址，或输入新地址。
 "Order Summary",订单汇总
+"View and Edit Cart",查看和编辑购物车
+"Field ",字段
+" is required.",是必需的。
 "Provided Zip/Postal Code seems to be invalid.",提供的邮政编码似乎无效。
 " Example: "," 示例︰ "
 "If you believe it is the right one you can ignore this notice.",如果你觉的是正确的，可以忽略此通知。
-"Field ",字段
-" is required.",是必需的。
+"New Address",从您的地址簿选择发货地址，或输入新地址。
 "Are you sure you would like to remove this item from the shopping cart?",你确定你想要从购物车中删除此项目？
 "Review & Payments",审查及付款
 "Select a new payment method",选择支付方式
@@ -2481,7 +2431,6 @@ edit,编辑
 "Quote Lifetime (days)","引述有效期 (天)"
 "After Adding a Product Redirect to Shopping Cart",将产品重定向添加到购物车后
 "Number of Items to Display Pager",要显示寻呼机的项目数
-"Show Cross-sell Items in the Shopping Cart",在购物车中显示交叉销售产品
 "My Cart Link",我购物车链接
 "Display Cart Summary",显示购物车摘要
 "Number of Items to Display Scrollbar",显示滚动条的项目数
@@ -2494,10 +2443,17 @@ edit,编辑
 "Separate by "","".","单独的""，""。"
 "Send Payment Failed Email Copy Method",发送支付失败邮件副本的方法
 "Order Total",订单总额
+"Shipping Address",送货地址
 "We'll send your order confirmation here.",在这里，我们会给您的订单确认。
 Payment,付款
 "Not yet calculated",尚未计算
 "Thank you for your purchase!",感谢您的购买！
+"Item in Cart",购物里的商品
+"Items in Cart",购物车中
+"Something went wrong while saving the page. Please refresh the page and try again.",保存页面时出错。请刷新页面，然后重试。
+"You added %1 to your <a href=""%2"">shopping cart</a>.","您已将 %1 添加到您的 <a href=""%2"">购物车</a> 中。"
+"The shipping method is missing. Select the shipping method and try again.",缺少配送方式。请选择配送方式，然后重试。
+"Show Cross-sell Items in the Shopping Cart",在购物车中显示交叉销售产品
 "Terms and Conditions",条款和条件
 "Add New Condition",添加新的条件
 "Save Condition",保存条件
@@ -2534,6 +2490,7 @@ Identifier,标识符
 "Manage Pages",默认被禁用
 "Add New Page",添加新页面
 "Delete Page",删除页面
+"Save Page",保存页面
 Created,创建
 Modified,已修改
 "Media Storage",多媒体储存
@@ -2552,7 +2509,6 @@ CMS,CMS页面链接内联摸板
 Blocks,模块
 "You saved the block.",你保存的模块。
 "Something went wrong while saving the block.",保存信用卡时出了错。
-"You duplicated the block.",您复制了区块。
 "The page has been deleted.",该页面已被删除。
 "We can't find a page to delete.",我们找不到要删除的页面。
 "This page no longer exists.",本页面不再存在。
@@ -2565,7 +2521,6 @@ Pages,页面
 "Page Title",页面标题
 "To apply changes you should fill in hidden required ""%1"" field","若要应用的更改你应该填写隐藏所需的""%1""字段"
 "You saved the page.",你保存此页面。
-"You duplicated the page.",您复制了页面。
 "Directory %1 is not under storage root path.","目录 %1 不是在存储根路径下。"
 "Make sure that static block content does not reference the block itself.",请确保静态块内容未引用块本身。
 "Enabled by Default",默认情况下启用
@@ -2588,7 +2543,6 @@ LocalizedException,本地化异常
 "Are you sure you want to delete a %1 record?","你确定你想要删除""%1""记录?"
 View,查看
 "No files found",找不到文件
-"Save Page",保存页面
 "Media Gallery",媒体库
 "Content Management",内容管理
 "CMS Home Page","CMS 的主页"
@@ -2599,7 +2553,6 @@ View,查看
 "Redirect to CMS-page if Cookies are Disabled","如果禁用了 Cookie 到 CMS 页面重定向"
 "Show Notice if JavaScript is Disabled","如果禁用 JavaScript 的显示通知"
 "Show Notice if Local Storage is Disabled",如果禁用了本地存储的显示通知
-"Default Page Layout",默认页面布局
 "WYSIWYG Options",WYSIWYG的选项
 "Enable WYSIWYG Editor",启动WYSIWYG编辑器
 "CMS Page Link","CMS 页面链接"
@@ -2627,6 +2580,9 @@ Block,模块
 "Custom design to",自定义设计
 "Custom Theme",自定义主题
 "Custom Layout",自定义布局
+"You duplicated the block.",您复制了区块。
+"You duplicated the page.",您复制了页面。
+"Default Page Layout",默认页面布局
 """identifiers"" of CMS blocks should be specified",应指定CMS区块的“identifiers”
 """Page id should be specified",“应指定页面id
 "The CMS block with the ""%1"" ID doesn't exist.","ID为""%1""的CMS 区块不存在。"
@@ -2661,17 +2617,16 @@ Suffix:,后缀：
 Gender:,性别：
 "A total of %1 record(s) were updated.","更新记录 %1"
 "A total of %1 record(s) were deleted.","共有 %1 条记录被删除。"
-"%1's account has been set to Inactive.",%1的帐户已设置为停用。
 "Add New Role",添加新角色
 "Edit Role",编辑角色
 Rejected,拒绝
 "The user %1 is the company admin and cannot be set to inactive. You must set another user as the company admin first.","用户 %1 是公司管理员，不能设置为停用。您必须先设置另一个用户作为公司管理员。"
+"Invalid login or password.",无效的登录名或密码。
+"This account is locked.",此帐户被锁定。
 "Invalid value of ""%value"" provided for the %fieldName field.","为% fieldName字段提供“% value”的无效值。"
 "No such entity with %fieldName = %fieldValue","没有任何具有% fieldName = % fieldValue的实体"
 "Type %1 is not an instance of %2","类型 %1 不是 %2 的实例"
 "The selected user is inactive. To continue, select another user or activate the current user.",所选用户处于停用状态。要继续，请选择另一个用户或激活当前用户。
-"Invalid login or password.",无效的登录名或密码。
-"This account is locked.",此帐户被锁定。
 "Something went wrong",出了些问题
 "Exception message",异常消息
 test,测试
@@ -2679,24 +2634,21 @@ test,测试
 "Error message",错误消息
 "error message",错误消息
 "Role Name",角色名称：
-"User Role",用户角色
 "Please select a region, state or province.",请选择一个地区，州或省。
 "Phone Number",电话号码
+"User Role",用户角色
 "You have no other address entries in your address book.",在你的地址簿中没有其他地址条目。
 Contacts,联系人
 "Role Information",角色信息
 "Save Role",保存角色
 "Add New User",添加新用户
 "Create an Account",创建帐户
-"Your account set inactive",您的帐户设置未激活
 "Your account has been set to inactive and you cannot now access the company account. If you think this is a mistake, please contact your manager for details.","您的帐户已设置为非激活帐户，您现在不能访问公司帐户。 如果您认为这是一个错误，请联系您的管理员了解详情。"
 "%name,",%名称，
 "When you sign in to your account, you will be able to:",当您登录到您的帐户时，您将能够:
-"Show Inactive Users",显示停用用户。
 "This action cannot be undone. Are you sure you want to delete this company? After the company is deleted, all the company members will be set to Inactive.","此操作不能撤消。 您确定要删除这个公司吗？在公司被删除后，所有公司成员将被设置为停用。"
 "Edit User",编辑用户
-"Set as Inactive",设为停用
-"Select Delete to permanently delete the user account and content. User's orders and quotes are still visible for the merchant. Select Set as Inactive to temporarily lock the user. The user’s content is still available to parent users.","选择删除以永久删除用户帐户和内容。用户的订单和报价对商户仍然可见。 设置为停用以暂时锁定用户。用户的内容仍然适用于父用户。"
+"Set Inactive",设为停用
 Comma-separated,以逗号分隔
 "Default 'Company Admin Inactive' Email","默认""公司管理员停用""邮件"
 "Default 'Customer Status Inactive' Email",默认“客户状态未激活”电子邮件
@@ -2704,7 +2656,6 @@ Comma-separated,以逗号分隔
 Comment,评论
 ZIP,邮编
 Gender,性别
-"Set Inactive",设为停用
 Prefix,前缀
 "Middle Name/Initial",中间名/缩写
 Suffix,后缀
@@ -2881,15 +2832,13 @@ Select,选择
 "No Image",没有图像
 "Choose a different Product",选择一种不同的产品
 "Create Product Configurations",创建产品配置
-"Buy %1 for %2 each and",为%2购买%1
-save,保存
-"Disable Product",禁用产品
-"Enable Product",可用产品
 "New Product Review",新产品审查
 "Here are the products you're about to create.",这里是你将要创建的产品。
 "You created these products for this configuration.",您为该配置创建了这些产品。
 "Disassociated Products",解除关联的产品
 "These products are not associated.",这些产品不是关联的。
+"Disable Product",禁用产品
+"Enable Product",可用产品
 "An attribute has been removed. This attribute will no longer appear in your configurations.",属性已被删除。此属性将不再显示在您的配置。
 "Select options for all attributes or remove unused attributes.",为所有属性选择选项或删除未使用的属性。
 "Choose this option to delete and replace extension data for all past configurations.",选择这个选项来删除和替换所有过去配置的扩展数据。
@@ -2901,6 +2850,8 @@ save,保存
 "When you remove or add an attribute, we automatically update all configurations and you will need to recreate current configurations manually.",当您删除或添加的属性时，我们会自动更新所有的配置，您将需要手动重新创建当前配置。
 "Please select attribute(s).",请选择属性。
 "Generate Products",生成产品
+"Buy %1 for %2 each and",为%2购买%1
+save,保存
 "Configurable Product Image",可配置的产品图像
 "Thanks for contacting us with your comments and questions. We'll respond to you very soon.",发送邮件至
 "An error occurred while processing your form. Please try again later.",发生错误，请稍后尝试.
@@ -2985,7 +2936,6 @@ Alphanumeric,字母表
 "Address Book",通讯簿
 "Edit Address",更改账单地址
 "Add New Address",添加新地址
-"Customer not logged in",用户未登陆
 region,地区
 "Save Customer",保存客户
 "Reset Password",重置密码
@@ -2996,7 +2946,6 @@ region,地区
 Newsletter,最新资讯
 "Newsletter Information",最新资讯信息
 "Subscribed to Newsletter",订阅最新资讯
-"Subscribed on Store View",在商店视图上订阅
 "Last Date Subscribed",订阅期限
 "Last Date Unsubscribed",取消订阅期限
 "No Newsletter Found",未找到最新资讯
@@ -3029,8 +2978,6 @@ Locked,已锁定
 Unlock,解锁​​​​
 "Delete Image",全尺寸视图
 "View Full Size",查看全部尺寸
-Subscribed,已订阅
-"Last Updated At",上次更新
 "All countries",所有国家
 "Add New Customer Group",添加新客户组
 "Save Customer Group",保存客户组
@@ -3053,7 +3000,6 @@ Subscribed,已订阅
 "There was an error detecting Customer Group.",检测客户组时出错。
 "Validate VAT Number",验证增值税号码
 "Date of Birth",出生日期
-Today,今天
 "Bad request.",请求有误。
 "This confirmation key is invalid or has expired.",此确认密钥无效或已过期。
 "There was an error confirming the account",确认该帐户时出错
@@ -3064,6 +3010,7 @@ Today,今天
 "This email does not require confirmation.",这封电子邮件不要求确认。
 "Wrong email.",错误的电子邮件。
 "Your password reset link has expired.",您的密码重置链接已过期。
+"There is already an account with this email address. If you are sure that it is your email address, <a href=""%1"">click here</a> to get your password and access your account.","已存在此电子邮件地址的帐户。如果你确信它是您的电子邮件地址，<a href=""%1""> 请单击此处</a> 以获取您的密码和访问您的帐户。"
 "We can't save the customer.",我们不能保存客户。
 "Please make sure your passwords match.",请确保您的密码相匹配。
 "If you are a registered VAT customer, please <a href=""%1"">click here</a> to enter your shipping address for proper VAT calculation.","如果你是一个注册的增值税客户，请在这里输入“% 1”>，进入你的送货地址，以进行适当的增值税计算。
@@ -3071,11 +3018,10 @@ Today,今天
 "If you are a registered VAT customer, please <a href=""%1"">click here</a> to enter your billing address for proper VAT calculation.","如果你是一个注册的增值税客户，请在这里输入“% 1”>，以进入你的账单地址，以进行适当的增值税计算。"
 "You saved the account information.",你保存的帐户信息。
 "Password confirmation doesn't match entered password.",确认密码与输入的密码不匹配。
-"The password doesn't match this account. Verify the password and try again.",密码不匹配此帐户。请验证密码，然后重试。
-"The email address is incorrect. Verify the email address and try again.",电子邮件地址不正确。请检查电子邮件地址，然后重试。
 "We're unable to send the password reset email.",我们无法发送重新设置密码的电子邮件。
 "Please enter your email.",请输入您的电子邮箱地址。
 "If there is an account associated with %1 you will receive an email with a link to reset your password.","如果与 %1 相关联的帐户，则您将收到电子邮件链接重置您的密码。"
+"This account is not confirmed. <a href=""%1"">Click here</a> to resend confirmation email.","此帐户尚未确认。<a href=""%1""> 点击这里</a> 重新发送确认电子邮件。"
 "An unspecified error occurred. Please contact us for assistance.",发生未知的错误，需要帮助请联系我们。
 "A login and a password are required.",登录名和密码是必需的。
 "New Password and Confirm New Password values didn't match.",新密码和确认新密码不匹配。
@@ -3084,11 +3030,8 @@ Today,今天
 "Something went wrong while saving the new password.",保存新密码时出了错。
 "You deleted the address.",你删除地址。
 "We can't delete the address right now.",我们现在不能删除该地址。
-"No files for upload.",没有要上传的文件。
-"Address not found.",地址未找到。
 "You saved the address.",你保存的地址。
 "We can't save the address.",我们不能保存地址。
-"There is no address id in setting default billing address.",在设置默认帐单地址时没有地址id。
 "You have revoked the customer's tokens.",你已吊销客户的令牌。
 "We can't find a customer to revoke.",我们找不到客户撤销。
 "Something went wrong while saving file.",保存选项时出现错误。
@@ -3119,6 +3062,7 @@ Today,今天
 "Please enter a password with at most %1 characters.","请输入最多% 1字符的密码。"
 "Minimum of different classes of characters in password is %1. Classes of characters: Lower Case, Upper Case, Digits, Special Characters.","密码中的字符的不同类的最低是 %1。字符类： 小写、 大写、 数字、 特殊字符。"
 "This customer already exists in this store.",这个客户已经存在在这个商店中。
+"Reset password token expired.",重置密码令牌到期。
 """%1"" is a required value.",“%1”的长度必须等于或小于%2个字符。
 "Per Website",每个网站
 "We can't share customer accounts globally when the accounts share identical email addresses on more than one website.",当帐户共享相同的电子邮件地址，多个网站上，我们不能全局共享客户帐户。
@@ -3126,7 +3070,6 @@ Today,今天
 "Unable to create directory %1.","无法创建目录: %1"
 "Destination folder is not writable or does not exists.",目标文件夹不可写，或不存在。
 "Something went wrong while saving the file.",在保存文件(s)时出现了问题
-"Reset password token expired.",重置密码令牌到期。
 "Attribute object is undefined",未定义的属性对象
 """%1"" invalid type entered.","""%1""输入的类型无效。"
 """%1"" contains non-alphabetic or non-numeric characters.","""%1""中包含非字母或非数字字符。"
@@ -3204,13 +3147,13 @@ Newsletters,通讯
 "Change Shipping Address",更改送货地址
 "You have no default shipping address in your address book.","您的地址簿中没有默认的送货地址。
 "
+"Additional Address Entries",额外的地址条目
 "Street Address %1","街道地址 %1"
 "It's a default billing address.",它是默认的帐单地址。
 "Use as my default billing address",使用作为我的默认帐单地址
 "It's a default shipping address.",它是默认的送货地址。
 "Use as my default shipping address",使用作为我的默认送货地址
 "Go back",返回
-"Additional Address Entries",额外的地址条目
 "Please enter your email below and we will send you the confirmation link.",请在下面输入您的电子邮件，我们将发送确认链接。
 "Send confirmation link",发送确认链接
 "Back to Sign In",返回签到
@@ -3232,8 +3175,6 @@ Newsletters,通讯
 "Confirm Password",确认密码
 "Set a New Password",设置新的密码
 "You have signed out and will go to our homepage in 5 seconds.","你已退出，在 5 秒钟后将转到我们的主页。"
-"This account is not confirmed. <a href=""%1"">Click here</a> to resend confirmation email.","此帐户尚未确认。<a href=""%1""> 点击这里</a> 重新发送确认电子邮件。"
-"There is already an account with this email address. If you are sure that it is your email address, <a href=""%1"">click here</a> to get your password and access your account.","已存在此电子邮件地址的帐户。如果你确信它是您的电子邮件地址，<a href=""%1""> 请单击此处</a> 以获取您的密码和访问您的帐户。"
 "Creating an account has many benefits: check out faster, keep more than one address, track orders and more.","创建帐户有很多好处: 更快地查阅，保持多个地址，跟踪订单和更多。"
 Fax,传真
 "Welcome to %store_name",欢迎光临%store_name
@@ -3360,6 +3301,10 @@ Addresses,地址
 "Edit Account Information",编辑帐户信息
 "Password forgotten",密码忘记了
 "You are signed out",你已注销
+"The password doesn't match this account. Verify the password and try again.",密码不匹配此帐户。请验证密码，然后重试。
+"The email address is incorrect. Verify the email address and try again.",电子邮件地址不正确。请检查电子邮件地址，然后重试。
+"Customer not logged in",用户未登陆
+"There is no address id in setting default billing address.",在设置默认帐单地址时没有地址id。
 "Delete Orphan Balances",您的店铺信用余额现已%的平衡。
 "Balance Change",由Admin：%1。
 Balance,平衡
@@ -3452,6 +3397,7 @@ available,可用
 "Edit Customer Address Attribute",编辑客户地址属性
 "You saved the customer address attribute.",你保存客户地址属性。
 "We can't save the customer address attribute right now.",我们现在无法保存客户地址属性的权利。
+"An attribute with this code already exists.",具有该代码的属性已存在。
 "Manage Customer Attributes",管理客户的属性
 "You deleted the customer attribute.",你删除客户属性。
 "The attribute no longer exists.",该属性不再存在。
@@ -3467,7 +3413,6 @@ available,可用
 "Customer Account Edit",客户帐户编辑
 "Admin Checkout",管理签出
 "Length Only",长度仅
-"An attribute with this code already exists.",具有该代码的属性已存在。
 "Fieldset Properties",字段属性
 "Fieldset Title",字段集标题
 "Fieldset Code",字段集代码
@@ -3732,7 +3677,6 @@ kgs,公斤
 "Undefined rate from ""%1-%2"".","从""%1%2""的定义的率。"
 "Please correct the target currency.",如果是可选的国家允许选择州
 "We can't retrieve a rate from %1 for %2.",我们不能从%1中检索%2的速率。
-"The account this API request is coming from is inactive.","此 API 请求来自的帐户处于停用状态。"
 "FATAL ERROR:",致命错误:
 "Please specify the correct Import Service.",请指定正确的导入服务。
 WARNING:,警告：
@@ -3758,6 +3702,7 @@ Service,服务
 "State Options",状态选项
 "State is Required for",状态是必需的
 "Allow to Choose State if It is Optional for Country",允许选择状态，如果它是可选的国家
+"The account this API request is coming from is inactive.","此 API 请求来自的帐户处于停用状态。"
 "Document is not saved due to error.",由于错误，未能保存文档。
 "More than one node matching the query: %1","与查询匹配的多个节点: %1"
 "Invalid XML in file %1:\n%2","无效的XML在文件%1:
@@ -4039,7 +3984,6 @@ Combined,联合
 "Gift Card Is Redeemable",代金卡是可赎回
 "We cannot create this gift card.",我们无法创建此代金卡。
 "Gift Card Accounts",收件人电子邮件
-"Some gift card accounts were not created properly. You can create gift card accounts manually <a href=""%1"">here</a>.","一些代金卡帐户创建不正确。您可以创建代金卡帐户手动 <a href=""%1""> 在这里</a>。"
 "Duplicate amount found.",发现的重复量。
 "Something went wrong while preparing the gift card.",同时准备的代金卡，出了错。
 "Please specify a gift card amount.",请指定代金卡金额。
@@ -4050,6 +3994,7 @@ Combined,联合
 "Please specify a sender name.",请指定发件人的名称。
 "Please specify a recipient email.",请指定收件人的电子邮件。
 "Please specify a sender email.",请指定发件人的电子邮件。
+"Some gift card accounts were not created properly. You can create gift card accounts manually <a href=""%1"">here</a>.","一些代金卡帐户创建不正确。您可以创建代金卡帐户手动 <a href=""%1""> 在这里</a>。"
 "Treat Balance as Store Credit",把余额作为存储信用
 "Lifetime (days)","有效期 (天)"
 "Allow Message",允许消息
@@ -4105,6 +4050,7 @@ History,历史
 "We cannot apply this gift card.",我们不能应用此代金卡。
 "Gift Card ""%1"" was removed.","代金卡""%1""被删除。"
 "You can't remove this gift card.",您不能删除此代金卡。
+"You can't redeem a gift card now.",您现在不能兑换一张代金卡。
 "Gift Card ""%1"" was redeemed.","代金卡""%1""在中赎回。"
 "We cannot redeem this gift card.",我们不能赎此代金卡。
 "The expiration date must be set in the future.",到期日期必须设定在未来。
@@ -4122,6 +4068,7 @@ Available,可用
 Redeemed,赎回
 Expired,已过期
 "Please enter a valid customer ID.","请输入一个有效的客户 id。"
+"Gift Card Redeemed: %1. For customer #%2.","代金卡兑换: %1。为客户 #%2。"
 "Order #%1.","订单 #%1"
 "Recipient: %1.","收件人: %1。"
 "Customer #%1.","客户 %1"
@@ -4129,18 +4076,16 @@ Expired,已过期
 "Unknown history action.",未知的历史作用。
 "We were unable to create full code pool size. Please check settings and try again.",我们是无法创建完整的代码池大小。请检查设置，然后重试。
 "No codes left in the pool.",没有代码留在池中。
-"You can't redeem a gift card now.",您现在不能兑换一张代金卡。
-"Gift Card Redeemed: %1. For customer #%2.","代金卡兑换: %1。为客户 #%2。"
 Alphabetical,字母表
 Numeric,数字
 "The maximum generated code length is 255. Please correct your settings.","最大生成的代码长度是 255。请更正您的设置。"
 "test message",测试消息
-"Are you sure you want to continue without saving your changes?",你确定你想要继续而不保存您的更改?
 Generate,生成
 "Code Pool used: ",使用的代码库:
 " (free ",(免费
 " of ",的
 " total).",共有)。
+"Are you sure you want to continue without saving your changes?",你确定你想要继续而不保存您的更改?
 "Refund Gift Cards to Store Credit",退还代金卡来存储信贷
 "Add Gift Card",添加代金卡
 "Gift Card (%1)","代金卡 (%1)"
@@ -4515,15 +4460,13 @@ Filter,过滤器
 "Images File Directory",图像文件目录
 "Download Sample File",下载示例文件
 "Please correct the data sent value.",请更正发送的数据值。
-"Sorry, but the data is invalid or the file is not uploaded.",抱歉，但数据是无效的或不能上传的文件。
 Import/Export,导入/导出
 "Import History",导入历史记录
 "Import history",导入历史记录
 "There is no sample file for this entity.",还有没有用于此实体的示例文件。
 "Maximum error count has been reached or system error is occurred!",已达到最大错误计数或发生系统错误!
-"Only the first 100 errors are shown. ",只显示前100个错误。
-"Download full report",下载完整报告
 "Import successfully done",导入成功完成
+"Sorry, but the data is invalid or the file is not uploaded.",抱歉，但数据是无效的或不能上传的文件。
 "The file was not uploaded.",文件不能上传。
 "Data validation failed. Please fix the following errors and upload the file again.",数据验证失败。请修复以下错误并再次上传的文件。
 "Checked rows: %1, checked entities: %2, invalid rows: %3, total errors: %4","检查行: %1，选中实体: %2，无效行: %3，错误总数: %4"
@@ -4534,6 +4477,8 @@ Import/Export,导入/导出
 "Show more",显示更多
 "Additional data",附加数据
 "Following Error(s) has been occurred during importing process:",在导入过程中出现了以下错误:
+"Only the first 100 errors are shown. ",只显示前100个错误。
+"Download full report",下载完整报告
 "in row(s):",在行:
 "Make sure your file isn't more than %1M.","请确保您的文件不是更多比 %1M。"
 "We can't provide the upload settings right now.",我们不能现在提供的上传设置。
@@ -5007,8 +4952,8 @@ Wishlist,收藏
 "Sign in to edit wish lists.",登录以编辑收藏清单。
 "The wish list is not assigned to your account and can't be edited.",收藏清单未分配给您的帐户，无法进行编辑。
 "Provide the wish list name.",提供的收藏列表名称。
-"Only %1 wish list(s) can be created.","可以创建只 %1 wish list(s)。"
 "Wish list ""%1"" already exists.","收藏清单""%1""已存在。"
+"Only %1 wish list(s) can be created.","可以创建只 %1 wish list(s)。"
 "Unknown Magento error","未知的 Magento 错误"
 "All Wish Lists",所有的收藏清单
 "Add To Order",无项目
@@ -5055,10 +5000,10 @@ Wishlist,收藏
 "Create Billing Address",创建帐单地址
 "Create Shipping Address",创建送货地址
 "Data saving problem",数据保存的问题
-"Maximum qty allowed for Shipping to multiple addresses is %1","允许发货到多个地址的最大数量是 %1"
 "We cannot open the overview page.",我们不能打开概述页。
 "Please agree to all Terms and Conditions before placing the order.",请在下订单前同意所有的条款和条件。
 "Order place error",顺序位置误差
+"Maximum qty allowed for Shipping to multiple addresses is %1","允许发货到多个地址的最大数量是 %1"
 "Select Addresses",选择地址
 "Shipping Information",运输方式
 "Billing Information",订单总览
@@ -5084,8 +5029,6 @@ Wishlist,收藏
 "Order Review",订单评审
 "Grand Total:",总计:
 "Submitting order information...",提交订单信息。。。
-"Ship to:",送货地址:
-Error:,"错误： "
 "Address %1 <span>of %2</span>","%1 <span>的 %2</span> 地址"
 "Sorry, no quotes are available for this order right now.",对不起，目前没有报价可用于此订单。
 "Continue to Billing Information",继续到帐单信息
@@ -5097,6 +5040,8 @@ Error:,"错误： "
 "Maximum Qty Allowed for Shipping to Multiple Addresses",允许发货到多个地址的最大数量
 "Review Order",查看订单
 "Select Shipping Method",选择送货方式
+"Ship to:",送货地址:
+Error:,"错误： "
 "MySQL Message Queue Cleanup","MySQL 消息队列清理"
 "All the times are in minutes. Use ""0"" if you want to skip automatic clearance.","所有的时间都是在几分钟内。使用""0""，如果你想要跳过自动过关。"
 "Retry Messages In Progress After",重试后进展中的消息
@@ -5119,7 +5064,6 @@ Created:,已创建:
 "No shipping information available",没有可用的航运信息
 "Thank you,",谢谢
 "Cancel coupon",取消优惠券
-"Show My Quotes",显示我的报价
 "Go to Checkout",去结帐
 "Minimum Amount",最小金额
 "This message will be shown in the shopping cart when the subtotal (after discount) is lower than the minimum allowed amount.","低于的最小允许金额小计 (打折后) 时，将购物车中显示此消息。"
@@ -5181,8 +5125,8 @@ Subscribers,订阅用户
 "This email address is already assigned to another user.",此电子邮件地址已经分配给另一个用户。
 "Sorry, but the administrator denied subscription for guests. Please <a href=""%1"">register</a>.","抱歉，但管理员拒绝客人的预订。请 <a href=""%1""> 注册</a>。"
 "This email address is already subscribed.",这个电子邮件地址已经订阅了。
-"Something went wrong with the subscription.",该订阅出毛病了。
 "Thank you for your subscription.",谢谢您的订阅。
+"Something went wrong with the subscription.",该订阅出毛病了。
 "You unsubscribed.",你退订。
 "Something went wrong while unsubscribing you.",取消订阅你时出了错。
 Cancelled,取消
@@ -5365,7 +5309,6 @@ Help,帮助
 "We can't start the billing agreement wizard.",我们不能开始计费的协议向导。
 "Billing Agreement # %1","计费协议 # %1"
 "We can't initialize Express Checkout.",我们不能初始化快速结账。
-"PayPal can't process orders with a zero balance due. To finish your purchase, please go through the standard checkout process.",支付宝不能处理订单与一零平衡。要完成您的购买，请通过标准结帐过程。
 "PayPal Express Checkout Token does not exist.",贝宝表示签出令牌并不存在。
 "A wrong PayPal Express Checkout Token is specified.",指定了一个错误的支付宝快捷结帐令牌。
 "Express Checkout and Order have been canceled.",快速结账和订单已被取消。
@@ -5411,6 +5354,7 @@ Auto,自动
 "The maximum number of child authorizations is reached.",达到了子授权的最大数目。
 "We'll authorize the amount of %1 as soon as the payment gateway approves it.","我们将授权 %1 的量，尽快支付网关批准它。"
 "The authorized amount is %1.","授权的金额是 %1。"
+"PayPal can't process orders with a zero balance due. To finish your purchase, please go through the standard checkout process.",支付宝不能处理订单与一零平衡。要完成您的购买，请通过标准结帐过程。
 "A payer is not identified.",不确定的付款人。
 "Cannot get secure form URL from PayPal",无法从PayPal获得安全的表单URL
 "Last Transaction ID","最后的交易 ID"
@@ -5794,14 +5738,14 @@ Vendor,供应商
 "Card Issuer Is Outside The United States",发卡机构在美国境外
 "Card Security Code Does Not Match",信用卡安全代码不匹配
 "Payflow Pro and Express Checkout","转账 Pro 和快递签出"
+"Not you?",不是你吗？
 "Your shopping cart has been updated with new prices.",您的购物车已被新的价格更新。
+"Welcome, %1!",欢迎您，%1!
 "We cannot load the configuration from file %1.","我们无法加载配置文件% 1。"
 "Method ""%1"" is not defined in ""%2""","在""%2""未定义的方法""%1"""
 "Remember Me",记住我
 "Check &quot;Remember Me&quot; to access your shopping cart on this computer even if you are not signed in.","勾选""记住我""来访问这台计算机上您的购物车，即使你不在签署。"
 "Check 'Remember Me' to access your shopping cart on this computer even if you are not signed in.","勾选""记住我""来访问这台计算机上您的购物车，即使你没有登录"
-"Welcome, %1!",欢迎您，%1!
-"Not you?",不是你吗？
 "Persistent Shopping Cart",持续购物车
 "Enable Persistence",启用持久性
 "Persistence Lifetime (seconds)","持久性生存期 (秒)"
@@ -5881,15 +5825,11 @@ Duration:,持续时间︰
 "Edit Automated Email Reminder Rules",编辑自动电子邮件提醒规则
 "Quick Order",快速订购
 "Page not found.",找不到页面。
-"There is no items to delete",没有要删除的项目
-"Cannot update item list.",无法更新项目列表。
-"Entered list is empty.",输入的列表是空的。
-"You entered item(s) with an empty SKU.",您输入了一个SKU为空的项目。
 "The uploaded CSV file does not contain a column labelled SKU. Make sure the first column is labelled SKU and that each line in the file contains a SKU value. Then upload the file again.","上传的 CSV 文件不包含标注为 SKU的一列。 请确保第一列被标签为 SKU ，文件中的每一行都包含 SKU 值。然后再次上传文件。"
-"An error occurred. For details, see the error log.",发生错误。详细信息请参阅错误日志。
 "You should correct the quantity for the product.",您应该更正产品的数量。
 "The SKU is out of stock.",SKU缺货。
 "We don't have the quantity you requested.",我们没有您请求的数量。
+"An error occurred. For details, see the error log.",发生错误。详细信息请参阅错误日志。
 "The file could not be uploaded because it is in the wrong format. Please select a CSV file to upload.","无法上传文件，因为它格式错误。请选择要上传的 CSV 文件。"
 "Add from File",从文件添加
 "File must be in .csv format and include ""SKU"" and ""QTY"" columns","文件必须为 .csv 格式，并包含 ""SKU"" 和 ""QTY"" 列"
@@ -5902,20 +5842,6 @@ Duration:,持续时间︰
 " product(s) require(s) your attention."," 产品（s）需要您注意。"
 "Enable Quick Order",启用快速订购
 "Download Sample",下载示例
-"The address failed to save. Verify the address and try again.",地址保存失败。请验证地址并重试。
-"The product quantity should be greater than 0","商品数量应该大于 0"
-"Could not find a product with SKU ""%sku""","找不到 SKU ""%sku"" 的产品"
-"Wrong format of the entered option data",输入选项数据的格式错误
-"Required fields are not present: sku, quantity","所需字段不存在：sku, 数量"
-"Required fields are not present EnteredOption.uid, EnteredOption.value","必填字段不存在 EnteredOption.uid, EnteredOption.value"
-"The ""%1"" Cart doesn't contain products.","""%1"" 购物车不包含商品。"
-"Cart isn't assigned to correct store",购物车没有分配给正确的商店
-"'The coupon code couldn't be applied: ' .","'优惠券代码无法应用: '"
-"The coupon code couldn't be applied. Verify the coupon code and try again.",优惠券代码无法应用。请验证优惠券代码并重试。
-"The coupon code isn't valid. Verify the code and try again.",优惠券代码无效。请验证代码，然后重试。
-"The coupon code couldn't be deleted. Verify the coupon code and try again.",优惠券代码无法删除。请验证优惠券代码，然后重试。
-"You don't have the correct permissions to assign the customer to the cart.",您没有正确的权限分配客户到购物车。
-"The shipping address is missing. Set the address and try again.",运输地址缺失。请设置地址，然后重试。
 "The requested Payment Method is not available.",请求的付款方法不可用。
 "We found an invalid request for adding product to quote.",我们发现无效的添加产品以引号的请求。
 "Product that you are trying to add is not available.",您正在尝试添加的产品不可用。
@@ -5937,37 +5863,42 @@ Shipping,发货
 "Some of the selected options are not currently available.",某些选定的选项当前不可用。
 "Selected option(s) or their combination is not currently available.",所选的选项或它们的组合不是当前可用的。
 "Some item options or their combination are not currently available.",一些项目选项或它们的组合不是当前可用的。
-"The %1 Cart doesn't contain the %2 item.","%1 购物车不包含 %2 项。"
-"The quote couldn't be saved.",无法保存报价。
-"""%fieldName"" is required. Enter and try again.","""%fieldName"" 是必需的。输入然后再试一次。"
-"The item couldn't be removed from the quote.",无法从报价中删除该项目。
 "The qty value is required to update quote item.",更新引用项需数量值。
 "Minimum order amount is %1","最小起订量是 %1"
 "Invalid customer id %1","无效的客户 id %1"
-"Invalid customer address id %1","无效的客户 id %1"
 "Invalid address id %1","无效地址 id %1"
-"The quote can't be created.",无法创建报价。
-"The customer can't be assigned to the cart. The cart belongs to a different store.",客户不能分配到购物车。购物车属于另一家商店。
-"The customer can't be assigned to the cart because the cart isn't anonymous.",客户不能被分配到购物车，因为购物车不是匿名的。
-"A server error stopped your order from being placed. Please try to place your order again.",服务器错误阻止您的订单被放置。请尝试再次下单。
+"Invalid customer address id %1","无效的客户 id %1"
 "Invalid state change requested",请求的状态更改无效
 "Only 1 shipping assignment can be set",只能设置1个发货任务。
 "This item price or quantity is not valid for checkout.",这个项目的价格或数量是无效的。
-"Something went wrong. Please try to place the order again.",出错了。请尝试再次下单。
-"The Cart includes virtual product(s) only, so a shipping address is not used.",购物车只包含虚拟产品(s)，所以没有使用送货地址。
-"The shipping method can't be set. %1","无法设置配送方式。 %1"
-"The shipping method can't be set for an empty cart. Add an item to cart and try again.",不能为空购物车设置配送方式。将项目添加到购物车，然后重试。
-"Failed address validation:\n%1","地址验证失败：\n%1"
-"Current customer does not have an active cart.",当前客户没有活动购物车。
-"Entity Id does not exist",实体ID不存在
 Carts,购物车
 "Manage carts",管理购物车
-"Enable Inventory Check On Cart Load",启用购物车负载时的库存检查
+"Cart isn't assigned to correct store",购物车没有分配给正确的商店
+"Something went wrong. Please try to place the order again.",出错了。请尝试再次下单。
 "Some addresses can't be used due to the configurations for specific countries.",某些地址因为指定国家的配置而无法使用。
 "Please check the shipping address information.",请检查配送地址信息。
 "Please check the billing address information.",请检查账单地址信息。
 "Enter a valid payment method and try again.",输入一个有效的付款方法，然后重试。
+"The address failed to save. Verify the address and try again.",地址保存失败。请验证地址并重试。
+"The ""%1"" Cart doesn't contain products.","""%1"" 购物车不包含商品。"
+"The coupon code couldn't be applied. Verify the coupon code and try again.",优惠券代码无法应用。请验证优惠券代码并重试。
+"The coupon code isn't valid. Verify the code and try again.",优惠券代码无效。请验证代码，然后重试。
+"The coupon code couldn't be deleted. Verify the coupon code and try again.",优惠券代码无法删除。请验证优惠券代码，然后重试。
+"You don't have the correct permissions to assign the customer to the cart.",您没有正确的权限分配客户到购物车。
+"The shipping address is missing. Set the address and try again.",运输地址缺失。请设置地址，然后重试。
+"The %1 Cart doesn't contain the %2 item.","%1 购物车不包含 %2 项。"
+"The quote couldn't be saved.",无法保存报价。
+"The item couldn't be removed from the quote.",无法从报价中删除该项目。
+"The quote can't be created.",无法创建报价。
+"The customer can't be assigned to the cart. The cart belongs to a different store.",客户不能分配到购物车。购物车属于另一家商店。
+"The customer can't be assigned to the cart because the cart isn't anonymous.",客户不能被分配到购物车，因为购物车不是匿名的。
+"A server error stopped your order from being placed. Please try to place your order again.",服务器错误阻止您的订单被放置。请尝试再次下单。
+"The Cart includes virtual product(s) only, so a shipping address is not used.",购物车只包含虚拟产品(s)，所以没有使用送货地址。
+"The shipping method can't be set. %1","无法设置配送方式。 %1"
+"The shipping method can't be set for an empty cart. Add an item to cart and try again.",不能为空购物车设置配送方式。将项目添加到购物车，然后重试。
+"Current customer does not have an active cart.",当前客户没有活动购物车。
 "Shopping cart error: %message",购物车错误：%message
+"Could not find a product with SKU ""%sku""","找不到 SKU ""%sku"" 的产品"
 "Could not add the product with SKU %sku to the shopping cart: %message","无法将带有SKU %sku 的产品添加到购物车: %message"
 "Missing key ""sku"" in cart item data","购物车项目数据中缺少密钥""sku"""
 "Missing key ""qty"" in cart item data",购物车项目数据中缺少密钥“qty”
@@ -6058,7 +5989,6 @@ for,为
 subtotal,小计
 "grand total",总计
 "Shopping cart %1 amount %2 %3:","购物车 %1 金额 %2 %3:"
-"The quote total specified is unknown. Verify the total and try again.",指定的报价总额未知。请验证总数，然后重试。
 "Numeric Attribute",数字属性
 weight,重量
 "row weight",行重
@@ -6066,7 +5996,6 @@ quantity,数量
 "base price",基价
 "base cost",基本费用
 "Item %1 %2 %3:","项目 %1 %2 %3:"
-"The attribute specified is unknown. Verify the attribute and try again.",指定的属性未知。请验证属性，然后重试。
 "Items Subselection",项目部分选定
 "Coupon Code",优惠劵
 "Shopping cart %1 a coupon applied","购物车 %1 应用优惠券"
@@ -6091,8 +6020,6 @@ is,是
 "The item was added to wish list %1, store view %2.","该项目被添加到愿望清单 %1，存储视图 %2。"
 "If an item is %1 in the wish list and %2 of these conditions match:","如果一个项目是在愿望清单与这些条件匹配的 %2 %1:"
 "Condition type is unexpected",条件类型是意外
-"The valid number of minutes needs to be entered. Enter and try again.",需要输入有效的分钟数。请输入然后重试。
-"The Cron expression was unable to be saved.","Cron 表达式无法保存。"
 "<b>Important</b>: If you select ""Use Auto Generation"", this rule will no longer be used in any automated email reminder rules for abandoned carts","< b >重要的< / b >:如果你选择“使用自动生成”，这条规则将不再适用于任何自动电子邮件提醒规则"
 "Validate error 1",验证错误2
 "Validate error 2",验证错误2
@@ -6109,6 +6036,10 @@ Interval,周期
 "Email Send Failure Threshold",电子邮件发送失败阈值
 "Make sure to enter a limit value, or reminder emails will be re-issued to customers in a loop.",请确保输入某一极限值，或提示电子邮件将重新发放给客户在一个循环中。
 "Reminder Email Sender",提醒电子邮件发件人
+"The quote total specified is unknown. Verify the total and try again.",指定的报价总额未知。请验证总数，然后重试。
+"The attribute specified is unknown. Verify the attribute and try again.",指定的属性未知。请验证属性，然后重试。
+"The valid number of minutes needs to be entered. Enter and try again.",需要输入有效的分钟数。请输入然后重试。
+"The Cron expression was unable to be saved.","Cron 表达式无法保存。"
 "New Accounts",新帐户
 "Customers by number of orders",客户订单号
 "Customers by Orders Total",客户的订单总数
@@ -6165,8 +6096,6 @@ Carrier/Method,载体的方法
 "Wish List vs. Regular Order","愿望清单 vs 常规顺序"
 "Times Deleted",删除的次数
 "Index type is not valid",索引类型无效
-Never,从不使用
-"Last updated: %1. To refresh last day's <a href=""%2"">statistics</a>, click <a href=""#2"" data-post=""%3"">here</a>.","最后更新： %1。要刷新昨天的 <a href=""%2"">统计</a>，请点击 <a href=""#2"" data-post=""%3"">这里</a>。"
 "New Accounts Report",新帐户报告
 "Customers by Number of Orders",客户订单号
 "Order Count Report",订单计数报告
@@ -6201,13 +6130,11 @@ Statistics,统计数据
 "You refreshed lifetime statistics.",你刷新生存时间统计。
 "Recent statistics have been updated.",最近的统计数据进行了更新。
 "We can't refresh recent statistics.",我们不能刷新最近的统计数据。
-"System configuration is not found for report event type ""%1""",未找到报表事件类型“%1”的系统配置
 "The product type filter specified is incorrect.",指定的产品类型筛选器是不正确的。
 "Order Taxes Report Grouped by Tax Rates",订单税报表按税率
 "Total Invoiced VS Paid Report","总开票 VS 支付报告"
 "Promotion Coupons Usage Report",促销优惠券使用报告
 "Most Viewed Products Report",浏览最多的产品报告
-"Disable Notice",禁用通知
 "Show By",通过显示
 "Select Date",选择日期
 "Customers that have Wish List: %1","有愿望清单的客户:% 1"
@@ -6230,21 +6157,6 @@ Refunds,退款
 "Year-To-Date Starts",年--日期开始
 "Current Month Starts",当前月份开始
 "Select day of the month.",选择一个月的一天。
-"General Options",一般选项
-"Enable Reports",启用报告
-"If disabled, all report events will be disabled",如果禁用，将禁用所有报表事件
-"Enable ""Product View"" Report","启用""产品视图""报告"
-"If enabled, will collect statistic of viewed product pages",如果启用，将收集已查看产品页面的统计
-"Enable ""Send Product Link To Friend"" Report","启用""发送产品链接到朋友""报告"
-"If enabled, will collect statistic of product links sent to friend",如果启用，将收集发送给朋友的产品链接统计
-"Enable ""Add Product To Compare List"" Report","启用""添加产品以比较列表""报告"
-"If enabled, will collect statistic of products added to Compare List",如果启用，将收集添加到比较列表中的产品的统计数据
-"Enable ""Product Added To Cart"" Report","启用""产品添加到购物车""报告"
-"If enabled, will collect statistic of products added to Cart",如果启用，将收集添加到购物车的商品统计
-"Enable ""Product Added To WishList"" Report","启用""产品添加到愿望清单""报告"
-"If enabled, will collect statistic of products added to WishList",如果启用，将收集添加到愿望单中的产品的统计数据
-"Enable ""Share WishList"" Report","启用""共享愿望清单""报告"
-"If enabled, will collect statistic of shared WishLists",如果启用，将收集共享愿望清单的统计数据
 "Stock Quantity",库存数量
 "Ordered Quantity",订购的数量
 "The report displays the top 5 most viewed products for each interval.","报告显示每个时间间隔的前 5 个最受欢迎的产品。"
@@ -6261,25 +6173,31 @@ Refunds,退款
 "Are you sure you want to refresh lifetime statistics right now? This operation may slow down your customers' shopping experience.",你确定你想要现在刷新生存时间统计?此操作可能会放慢您的客户的购物体验。
 "Refresh Statistics for the Last Day",最后一天刷新统计信息
 "Are you sure you want to refresh statistics for the last day?",你确定你想要的最后一天刷新统计信息?
+"System configuration is not found for report event type ""%1""",未找到报表事件类型“%1”的系统配置
+"General Options",一般选项
+"Enable Reports",启用报告
+"If disabled, all report events will be disabled",如果禁用，将禁用所有报表事件
+"Enable ""Product View"" Report","启用""产品视图""报告"
+"If enabled, will collect statistic of viewed product pages",如果启用，将收集已查看产品页面的统计
+"Enable ""Send Product Link To Friend"" Report","启用""发送产品链接到朋友""报告"
+"If enabled, will collect statistic of product links sent to friend",如果启用，将收集发送给朋友的产品链接统计
+"Enable ""Add Product To Compare List"" Report","启用""添加产品以比较列表""报告"
+"If enabled, will collect statistic of products added to Compare List",如果启用，将收集添加到比较列表中的产品的统计数据
+"Enable ""Product Added To Cart"" Report","启用""产品添加到购物车""报告"
+"If enabled, will collect statistic of products added to Cart",如果启用，将收集添加到购物车的商品统计
+"Enable ""Product Added To WishList"" Report","启用""产品添加到愿望清单""报告"
+"If enabled, will collect statistic of products added to WishList",如果启用，将收集添加到愿望单中的产品的统计数据
+"Enable ""Share WishList"" Report","启用""共享愿望清单""报告"
+"If enabled, will collect statistic of shared WishLists",如果启用，将收集共享愿望清单的统计数据
+"Last updated: %1. To refresh last day's <a href=""%2"">statistics</a>, click <a href=""#2"" data-post=""%3"">here</a>.","最后更新： %1。要刷新昨天的 <a href=""%2"">统计</a>，请点击 <a href=""#2"" data-post=""%3"">这里</a>。"
 "My Requisition Lists",我的请购清单
-"We couldn't find the requested requisition list.",我们找不到请求的请购清单。
 "We can't update your requisition list right now.",我们现在无法更新您的请购清单。
 "We can't add the item to the Requisition List right now: %1.","我们现在不能将该项目添加到请购清单中: %1。"
-"We couldn't find the product you requested to add to your requisition list.",我们找不到您请求添加到您的请购清单中的产品。
 "You added %1 item(s) to your shopping cart.","您已将 %1 个物品添加到您的购物车。"
-"Invalid request, missing parameter list_id",无效请求，缺少参数列表id
-"Invalid request, please try again.",请求无效，请重试。
-"Product with requested SKU could not be found.","找不到请求的 SKU 产品。"
-"The product",产品
-"%1 could not be added to the ""%2"" requisition list.","无法将 %1 添加到 ""%2的请购清单。"
-"%1 could not be added to the requisition list.","无法将 %1 添加到请购清单。"
 "We can't configure the product right now.",我们现在不能配置该产品。
 "%1 item(s) were copied to %2","%1 个物品已复制到 %2"
 "%1 item(s) were added to the ""%2""","%1 项被添加到""%2"""
 "%1 item(s) were moved to %2","%1 个物品被移动到 %2"
-"The requisition list does not exist.",请购清单不存在。
-"All items in your Shopping Cart could not be added to the ""%1"" requisition list.","无法将购物车中的所有项目添加到""%1""的请购清单。"
-"One or more products in your Shopping Cart is invalid.",您购物车中的一个或多个商品无效。
 "Requisition Lists",请购清单
 "Requisition List",请购清单
 "Invalid item option format.",无效的项目选项的格式。
@@ -6292,19 +6210,13 @@ Refunds,退款
 "Options were updated. Please review available configurations.",选项已更新。请检查可用的配置。
 "The requested qty is not available",请求的数量不可用
 "Could not save Requisition List. Maximum number of requisition lists was exceeded.",无法保存请购清单。已超出请购清单的最大数量。
-"Could not save requisition list. Invalid data provided",无法保存请购清单。提供的数据无效
 Exception,例外
 "Warning message.",警告信息。
-"No such requisition list could be found.",找不到这种请购清单。
-"Not found",找不到
 "Could not save",无法保存
 "Exception Message",异常消息
 "Add to Requisition List",添加到请购清单
-"Add Shopping Cart to Requisition List",添加购物车到请购清单
 "Update Requisition List",更新请购清单
 "Create Requisition List",创建请购清单
-"%1 has been added to the ""<a href=""%2"">%3</a>"" requisition list.","%1 已被添加到 ""<a href=""%2"">%3</a>""请购清单。"
-"All the items in your Shopping Cart have been added to the ""%1"" requisition list.","您购物车中的所有物品都已添加到""%1""的请购清单。"
 "Create New Requisition List",创建新的请购清单
 Rename,重命名：
 "Rename Requisition List",重命名请购清单
@@ -6318,26 +6230,17 @@ Rename,重命名：
 Copy,复制
 "Move Selected",移动选中的
 "Remove Selected",移除选中项
-"Are you sure you would like to remove selected items from the requisition list?",您确定要从请购清单中删除选定的项目吗？
 "product(s) require your attention","产品(s) 需要您注意。"
 "Requisition List Name",请购清单名称
 "The shopping cart isn't empty",购物车不是空的
 "You have items in your shopping cart. Would you like to merge items in this order with items of this shopping cart or replace them?",您的购物车中有商品。您想要将此订单中的商品与此购物车中的商品合并或替换它们吗？
 "Select Cancel to stay on the current page.",选择取消保留在当前页面。
 Merge,合并
-"Add item to requisition list",添加项目到请购清单
-"The item ""%1"" is already in the ""%2"" requisition list.","项目 ""%1已在 ""%2"" 请购清单中。"
-"Quantities for identical items will be combined.",相同项目的数量将被合并。
-"Add item",添加项目
-"Add items to requisition list",添加项目到请购清单
-"Some items in your Shopping Cart are already in the %1 requisition list.","您购物车中的一些商品已经在 %1 请购清单中。"
-"Add items",添加项目
 Ok,OK
 "Cannot Perform the Requested Action",无法执行请求的操作
 "This action cannot be performed because the selected product(s) require attention. You must resolve these issues before you can continue.",此操作无法执行，因为所选产品需要注意。您必须解决这些问题才能继续。
 "Please Select Product",请选择产品
 "Please select at least one product to proceed.",请选择至少一个产品以继续。
-"Requisition List Section",请购清单部分
 "Enable Requisition List",启用请购清单
 "Number of Requisition Lists",请购清单数量
 "The number of requisition lists should be equal or more than 2.",请购清单的数目应等于或超过2个。
@@ -6386,13 +6289,11 @@ Author,作者
 "Reviews %1","点评 %1"
 "The review has been deleted.",审查已被删除。
 "Something went wrong  deleting this review.",删除这篇评论是错误的。
-"You don’t have permission to perform this operation. The selected review must be in Pending Status.",您无权执行此操作。所选评论必须处于等待状态。
 "Customer Reviews",客户评论
 "Edit Review",编辑审阅
 "We can't retrieve the product ID.","我们无法检索产品 id。"
 "Please select review(s).",请选择审核(s)。
 "Something went wrong while deleting these records.",删除这些记录时出现错误。
-"You don’t have permission to perform this operation. Selected reviews must be in Pending Status only.",您无权执行此操作。所选评论必须仅处于等待状态。
 "Something went wrong while updating these review(s).",在更新这些评论时出现了一些问题。
 "You saved the review.",你保存的审查。
 "Something went wrong while saving this review.",保存此审查时出了错。
@@ -6405,7 +6306,6 @@ Ratings,评级
 
 你提交了你的审核报告。 "
 "We can't post your review right now.",我们现在不能发表您的评论。
-"The storage key wasn't set. Add the storage key and try again.",未设置存储密钥。添加存储密钥然后重试。
 Approved,已批准
 "Not Approved",未获批准
 "Please enter a review summary.",请输入回顾性总结。
@@ -6440,15 +6340,15 @@ Rating,评分
 "Product Review (submitted on %1):","产品审查 (提交的关于 %1):"
 "Back to Product Reviews",回到产品评论
 "Please select one of each of the ratings above.",请选择上面的每个评级中的一个。
-Enabled,已启用
 "Allow Guests to Write Reviews",允许客人来写评论
+Enabled,已启用
+"The storage key wasn't set. Add the storage key and try again.",未设置存储密钥。添加存储密钥然后重试。
 "Reward Points History",积分历史记录
 "Expired reward",过期的奖励
 "No Data",没有数据
 "Currency Amount",数额
 "Reward Points Threshold",积分
 "Reward Points Cap",奖励积分上限
-"Are you sure you want to delete these points?",您确定要删除这些点吗？
 "Delete Orphan Points",删除孤儿点
 "Update Reward Points Balance",更新奖励积分平衡
 "Update Points",更新点
@@ -6493,8 +6393,6 @@ Direction,方向
 "Earned promotion extra points from order #%1","赚取推广加分从订单 #%1"
 "%1 store reward points available (%2)","%1 存储奖励积分可用 (%2)"
 "%1 store reward points available","%1 存储奖励积分可用"
-"Sign in now and earn %1 for this order.","立即登录并以此订单赚取 %1。"
-"You can't use more store credit than the order amount.",您不能使用比订单金额更多的商店积分。
 "%1 was deducted because of refund.","%1 是因为退款中扣除。"
 "The action ID you enter must be a number.","您输入的操作 ID 必须为数字。"
 "You don't have enough reward points to pay for this purchase.",你没有足够支付这购买的奖励积分。
@@ -6502,12 +6400,8 @@ Direction,方向
 "Currency to Points",货币对点
 Each,每个
 First,第一
-"The ""Minimum Reward Points Balance"" is invalid. The balance needs to be a positive number or left empty. Verify and try again.","""最低奖励积分平衡""无效。余额必须是正数或留空。验证后重试。"
-"The ""Cap Reward Points Balance"" is invalid. The balance needs to be a positive number or left empty. Verify and try again.","""章奖励积分平衡""无效。余额必须是正数或留空。验证后重试。"
-"The ""Minimum Reward Points Balance"" is invalid. The balance needs to be less than or equal to the ""Cap Reward Points Balance"".","""最低奖励积分平衡""无效。余额必须小于或等于 ""Cap奖励积分平衡""。"
 "Customer earned promotion extra %1.","客户获得促进额外的 %1。"
 "The customer earned %1 for this order.","客户赢得这份订单 %1。"
-"Reward points should be a valid integer number.",奖励积分应该是一个有效的整数。
 "Reward Points Balance",奖励积分平衡
 "upper boundary",上边界
 "Refund Reward Points",退款奖励积分
@@ -6575,12 +6469,17 @@ Registration,注册
 "Check out now and earn %1 for this order.","现在退房和赚取 %1 此订单。"
 "Create an account on our site now and earn %1.","现在在我们的网站上创建帐户，赚取 %1。"
 "Subscribe to our newsletter now and earn %1.","现在订阅我们的时事通讯，赚取 %1。"
+"Submit a review now and earn %1 after the review is approved.","现在提交审查报告和审查批准后获得 %1。"
+"You can reward up to %1 new reviews(s).","你可以到 %1 新点评 (s) 奖励。"
+"Reward points should be a valid integer number.",奖励积分应该是一个有效的整数。
 "Send this invitation now and earn %1 when your invitee signs up on our site.","现在发送此邀请，并在您的受邀者在我们的网站上注册时赚取 %1。"
 "You can reward up to %1 invitee registration(s).","您可以奖励最多 %1 个邀请注册(s)。"
 "Earn %1 for purchases your invitees make.","购买受邀者赚取 %1。"
 "You can reward up to %1 invitee purchase(s).","您可以奖励最多 %1 个被邀请购买者。"
-"Submit a review now and earn %1 after the review is approved.","现在提交审查报告和审查批准后获得 %1。"
-"You can reward up to %1 new reviews(s).","你可以到 %1 新点评 (s) 奖励。"
+"Sign in now and earn %1 for this order.","立即登录并以此订单赚取 %1。"
+"The ""Minimum Reward Points Balance"" is invalid. The balance needs to be a positive number or left empty. Verify and try again.","""最低奖励积分平衡""无效。余额必须是正数或留空。验证后重试。"
+"The ""Cap Reward Points Balance"" is invalid. The balance needs to be a positive number or left empty. Verify and try again.","""章奖励积分平衡""无效。余额必须是正数或留空。验证后重试。"
+"The ""Minimum Reward Points Balance"" is invalid. The balance needs to be less than or equal to the ""Cap Reward Points Balance"".","""最低奖励积分平衡""无效。余额必须小于或等于 ""Cap奖励积分平衡""。"
 Return,返回
 Returns,放在%created_at
 "Create Returns",创建返回
@@ -6610,7 +6509,6 @@ Split,切分
 "Return Item Attribute",返回产品属性
 "Edit Return Item Attribute ""%1""","编辑属性返回项目""%1"""
 "New Return Item Attribute",新返回项属性
-"Comma separated. Forbidden file extensions: %1.","逗号分隔。禁止文件扩展名： %1"
 "Submit Returns",提交申报表
 "Add Selected Product(s) to returns",添加所选产品返回到
 "Remaining Qty",剩余数量
@@ -6643,7 +6541,6 @@ Split,切分
 "You saved the RMA item attribute.","你保存 RMA 项目属性。"
 "Something went wrong while saving the RMA item attribute.","保存 RMA 项目属性时出了错。"
 "An attribute with the same code already exists.",已存在具有相同的代码属性。
-"Please correct the value for file extensions.",请更正文件扩展名的值。
 "The wrong RMA item was requested.","错误的 RMA 项目要求。"
 "We cannot display the item attributes.",我们不能显示项目属性。
 "There are no applicable items for return in this order.",没有适用的项目，按此顺序返回。
@@ -6668,10 +6565,10 @@ Split,切分
 "We can't add a label right now.",我们现在不能添加一个标签。
 "You selected the wrong RMA.","你选错了 RMA。"
 "We can't create a return transaction for order #%1.","我们无法创建退货交易记录的订单 #%1。"
-"Create New Return",创建新申报表
-"We can't delete the label right now.",我们现在不能删除该标签。
 "You submitted Return #%1.","你提交返回 #%1。"
 "We can't create a return right now. Please try again later.",我们现在无法创建返回的权利。请稍后再试。
+"Create New Return",创建新申报表
+"We can't delete the label right now.",我们现在不能删除该标签。
 "Return #%1","返回 #%1"
 "Cannot add message.",不能添加消息。
 "My Returns",我的退换货
@@ -6698,8 +6595,6 @@ Split,切分
 "You entered an invalid email address: ""%1"".","您输入一个无效的电子邮件地址:""%1""。"
 "You entered an invalid hostname: ""%1""","您输入了无效的主机名:""%1"""
 """%1"" is longer than allowed.","""%1""是超出允许的长度。"
-"The label cannot be created for '%1' because the product does not exist in the system.","无法为 '%1' 创建标签，因为该产品在系统中不存在。"
-"The service is unknown. Verify the service and try again.",服务未知。请验证服务，然后重试。
 "We can't save this RMA. No items were specified.","我们不能保存此 RMA。不指定的任何项目。"
 "Partially Authorized",部分授权
 "Return Received",收到的回报
@@ -6719,12 +6614,10 @@ Denied,否认
 "We closed your Return request.",我们关闭您返回的请求。
 "We processed and closed your Return request.",我们处理和关闭你返回的请求。
 "ID cannot be an empty","ID 不能为空"
-"The entity that was requested doesn't exist. Verify the entity and try again.",请求的实体不存在。请验证该实体，然后重试。
 "Could not save the RMA entity.","无法保存 RMA 实体。"
 "Could not delete the RMA entity.","无法删除 RMA 实体。"
 "Please enter a valid comment.",请输入有效的注释。
 "No such entity with %1 = %2, %3 = %4","没有实体 %1 = %2，%3 = %4"
-"The ""%1"" carrier is invalid. Verify and try again.","""%1"" 运营商无效。验证并重试。"
 "We need more information to create your shipping label(s). Please verify your store information and shipping settings.",我们需要更多的信息来创建您的运输标签。请验证您的存储信息和航运设置。
 "No detail for number ""%1""","没有详细的号码""%1"""
 "Shipment does not exists.",出货不存在。
@@ -6796,7 +6689,6 @@ Answers,答案
 "%store_name : New Return #%increment_id","%store_name： 新返回 #%increment_id"
 "Your return request has been updated. Please see below.",已更新您返回的请求。请参见下文。
 "You can check the status of your return by <a href=""%account_url"">logging into your account</a> or <a href=""%form_url"">using your order number</a>.","您可以通过 <a href=""%account_url""> 登录到您的帐户</a> 或 <a href=""%form_url""> 使用您的订单号</a> 检查你回来的状态。"
-"If you have any questions, please feel free to contact us at <a href=""mailto:%support_email"">%support_email</a> or by phone at <a href=""tel:%store_phone"">%store_phone</a>","如果您有任何疑问，请随时通过 <a href=""mailto:%support_email"">%support_email</a> 或通过电话 <a href=""tel:%store_phone"">%store_phone</a> 联系我们"
 "Your Return #%increment_id - %status_label","你返回的 #%increment_id-%status_label"
 "%store_name: New Return #%increment_id","%store_name: 新返回 #%increment_id"
 "You can check the status of your return <a href=""%form_url"">using your order number</a>.","你可以检查，您 <a href=""%form_url""> 使用您的订单号</a> 的返回状态。"
@@ -6831,6 +6723,12 @@ Answers,答案
 "RMA Customer Comments","RMA 客户评论"
 "RMA Comment Email Recipient","RMA 评论电子邮件收件人"
 "Enabled for RMA","为 RMA 启用"
+"Comma separated. Forbidden file extensions: %1.","逗号分隔。禁止文件扩展名： %1"
+"Please correct the value for file extensions.",请更正文件扩展名的值。
+"The label cannot be created for '%1' because the product does not exist in the system.","无法为 '%1' 创建标签，因为该产品在系统中不存在。"
+"The service is unknown. Verify the service and try again.",服务未知。请验证服务，然后重试。
+"The entity that was requested doesn't exist. Verify the entity and try again.",请求的实体不存在。请验证该实体，然后重试。
+"The ""%1"" carrier is invalid. Verify and try again.","""%1"" 运营商无效。验证并重试。"
 Feed,"RSS 订阅源"
 "Miscellaneous Feeds",杂项提要
 "Get Feed",得到提要
@@ -6936,6 +6834,7 @@ Capture,捕获
 "Status Code",状态代码
 "Store View Specific Labels",店铺视图指定的标签
 "Total Paid",付款总额
+"Total Due",应付款总额
 "Are you sure you want to send an order email to customer?",你确定你想要向客户发送订单的电子邮件?
 "This will create an offline refund. To create an online refund, open an invoice and create credit memo for it. Do you want to continue?","这将创建离线的退款。'' 若要创建在线退款，打开发票并为其创建贷方通知单。你想要继续吗?"
 "Are you sure you want to void the payment?",你确定你想要使付款无效?
@@ -6980,7 +6879,6 @@ Value,价值
 "Back to My Orders",回到我的订单
 "View Another Order",查看另一个订单
 "About Your Refund",关于您的退款
-"You have placed no orders.",你还没有订单。
 "Subscribe to Order Status",订阅订单状态
 "About Your Invoice",关于您的发票
 "Print Order # %1","打印订单 # %1"
@@ -7023,10 +6921,10 @@ Unassign,未分配
 "The invoice has been captured.",发票已被抓获。
 "The order does not allow an invoice to be created.",订单不允许创建发票。
 "New Invoice",新发票
-"We can't send the invoice email right now.",我们现在无法发送发票电子邮件。
-"We can't send the shipment right now.",我们不能马上发货。
 "You created the invoice and shipment.",您创建的发票和装运。
 "The invoice has been created.",已创建发票。
+"We can't send the invoice email right now.",我们现在无法发送发票电子邮件。
+"We can't send the shipment right now.",我们不能马上发货。
 "Cannot update item quantity.",无法更新商品数量。
 "The invoice has been voided.",发票已经作废。
 "Invoice voiding error",排除错误的发票
@@ -7242,7 +7140,6 @@ Complete,完成
 "The invoice will be created offline without the payment gateway.",发票将在没有支付网关的情况下离线创建。
 "Email Copy of Invoice",发票的电子邮件副本
 "Items Invoiced",商品开票
-"Total Due",应付款总额
 "Total Tax",总税款
 "From Name",从名称
 "To Name",名称
@@ -7274,6 +7171,7 @@ Complete,完成
 "Print All Refunds",打印所有退款
 "Refund #","退款 #"
 "Print Refund",打印退款
+"You have placed no orders.",你还没有订单。
 "Print Order",打印订单
 "Print All Invoices",打印所有发票
 "Invoice #",发票号码
@@ -7439,6 +7337,7 @@ Coupons/Discounts,优惠券/折扣
 "We can't delete the rule right now. Please review the log and try again.",我们现在不能删除该规则。请查看日志并再试一次。
 "New Cart Price Rule",新车价格规则
 "Rule is not defined",没有定义规则
+"%1 coupon(s) have been generated.","%1 coupon(s) 已生成。"
 "Invalid data provided",提供无效数据
 "Something went wrong while generating coupons. Please review the log and try again.",在生成优惠券时出了错。请查看日志并再试一次。
 "The wrong rule is specified.",指定了错误的规则。
@@ -7451,10 +7350,6 @@ Coupons/Discounts,优惠券/折扣
 "No Coupon",没有优惠券
 "Specific Coupon",具体的优惠券
 "Can't acquire coupon.",无法获取优惠券。
-"Percent of product price discount",自动生成的具体优惠券代码
-"Fixed amount discount",固定的金额的折扣
-"Fixed amount discount for whole cart",整车的固定的金额折扣
-"Buy X get Y free (discount amount is Y)","买 X 得到 Y 免费 (折扣金额是 Y)"
 "Total Items Quantity",总的项目数量
 "Shipping Postcode",航运邮编
 "Shipping Region",航运区域
@@ -7474,12 +7369,15 @@ FOUND,发现
 "total quantity",总数量
 "total amount",总金额
 "If %1 %2 %3 for a subselection of items in cart matching %4 of these conditions:","如果选定项目中的 %1 %2 %3 购物车匹配 %4 的这些条件:"
+"Percent of product price discount",自动生成的具体优惠券代码
+"Fixed amount discount",固定的金额的折扣
+"Fixed amount discount for whole cart",整车的固定的金额折扣
+"Buy X get Y free (discount amount is Y)","买 X 得到 Y 免费 (折扣金额是 Y)"
 "Specified rule does not allow automatic coupon generation",指定的规则不允许自动优惠券一代
 "Error occurred when generating coupons: %1","生成的优惠券时出现错误: %1"
 "Some coupons are invalid.",一些优惠券是无效的。
 "Item totals are not set for the rule.",项目总计不会设定规则。
 "%1 Cart Price Rules based on ""%2"" attribute have been disabled.","%1 购物车价格规则，基于""%2""属性已被禁用。"
-"%1 coupon(s) have been generated.","%1 coupon(s) 已生成。"
 "Your coupon was successfully removed.",您的优惠券已成功删除。
 "Your coupon was successfully applied.",您的优惠券已成功应用。
 Promotion,促销
@@ -7640,8 +7538,8 @@ Successful,成功
 "You already have an identical search term query.",你已经有一个相同的搜索词查询。
 "Your search query can't be longer than %1, so we shortened your query.","您的搜索查询不能超过 %1，所以我们缩短您的查询。"
 "Merge conflict with existing synonym group(s): %1","合并冲突与现有的同义词组： %1"
-"Are you sure you want to delete synonym group with id: %1?",你确定要删除此同义词组？
 "    All Store Views",所有存储视图
+"Are you sure you want to delete synonym group with id: %1?",你确定要删除此同义词组？
 "Search entire store here...",在这里搜索整个商店...
 "There are no search terms available.",没有搜索条件。
 "Search Engine",搜索引擎
@@ -7712,13 +7610,11 @@ Assigned,分配
 "the shipment email is not sent",装运电子邮件不会发送
 "Shipment #%1 | %3 (%2)","装运 #%1 |%3 (%2)"
 "Create Shipping Label...",创建发货标签...
-"Delivered on:",发表:
 "About Your Shipment",关于您的货件
 "We can't initialize shipment for adding tracking number.",我们不能初始化装运添加跟踪号码。
 "Cannot add tracking number.",不能添加跟踪号码。
 "You created the shipping label.",您创建的航运标签。
 "An error occurred while creating shipping label.",创建航运标签时出错。
-"You sent the shipment.",你发送的装运。
 "Cannot send shipment information.",不能发送装运信息。
 "There are no shipping labels related to selected orders.",没有有关所选订单的发货标签。
 "New Shipment",新的装运
@@ -7778,6 +7674,7 @@ Carrier:,运营商
 Info:,信息:
 Track:,追踪
 ". ':'",.':'
+"Delivered on:",发表:
 "There is no tracking available for this shipment.",这批货尚没有跟踪。
 "There is no tracking available.",没有跟踪是可用的。
 "Track history",跟踪历史记录
@@ -7792,6 +7689,7 @@ Origin,起源
 "Shipping Policy",航运政策
 "Track your order",跟踪您的订单
 "Track All Shipments",跟踪所有发货
+"You sent the shipment.",你发送的装运。
 "In Review",审查中
 Unrequested,未请求
 "This order already has associated case entity",该订单已经有关联的案例实体。
@@ -7912,11 +7810,11 @@ Includes,包括
 "Store with the same code",使用相同的代码存储
 "Website with the same code",使用相同代码的网站
 "Website code may only contain letters (a-z), numbers (0-9) or underscore (_), and the first character must be a letter.","网站代码可能只包含字母 (a-z)，数字 (0-9) 或下划线 (_)，第一个字符必须是字母。"
+"Name is required",名称是必需的
+"The store code may contain only letters (a-z), numbers (0-9) or underscore (_), and the first character must be a letter.","存储代码可能只包含字母(a - z)、数字(0 - 9)或下划线(_)，第一个字符必须是字母。"
 "Store is inactive",存储处于非活动状态
 "Invalid store parameter.",无效的存储参数。
 "Default store is inactive",默认存储处于非活动状态
-"The store code may contain only letters (a-z), numbers (0-9) or underscore (_), and the first character must be a letter.","存储代码可能只包含字母(a - z)、数字(0 - 9)或下划线(_)，第一个字符必须是字母。"
-"Name is required",名称是必需的
 "no such entity exception",没有这种实体异常
 "Your Language:",您的语言：
 "Your Language",你的语言
@@ -8351,7 +8249,6 @@ Themes,右栏2列
 "Insert File",插入文件
 welcome,欢迎
 "Design Configuration",系统配置
-"We cannot find a theme with id ""%1"".","我们找不到 id 为""%1""的主题。"
 "You deleted the theme.",你删除的主题。
 "We cannot delete the theme.",我们不能删除该主题。
 "File not found: ""%1"".","找不到文件:""%1""。"
@@ -8361,6 +8258,7 @@ welcome,欢迎
 "This theme is not editable.",这个主题不是可编辑的。
 "You saved the theme.",你保存主题。
 "We can't upload the CSS file right now.","我们现在不能上传的 CSS 文件。"
+"We cannot find a theme with id ""%1"".","我们找不到 id 为""%1""的主题。"
 "We can't upload the JS file right now.","我们现在不能上传 JS 文件。"
 "Sorry, something went wrong. That's all we know.",对不起，出了错。这是我们都知道。
 "Invalid type",无效的类型
@@ -8455,6 +8353,7 @@ Off,关闭
 "You have successfully saved your edits.",您已经成功地保存了编辑。
 "There are {placeholder} messages requires your attention.","有 {placeholder} 消息需要您注意。"
 "You haven't selected any items!","您没有选择任何项目 ！"
+"Search by keyword",按关键字搜索
 Keyword,关键字
 "Please enter more or equal than {0} symbols.","请输入多于或等于比 {0} 符号。"
 "Please enter less or equal than {0} symbols.","请输入多于或等于比 {0} 符号。"
@@ -8522,9 +8421,7 @@ Attention,注意
 "Label Actions Two",标签行为二
 "Some Dynamic Actions",一些动态行为
 "Log JS Errors to Session Storage","对会话存储日志 JS 错误"
-"If enabled, can be used by functional tests for extended reporting",如果启用了，可以被用作扩展报告的功能测试
 "Log JS Errors to Session Storage Key","JS 错误记录到会话存储密钥"
-"Use this key to retrieve collected js errors","使用这个键来检索收集的 js 错误"
 settings/label,设置/标签
 settings/confirm/title,设置/确认/标题
 settings/title,设置/标题
@@ -8553,6 +8450,8 @@ settings/notice,设置/通知
 settings/tooltip/description,设置/工具提示/描述
 settings/addBefore,设置/添加前
 settings/addAfter,设置/添加后
+"If enabled, can be used by functional tests for extended reporting",如果启用了，可以被用作扩展报告的功能测试
+"Use this key to retrieve collected js errors","使用这个键来检索收集的 js 错误"
 "UPS Next Day Air",UPS航空次日送达
 "UPS Second Day Air","UPS 第二天的空气"
 "UPS Ground",UPS地面运送
@@ -8614,8 +8513,8 @@ Pallet,托盘
 Residential,住宅
 Commercial,商业
 "Sorry, something went wrong. Please try again or contact us and we'll try to help.",对不起，出了一些错。请再试一次或联系我们，我们会尽力帮助。
-"Cannot retrieve shipping rates",无法检索运费
 "We can't convert a rate from ""%1-%2"".","我们不能从""%1-%2""转换利率。"
+"Cannot retrieve shipping rates",无法检索运费
 "Delivery Confirmation",发货确认
 "Signature Required",需要签名
 "Adult Signature Required",所需的成人签名
@@ -8730,13 +8629,13 @@ username,用户名
 "Forgot your password?",您忘记密码了吗?
 "Reset a Password",重置密码
 "Roles Resources",角色资源
-"Hello,",您好
-"If you have not authorized this action, please contact us immediately at %store_email","如果您没有授权此操作，请立即与我们联系% store_email"
-"Thanks,",感谢
 "Password Reset Confirmation for %name","%name 的密码重置确认"
 "If you requested this change, reset your password here:",如果您请求更改，请在此处重新设置密码:
 "New %changes for %user_name","新的% user_name %的变化"
+"Hello,",您好
 "We have received a request to change the following information associated with your account at %store_name: %changes.","我们已经收到一个请求，可以更改与您的帐户有关的以下信息% store_name:%变更。"
+"If you have not authorized this action, please contact us immediately at %store_email","如果您没有授权此操作，请立即与我们联系% store_email"
+"Thanks,",感谢
 "User Roles",用户角色
 "User Notification Template",用户通知模板
 "We will disable this feature if the value is empty.",如果的值为空，我们将禁用此功能。
@@ -9087,6 +8986,7 @@ Choose...,请选择...
 "All Pages",所有页面
 "Specified Page",指定的页
 "Add Layout Update",添加布局更新
+"Remove Layout Update",删除布局更新
 "Widget Options",小部件按钮
 "Please specify a Widget Type.",请指定部件类型。
 "Please specify a correct widget.",请指定正确的部件。
@@ -9096,7 +8996,6 @@ Widgets,小部件
 "The widget instance has been saved.",小部件实例已被保存。
 description,描述
 "We cannot create the widget instance because it is missing required information.",我们无法创建窗口小部件实例，因为它缺少所需的信息。
-"Remove Layout Update",删除布局更新
 "Specific %1","具体 %1"
 "Defines whether a link to My Account",定义是否链接到我的账户
 "Widget ID","小部件 ID"
@@ -9108,15 +9007,14 @@ description,描述
 "We can't add the item to the cart right now.",我们现在无法将该项目添加到购物车。
 "%1 has been moved to your wish list.","%1 已进入你的收藏夹。"
 "We can't move the item to the wish list.",我们不能将项目移至愿望清单。
-"You must login or register to add items to your wishlist.",您必须登录或注册才能将项目添加到您的愿望清单中。
 "We can't delete the item from Wish List right now because of an error: %1.","我们不能删除该项目从愿望清单现在由于出错: %1。"
 "We can't delete the item from the Wish List right now.",我们现在不能从愿望列表中删除该项目。
 "Message length must not exceed %1 symbols","消息长度不能超过 %1 符号"
 "Your wish list has been shared.",已共享您的期望列表。
 "We can't delete item from Wish List right now.",我们现在不能从愿望列表中删除项目。
-"%1 has been updated in your Wish List.","%1 已更新您的愿望列表中。"
 "Can't save description %1","无法保存描述 %1"
 "Can't update wish list",不能更新的愿望清单
+"%1 has been updated in your Wish List.","%1 已更新您的愿望列表中。"
 "We can't update your Wish List right now.",我们现在无法更新您的期望列表。
 "The requested Wish List doesn't exist.",请求的愿望列表不存在。
 "Display number of items in wish list",在愿望清单中显示项目的数
@@ -9152,13 +9050,14 @@ error-message,错误消息
 "Wish List Section",愿望清单部分
 "Share Options",分享设置
 "Max Emails Allowed to be Sent",最大允许发送电子邮件发送
-"10 by default. Max - 10000","默认 10，最大 - 10000"
 "Email Text Length Limit",电子邮件文本长度限制
 "My Wish List Link",我的愿望列表链接
 "Display Wish List Summary",显示的收藏列表摘要
 "No Items Found",找不到项目
 "User Description",用户说明
 "Product Details and Comment",产品详细信息和评论
+"10 by default. Max - 10000","默认 10，最大 - 10000"
+"You must login or register to add items to your wishlist.",您必须登录或注册才能将项目添加到您的愿望清单中。
 "Credit card type",信用卡类型
 "CVV result","CVV 结果"
 "Postcode AVS check","邮编 AVS 检查"
@@ -9218,7 +9117,6 @@ Warning,警告
 "Method %s does not exist on jQuery.decorate","jQuery.decorate 不存在 ％s 方法"
 "Please wait...",请稍候...
 Translate,翻译
-"No marginal white space please",没有空格
 "Please remove invalid characters: {0}.","请删除无效字符: {0}。"
 "Please select one of the options above.",请选择其中一个选项。
 "Please select a file.",请选择一个文件。
@@ -9252,3 +9150,4 @@ Translate,翻译
 "Please enter a valid year (1900-%1).","请输入有效的年份 (1900年-%1)。"
 "Please enter a valid day (1-%1).","请输入有效的日期 (1-%1)。"
 "Please enter a date from the past.",请输入一个过去的日期。
+"No marginal white space please",没有空格
