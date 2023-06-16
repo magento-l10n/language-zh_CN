@@ -1,6 +1,6 @@
 {
     "name": "community-engineering/language-zh_cn",
-    "version": "0.0.19",
+    "version": "0.0.20",
     "type": "magento2-language",
     "description": "zh_CN language package.",
     "license": [

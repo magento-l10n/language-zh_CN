@@ -121,7 +121,9 @@ Configure,配置
 "Shopping cart management is disabled for this customer.",此顾客禁用购物车管理。
 Customers,客户
 "Shopping Cart",购物车
+"Sorry, something went wrong. You can find out more in the error log.",抱歉，出现了错误。您可以在错误日志中找到更多信息。
 "You do not have access to this.",你没有权限访问这个页面。
+"Ordered item id is not received.","未收到订购商品的 ID。"
 "An error has occurred. See error log for details.",出问题了，详细信息请查阅错误日志。
 "You cannot configure a product.",您不能配置这个产品。
 "You removed the items.",您删除的商品。
